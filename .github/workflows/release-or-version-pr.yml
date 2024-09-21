@@ -11,7 +11,7 @@ env:
 jobs:
   release:
     # Basic security: the release job can only be executed from this repo and from the main branch (not a remote thing)
-    if: ${{ github.repository == 'hyperse/antd' && contains('refs/heads/main',github.ref)}}
+    if: ${{ github.repository == 'hyperse-io/antd' && contains('refs/heads/main',github.ref)}}
     name: Release and changelog
     runs-on: ubuntu-latest
     steps:
