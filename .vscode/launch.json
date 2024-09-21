@@ -1,0 +1,26 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Debug Scripts",
+      "runtimeArgs": ["-r", "ts-node/register", "-r", "tsconfig-paths/register"],
+      "args": ["${workspaceFolder}/scripts/rsa-test.ts", "info"],
+      "env": {
+        "TS_NODE_PROJECT": ".vscode/tsconfig.json",
+        "NODE_ENV": "FLATUI"
+      }
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Debug Test Case",
+      "program": "${workspaceFolder}/node_modules/jest/bin/jest",
+      "args": ["--runInBand", "--env=node", "rsa.test.ts"],
+      "env": {
+        "NODE_ENV": "FLATUI"
+      }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+name: Build & Test
+on:
+  push:
+    branches:
+      - main
+      - major
+      - minor
+
+  pull_request:
+    branches:
+      - main
+      - major
+      - minor
+env:
+  CI: true
+  node: 20.x
+
+jobs:
+
+  unit-tests:
+    name: unit tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: 🏗 Setup Node ${{ env.node }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.node }}
+      - name: 📥 Monorepo install
+        uses: ./.github/actions/yarn-nm-install
+
+      - name: Unit tests
+        run: yarn g:test-unit

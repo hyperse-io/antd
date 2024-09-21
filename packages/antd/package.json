@@ -1,0 +1,81 @@
+{
+  "name": "@hyperse/antd",
+  "version": "1.0.0",
+  "description": "hyperse antd react admin components library",
+  "license": "SEE LICENSE IN FILE 'LICENSE'",
+  "type": "module",
+  "modularImport": true,
+  "modularIgnoreDir": true,
+  "modularLibraryDir": "dist",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./load-image": {
+      "types": "./dist/load-image/index.d.ts",
+      "import": "./dist/load-image/index.js"
+    },
+    "./utils": {
+      "types": "./dist/utils/index.d.ts",
+      "import": "./dist/utils/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist/",
+    "index.js",
+    "README.md",
+    "CHANGELOG.md",
+    "package.json"
+  ],
+  "scripts": {
+    "build": "npx flatjs-forge build -d",
+    "?build-release": "When https://github.com/atlassian/changesets/issues/432 has a solution we can remove this trick",
+    "build-release": "yarn build && rimraf ./_release && yarn pack && mkdir ./_release && tar zxvf ./package.tgz --directory ./_release && rm ./package.tgz",
+    "clean": "rimraf --no-glob ./dist ./coverage ./tsconfig.tsbuildinfo",
+    "lint": "eslint .",
+    "test": "run-s test-unit",
+    "test-unit": "vitest run --passWithNoTests",
+    "test-unit-watch": "vitest watch --ui",
+    "fix-all-files": "eslint . --fix",
+    "typecheck": "tsc --project ./tsconfig.json --noEmit"
+  },
+  "peerDependencies": {
+    "@dimjs/lang": ">=2.0.0",
+    "@dimjs/model-react": ">=2.0.0",
+    "@dimjs/utils": ">=2.0.0",
+    "@wove/react": ">=2.0.0",
+    "react": "*"
+  },
+  "peerDependenciesMeta": {
+    "react": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@better-scroll/core": "^2.5.1",
+    "@dimjs/lang": "^2.0.0",
+    "@dimjs/model-react": "^2.0.1",
+    "@dimjs/utils": "^2.0.2",
+    "@flatjs/forge": "^2.1.3",
+    "@hyperse/eslint-config-hyperse": "^1.1.3",
+    "@types/node": "22.5.5",
+    "@types/react": "^18.3.8",
+    "@wove/react": "^2.0.2",
+    "cropperjs": "^1.6.2",
+    "eslint": "9.11.0",
+    "npm-run-all": "4.1.5",
+    "typescript": "5.6.2",
+    "vite-tsconfig-paths": "5.0.1",
+    "vitest": "2.1.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "directory": "_release/package"
+  }
+}

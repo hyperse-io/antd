@@ -1,0 +1,42 @@
+{
+  "folders": [
+    {
+      "name": "root",
+      "path": ".",
+    },
+    {
+      "name": "antd",
+      "path": "packages/antd",
+    },
+    {
+      "name": "demo",
+      "path": "packages/antd-demo",
+    },
+  ],
+  "extensions": {
+    "recommendations": [
+      "dbaeumer.vscode-eslint",
+    ],
+  },
+  "settings": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit"
+    },
+    "files.associations": {
+      "*.css": "tailwindcss",
+    },
+    // https://github.com/Microsoft/vscode-eslint#mono-repository-setup
+    "eslint.workingDirectories": [
+      "./packages/antd",
+      "./packages/antd-demo",
+    ],
+    "[jsonc]": {
+      "editor.formatOnSave": false
+    },
+    "[json]": {
+      "editor.formatOnSave": false
+    },
+  },
+}
