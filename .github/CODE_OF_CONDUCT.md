@@ -1,8 +1,8 @@
-# Armit Code of Conduct
+# Hyperse Code of Conduct
 
 ## Scope
 
-This code of conduct applies to those who wish to contribute to the Vendure project (any repo under the [armitjs](https://github.com/armitjs) organization) by way of issues and pull requests. It also applies to official project communications channels such as Slack.
+This code of conduct applies to those who wish to contribute to the Vendure project (any repo under the [hyperse-io](https://github.com/hyperse-io) organization) by way of issues and pull requests. It also applies to official project communications channels such as Slack.
 
 ## Standards
 
@@ -16,7 +16,7 @@ Contributors should conduct themselves according to these guidelines:
 
 Contributors and other community members can and should enforce the standard above. The mark of an effective and cohesive group is that the individual members enforce the mores of the group.
 
-However, in certain circumstances a report to the project maintainers may be warranted. In this case, contact us at *contact@armitjs.io* so we can deal with it in an appropriate manner.
+However, in certain circumstances a report to the project maintainers may be warranted. In this case, contact us at *hi@hyperse.io* so we can deal with it in an appropriate manner.
 
 ---
 
