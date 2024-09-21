@@ -1,5 +1,3 @@
-import { readFileSync } from 'node:fs';
-import { resolve } from 'node:path';
 import {
   defineConfig,
   type EvolveEntryItemOption,
@@ -7,16 +5,16 @@ import {
 } from '@flatjs/evolve';
 import { getGlobalData } from './mocks/index.mjs';
 
-const projectCwd = process.cwd();
+// const projectCwd = process.cwd();
 
-const privateKey = readFileSync(
-  resolve(projectCwd, './certificate/127.0.0.1+21-key.pem'),
-  'utf8'
-);
-const certificate = readFileSync(
-  resolve(projectCwd, './certificate/127.0.0.1+21.pem'),
-  'utf8'
-);
+// const privateKey = readFileSync(
+//   resolve(projectCwd, './certificate/127.0.0.1+21-key.pem'),
+//   'utf8'
+// );
+// const certificate = readFileSync(
+//   resolve(projectCwd, './certificate/127.0.0.1+21.pem'),
+//   'utf8'
+// );
 
 const getHeadBeforeScripts = (serveMode: boolean) => {
   return [
@@ -56,13 +54,13 @@ const getEntryMap = (
 export default defineConfig((env) => ({
   projectVirtualPath: `hyperse/antd`,
   devServer: {
-    https: {
-      key: privateKey,
-      cert: certificate,
-    },
-    webSocketURL: {
-      // hostname: 'oss.hyperse.net',
-    },
+    // https: {
+    //   key: privateKey,
+    //   cert: certificate,
+    // },
+    // webSocketURL: {
+    //   hostname: 'oss.hyperse.net',
+    // },
     mockOptions: {
       port: 8000,
       staticMap: {
