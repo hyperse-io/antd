@@ -2,7 +2,7 @@
   "name": "@hyperse/antd-monorepo",
   "version": "0.0.1",
   "private": true,
-  "description": "A Typescript based react ui libraries for @semic",
+  "description": "A Typescript based react admin antd libraries for @hyperse",
   "keywords": [
     "frontend",
     "typescript",
