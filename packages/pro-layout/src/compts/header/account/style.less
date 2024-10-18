@@ -1,0 +1,32 @@
+.header-account {
+  line-height: initial;
+  margin-right: 20px;
+  cursor: pointer;
+  height: 100%;
+  color: unset;
+  flex-shrink: 0;
+
+  &:hover {
+    background: var(--header-menuSelectedBgColor);
+    color: var(--header-menuSelectedTextColor);
+  }
+
+  .header-account-wraper {
+    padding: 0 15px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+    img.user-avatar {
+      width: 24px;
+      height: 24px;
+      border-radius: 100%;
+      object-fit: cover;
+    }
+  }
+}
+
+.account-dropdown-overlay {
+  z-index: 900;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.08);
+}

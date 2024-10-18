@@ -1,0 +1,51 @@
+.fba-dialog-loading {
+  .ant-modal-content {
+    background-color: transparent !important;
+    padding: 0 !important;
+    box-shadow: none !important;
+  }
+  .ant-modal-body {
+    text-align: center !important;
+  }
+}
+.fba-dialog-loading-content {
+  background-color: var(--bg-color);
+  text-align: center;
+  display: inline-block;
+  padding: 20px 30px;
+  border-radius: 8px;
+
+  .loader-inner {
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+    text-indent: -12345px;
+    border-top: 2px solid rgba(0, 128, 227, 0.08);
+    border-right: 2px solid rgba(0, 128, 227, 0.08);
+    border-bottom: 2px solid rgba(0, 128, 227, 0.08);
+    border-left: 2px solid var(--fba-loading-color);
+    border-radius: 50%;
+    z-index: 100001;
+
+    animation: dialog-spinner 600ms infinite linear;
+  }
+
+  .loader-text {
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 15px;
+    text-align: left;
+  }
+}
+
+@keyframes dialog-spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}

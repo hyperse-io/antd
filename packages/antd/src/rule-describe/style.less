@@ -1,0 +1,75 @@
+.dark-theme {
+  .v-rule-describe-item-title {
+    color: rgba(255, 255, 255, 0.85);
+  }
+
+  .v-rule-describe-item-desc {
+    color: rgba(255, 255, 255, 0.75);
+  }
+}
+
+.light-theme {
+  .v-rule-describe-item-title {
+    color: #545454;
+  }
+
+  .v-rule-describe-item-desc {
+    color: #666;
+  }
+}
+
+.v-rule-describe-title {
+  font-size    : 16px;
+  font-weight  : 500;
+  margin-bottom: 10px;
+  position     : relative;
+}
+
+.v-rule-describe-item-title {
+  font-size: 14px;
+
+  font-weight: 500;
+}
+
+.v-rule-describe-item-desc {
+  font-size    : 12px;
+  // margin-top: 5px;
+}
+
+.v-rule-describe-item-title-index {
+  display      : inline-block;
+  flex-shrink  : 0;
+  padding-right: 5px
+}
+
+.v-rule-describe-item-title-content {
+  flex: 1;
+}
+
+.v-rule-describe-item+.v-rule-describe-item {
+  margin-top: 5px;
+}
+
+.v-rule-describe-title-sign {
+  padding-left: 10px;
+
+  &::before {
+    content      : '';
+    position     : absolute;
+    top          : 50%;
+    left         : 0;
+    height       : 14px;
+    width        : 3px;
+    background   : var(--rule-describe-colorPrimary);
+    border-radius: 3px;
+    margin-top   : -7px;
+  }
+}
+
+.v-rule-describe {
+  .v-rule-describe {
+    .v-rule-describe-item-title {
+      opacity: 0.9;
+    }
+  }
+}

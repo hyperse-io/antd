@@ -1,0 +1,42 @@
+.table-operate {
+  padding: 0 5px;
+
+  .ant-btn-link {
+    padding: 0 6px;
+    border-radius: 4px;
+    height: auto;
+
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.03) !important;
+
+      span {
+        transform: scale(1.05);
+        transition: all ease-in 0.1s;
+      }
+    }
+
+    .anticon {
+      margin: 0;
+    }
+  }
+
+  .ant-divider {
+    margin: 0 4px;
+  }
+  .dropdown-menu-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.fold-more-button {
+  .anticon-more {
+    transform: rotate(90deg);
+  }
+  &:hover {
+    .anticon-more {
+      transform: scale(1.3) rotate(90deg) !important;
+    }
+  }
+}

@@ -1,0 +1,31 @@
+.v-search-menu-list-view {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  flex: 1;
+  overflow-y: auto;
+}
+
+.v-search-menu-list-view-item {
+  display: flex;
+  align-items: center;
+  min-height: 35px;
+  border-radius: 4px;
+  padding: 0 8px;
+  margin: 4px 0;
+  font-size: var(--ant-font-size);
+
+  &:hover {
+    cursor: pointer;
+    background-color: var(--v-search-menu-item-hover-bg);
+  }
+  transition: all 0.3s ease;
+}
+
+.v-search-menu-list-view-item-active {
+  color: var(--v-search-menu-active);
+  background-color: var(--v-search-menu-active-bg);
+  &:hover {
+    background-color: var(--v-search-menu-active-bg);
+  }
+}

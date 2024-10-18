@@ -1,0 +1,84 @@
+{
+  "name": "@hyperse/utils",
+  "version": "1.0.0",
+  "description": "hyperse antd react admin components library",
+  "license": "SEE LICENSE IN FILE 'LICENSE'",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./package.json": "./package.json"
+  },
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist/",
+    "index.js",
+    "README.md",
+    "CHANGELOG.md",
+    "package.json"
+  ],
+  "scripts": {
+    "build": "npx flatjs-forge build -d",
+    "?build-release": "When https://github.com/atlassian/changesets/issues/432 has a solution we can remove this trick",
+    "build-release": "yarn build && rimraf ./_release && yarn pack && mkdir ./_release && tar zxvf ./package.tgz --directory ./_release && rm ./package.tgz",
+    "clean": "rimraf --no-glob ./dist ./coverage ./tsconfig.tsbuildinfo",
+    "lint": "eslint .",
+    "test": "run-s test-unit",
+    "test-unit": "vitest run --passWithNoTests",
+    "test-unit-watch": "vitest watch --ui",
+    "fix-all-files": "eslint . --fix",
+    "typecheck": "tsc --project ./tsconfig.json --noEmit"
+  },
+  "devDependencies": {
+    "@dimjs/lang": "^2.0.0",
+    "@dimjs/utils": "^2.0.2",
+    "@flatjs/cli": "2.1.7",
+    "@hyperse/eslint-config-hyperse": "^1.1.3",
+    "@types/node": "22.5.5",
+    "@types/react": "^18.3.8",
+    "cropperjs": "^1.6.2",
+    "eslint": "9.11.0",
+    "npm-run-all": "4.1.5",
+    "typescript": "5.6.2",
+    "vite-tsconfig-paths": "5.0.1",
+    "vitest": "2.1.1"
+  },
+  "peerDependencies": {
+    "@dimjs/lang": ">=2.0.0",
+    "@dimjs/utils": ">=2.0.2"
+  },
+  "dependencies": {
+    "@dnd-kit/core": "^6.0.8",
+    "@dnd-kit/modifiers": "^6.0.1",
+    "@dnd-kit/sortable": "^7.0.2",
+    "@dnd-kit/utilities": "^3.2.1",
+    "@tinymce/tinymce-react": "4.3.0",
+    "ace-builds": "^1.32.2",
+    "dequal": "2.0.3",
+    "pubsub-js": "1.9.4",
+    "react-ace": "^10.1.0",
+    "react-is": "^18.2.0",
+    "react-split": "2.0.14",
+    "simple-mind-map": "^0.10.6",
+    "sql-formatter": "^15.0.2",
+    "use-intl": "3.0.0-rc.6",
+    "xml-formatter": "^3.6.2"
+  },
+  "peerDependenciesMeta": {
+    "react": {
+      "optional": true
+    }
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "directory": "_release/package"
+  },
+  "modularIgnoreDir": true,
+  "modularImport": true,
+  "modularLibraryDir": "dist"
+}

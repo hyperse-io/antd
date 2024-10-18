@@ -1,0 +1,29 @@
+.fba-tabs-wrapper {
+  .ant-tabs-nav {
+    margin: 0;
+  }
+}
+
+.fba-tabs-wrapper-fixed {
+  height: 100%;
+  height: 100%;
+  overflow: hidden;
+
+  & > .ant-tabs-content-holder {
+    flex: 1;
+    & > .ant-tabs-content {
+      height: 100%;
+      & > .ant-tabs-tabpane {
+        height: 100%;
+        overflow-y: auto;
+        overflow-x: hidden;
+      }
+    }
+  }
+}
+
+.fba-tabs-wrapper-hidden-header {
+  & > .ant-tabs-nav {
+    display: none;
+  }
+}

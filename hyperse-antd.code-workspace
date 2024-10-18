@@ -9,6 +9,14 @@
       "path": "packages/antd",
     },
     {
+      "name": "utils",
+      "path": "packages/utils",
+    },
+    {
+      "name": "pro-layout",
+      "path": "packages/pro-layout",
+    },
+    {
       "name": "demo",
       "path": "packages/antd-demo",
     },

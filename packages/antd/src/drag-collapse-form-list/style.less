@@ -1,0 +1,78 @@
+.drag-collapse-formlist-wrapper.dcfw-isEmpty {
+  border: none;
+}
+.drag-collapse-formlist-wrapper {
+  border: 1px solid #d9d9d9;
+  border-radius: 8px;
+  overflow: hidden;
+  .drag-collapse {
+    background-color: #fafafa;
+
+    & > .ant-collapse-item {
+      border-radius: 0;
+    }
+    .ant-collapse-header {
+      border-radius: 0;
+      align-items: center;
+    }
+    .ant-collapse-content {
+      border-radius: 0;
+    }
+    .ant-collapse-header-text {
+      display: flex;
+      align-items: center;
+    }
+    .dc-drag-header-content {
+      flex: 1;
+    }
+  }
+  .drag-collapse:not(.overlay-sortable-item) {
+    border: none;
+    border-radius: 0;
+  }
+
+  .dc-drag-trigger {
+    cursor: move;
+    border-radius: 6px;
+    width: 30px;
+    height: 30px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+    font-size: 16px;
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.1);
+    }
+  }
+  .drag-collapse-grap {
+    // border: 1px solid red !important;
+    * {
+      opacity: 0.7 !important;
+    }
+  }
+
+  .overlay-sortable-item {
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0px 0px 12px 4px rgba(34, 33, 81, 0.1);
+    .ant-collapse-item {
+      border-bottom: none;
+    }
+    .dc-drag-trigger {
+      background-color: transparent;
+    }
+  }
+
+  .drag-collapse-last {
+    .ant-collapse-item {
+      border-bottom: none;
+    }
+  }
+  .drag-collapse-drag-disabled {
+    .dc-drag-trigger {
+      cursor: no-drop;
+      opacity: 0.6;
+    }
+  }
+}

@@ -1,0 +1,133 @@
+.v-tree-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  height: 100%;
+
+  .ant-tree {
+    background: transparent;
+  }
+
+  .ant-tree-list-holder-inner {
+    overflow: hidden;
+  }
+}
+
+.v-tree-wrapper-loading {
+  position: absolute;
+  z-index: 9;
+  top: 50%;
+  left: 50%;
+}
+
+.v-tree-wrapper-search {
+  flex: 1;
+}
+
+.v-tree-wrapper-tree-wrapper {
+  position: relative;
+  flex: 1;
+  overflow: hidden;
+
+  & > .ant-spin {
+    position: absolute;
+    top: 50%;
+    z-index: 9;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.v-tree-wrapper-tree {
+  position: relative;
+  overflow: auto;
+  height: 100%;
+
+  .ant-tree-title {
+    position: relative;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .tree-item-title {
+    flex: 1;
+    overflow: hidden;
+    display: inline-flex;
+    padding: 1px 0;
+  }
+
+  .anticon-more {
+    font-weight: bold;
+    display: none;
+  }
+
+  .tree-item-title-operate {
+    display: none;
+    margin-left: 5px;
+  }
+
+  .ant-tree-node-selected {
+    .anticon-more,
+    .tree-item-title-operate {
+      display: inline-flex;
+    }
+  }
+
+  .ant-tree-node-content-wrapper {
+    display: flex;
+    overflow: hidden;
+  }
+}
+
+.tree-wrapper-empty {
+  position: relative;
+
+  .ant-empty {
+    margin: 8px 0;
+  }
+
+  .ant-spin {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.site-tree-search-value {
+  color: red;
+}
+
+.v-tree-item-disabled {
+  opacity: 0.5;
+}
+
+.tree-item-title-operate {
+  .ant-btn {
+    height: initial;
+    width: auto;
+    padding: 0 3px;
+  }
+}
+
+.v-tree-wrapper-menu-hover {
+  .ant-tree-node-content-wrapper:hover {
+    .anticon-more,
+    .tree-item-title-operate {
+      display: inline-flex;
+    }
+  }
+}
+
+.v-tree-wrapper-search-area {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.v-tree-wrapper-search-extra {
+  margin-left: 12px;
+}

@@ -31,6 +31,7 @@
     "@dimjs/model-react": "^2.0.1",
     "@dimjs/utils": "^2.0.2",
     "@hyperse/antd": "workspace:*",
+    "@hyperse/utils": "workspace:*",
     "@wove/hammer": "^2.0.1",
     "@wove/react": "^2.0.2",
     "antd": "^5.20.6",

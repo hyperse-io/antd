@@ -1,0 +1,31 @@
+.split-warpper-horizontal {
+  display: flex;
+  height: 100%;
+  overflow: hidden;
+}
+.split-warpper-vertical {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.split-warpper-panel {
+  background-color: var(--block-bg-color);
+
+  overflow: auto;
+  position: relative;
+  height: 100%;
+}
+
+.split-warpper .gutter-horizontal {
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAeCAYAAADkftS9AAAAIklEQVQoU2M4c+bMfxAGAgYYmwGrIIiDjrELjpo5aiZeMwF+yNnOs5KSvgAAAABJRU5ErkJggg==');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.split-warpper .gutter-vertical {
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAFAQMAAABo7865AAAABlBMVEVHcEzMzMzyAv2sAAAAAXRSTlMAQObYZgAAABBJREFUeF5jOAMEEAIEEFwAn3kMwcB6I2AAAAAASUVORK5CYII=');
+  cursor: row-resize;
+  background-repeat: no-repeat;
+  background-position: center center;
+}

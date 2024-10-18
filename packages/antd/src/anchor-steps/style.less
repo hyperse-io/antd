@@ -1,0 +1,20 @@
+.v-fixed-anchor {
+  position: fixed;
+  right: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 9;
+
+  .ant-anchor-ink {
+    display: none !important;
+  }
+
+  .ant-anchor-link {
+    padding-block: 0 !important;
+    padding-inline: 0 !important;
+  }
+
+  .ant-anchor::before {
+    display: none;
+  }
+}

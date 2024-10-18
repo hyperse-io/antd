@@ -1,0 +1,45 @@
+.local-loading-error {
+  position       : relative;
+  height         : 100%;
+  display        : flex;
+  align-items    : center;
+  justify-content: center;
+
+  .ant-result-icon {
+    margin-bottom: 10px !important;
+
+    .anticon {
+      font-size: 30px !important;
+    }
+  }
+
+  .ant-result-title {
+    font-size: 16px !important;
+  }
+
+  .ant-result-extra {
+    margin-top: 10px !important;
+  }
+
+  .ant-result-error {
+    padding: 24px 16px !important;
+  }
+}
+
+.local-loading-area {
+  position : absolute;
+  top      : 50%;
+  left     : 50%;
+  z-index  : 9;
+  transform: translate(-50%, -50%);
+}
+
+.fba-local-loading {
+  position: relative;
+  overflow: hidden;
+}
+
+.local-loading-content {
+  height    : 100%;
+  overflow-y: auto;
+}

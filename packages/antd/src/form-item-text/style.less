@@ -1,0 +1,48 @@
+.form-item-text-content {
+  font-size: 14px;
+  padding  : 4px 0 4px 0;
+  display  : inline-flex;
+  width    : 100%;
+}
+
+.form-item-text {
+  overflow: hidden;
+}
+
+.fitc-loading {
+  .ant-spin-dot {
+    margin-left: 0 !important;
+  }
+}
+
+.fitc-reload-icon {
+  font-size: 14px;
+  padding  : 0 3px;
+
+  &:hover {
+    transform : scale(1.1);
+    transition: all ease-in 0.1s;
+  }
+}
+
+.compact-theme {
+  .form-item-text-content {
+    font-size: 12px;
+  }
+
+  .fitc-reload-icon {
+    font-size: 12px;
+  }
+}
+
+.dark-theme {
+  .form-item-text-content {
+    color: rgba(255, 255, 255, 0.85);
+  }
+}
+
+.light-theme {
+  .form-item-text-content {
+    color: rgba(0, 0, 0, 0.88);
+  }
+}

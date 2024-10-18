@@ -1,0 +1,28 @@
+.text-symbol-wrapper {
+  position: relative;
+  display : inline-block;
+}
+
+.tsw-symbol {
+  position: absolute;
+
+  font-size  : 14px;
+  line-height: initial;
+  top        : 50%;
+}
+
+.tsw-symbol-before {
+  // left: -3px;
+  transform: translate(-100%, -50%);
+}
+
+.tsw-symbol-after {
+  // right: -3px;
+  transform: translate(100%, -50%);
+}
+
+.tsw-required {
+  .tsw-symbol {
+    color: #ff4d4f;
+  }
+}

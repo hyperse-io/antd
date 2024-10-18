@@ -1,0 +1,24 @@
+// 数字字体
+.num-ff {
+  font-family: var(--v-font-family-number);
+}
+
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.hide {
+  display: none;
+}
+
+.clear-fix:after,
+.clear-fix::after {
+  display: block;
+  visibility: hidden;
+  height: 0;
+  font-size: 0;
+  content: ' ';
+  clear: both;
+}

@@ -1,0 +1,43 @@
+.icon-wrapper {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px;
+  border-radius: 6px;
+  margin: 0 -6px;
+
+  .anticon + .icon-wrapper-text {
+    margin-left: 3px;
+  }
+}
+.icon-wrapper-tigger {
+  cursor: pointer;
+  &:hover {
+    transform: scale(1.1);
+    transition: all ease-in 0.1s;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.06);
+  }
+}
+
+.icon-wrapper-small {
+  font-size: 14px;
+  padding: 3px;
+  margin: 0 -3px;
+  border-radius: 3px;
+}
+
+.icon-wrapper-middle {
+  font-size: 16px;
+}
+
+.icon-wrapper-large {
+  font-size: 20px;
+}
+
+.icon-wrapper.icon-wrapper-hidden-hover-bgcolor {
+  padding: 0;
+  margin: 0;
+  &:hover {
+    background-color: transparent;
+  }
+}

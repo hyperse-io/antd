@@ -5,6 +5,7 @@
     "baseUrl": "./",
     "noImplicitAny": false,
     "allowJs": false,
+    "jsx": "react-jsx",
     "noEmit": false,
     "incremental": true,
     "paths": {},

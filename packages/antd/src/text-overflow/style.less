@@ -1,0 +1,52 @@
+.text-overflow {
+  overflow: hidden;
+  width   : 100%;
+  display : flex;
+  position: relative;
+}
+
+.tow-content {
+  display      : inline-block;
+  overflow     : hidden;
+  white-space  : nowrap;
+  text-overflow: ellipsis;
+  position     : relative;
+  width        : 100%;
+  text-align   : inherit;
+}
+
+.tow-hidden {
+  height  : 0;
+  width   : 0;
+  display : inline-block;
+  overflow: hidden;
+  position: absolute;
+  top     : 0;
+  left    : 0;
+
+  span {
+    display    : inline-block;
+    white-space: nowrap;
+  }
+}
+
+.tow-inner-text {
+  display: inline-block;
+}
+
+.tow-trigger {
+
+  .tow-content,
+  .tow-cut-content {
+    color     : #1677ff;
+    transition: color 0.3s;
+  }
+
+  .tow-show-text {
+    cursor: pointer;
+
+    &:hover {
+      color: #69b1ff;
+    }
+  }
+}

@@ -1,0 +1,67 @@
+.drag-form-list-item-grap {
+  * {
+    opacity: 0.7 !important;
+  }
+}
+
+.drag-form-list-item-disabled {
+  .drag-form-list-item-trigger {
+    cursor : no-drop;
+    opacity: 0.6;
+  }
+}
+
+.drag-form-list-overlay {
+  border       : none;
+  border-radius: 6px;
+  box-shadow   : 0px 0px 12px 4px rgba(34, 33, 81, 0.1);
+
+  .ant-collapse-item {
+    border-bottom: none;
+  }
+
+  .drag-form-list-item-trigger {
+    background-color: transparent;
+  }
+}
+
+.drag-form-list-icon {
+  display: inline-block;
+  width  : 30px;
+}
+
+.drag-form-list-item {
+  display         : flex;
+  background-color: var(--block-bg-color);
+  align-items     : center;
+  padding         : 8px 0;
+}
+
+.drag-form-list .drag-form-list-item-content {
+  flex: 1;
+
+  .ant-form-item.form-item-group-horizontal-union {
+    margin-bottom: 0;
+
+    .ant-form-item {
+      margin-bottom: 0;
+    }
+  }
+
+}
+
+.drag-form-list-item-trigger {
+  cursor         : move;
+  border-radius  : 6px;
+  width          : 30px;
+  height         : 30px;
+  display        : inline-flex;
+  align-items    : center;
+  justify-content: center;
+  margin-right   : 5px;
+  font-size      : 16px;
+
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+}

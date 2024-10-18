@@ -8,10 +8,11 @@
     "noEmit": false,
     "incremental": true,
     "module": "ESNext",
+    "target": "ESNext",
     "moduleResolution": "node",
     "paths": {
-      "@/*": ["./src/*"],
-      "@kzfoo/react": ["../react/src/index.ts"]
+      "@hyperse/antd": ["packages/antd/src"],
+      "@hyperse/utils": ["packages/utils/src"]
     }
   },
   "exclude": ["node_modules", "**/.*/", "dist", "build", "public"]

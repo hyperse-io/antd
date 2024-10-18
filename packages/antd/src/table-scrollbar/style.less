@@ -1,0 +1,31 @@
+.scrollbar-main {
+  position: relative;
+  height: 0;
+  width: 0;
+}
+
+.scrollbar-box {
+  position: absolute;
+  overflow-x: auto;
+  overflow-y: hidden;
+  height: 9px;
+  background: transparent;
+
+  &::-webkit-scrollbar {
+    width: 9px;
+    height: 9px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 8px;
+
+    &:hover {
+      background: #666;
+    }
+  }
+
+  &::-webkit-scrollbar-track {
+    background: transparent;
+  }
+}

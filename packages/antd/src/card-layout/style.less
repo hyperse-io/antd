@@ -1,0 +1,102 @@
+.card-layout {
+  padding      : 15px;
+  border-radius: 6px;
+}
+
+.card-layout-title-sign {
+  padding-left: 10px;
+  position    : relative;
+
+  &::before {
+    content      : '';
+    position     : absolute;
+    left         : 0;
+    width        : 3px;
+    background   : var(--color-primary, #1677ff);
+    border-radius: 3px;
+    top          : 50%;
+    width        : 3px;
+    height       : 13px;
+    transform    : translateY(-50%);
+  }
+}
+
+.card-layout-title {
+  position   : relative;
+  display    : flex;
+  align-items: center;
+}
+
+.card-layout-title+.card-layout-content {
+  margin-top: 8px;
+}
+
+.card-layout-title-content {
+  font-weight  : 500;
+  font-size    : 16px;
+  overflow     : hidden;
+  white-space  : nowrap;
+  text-overflow: ellipsis;
+}
+
+.card-layout-subtitle {
+  flex         : 1;
+  color        : #969696;
+  font-size    : 12px;
+  overflow     : hidden;
+  white-space  : nowrap;
+  text-overflow: ellipsis;
+}
+
+.card-layout-title-extra {
+  margin-left: 15px;
+}
+
+.card-layout-desc,
+.card-layout-desc-list {
+  font-size: 12px;
+  opacity  : 0.7;
+
+  &+.card-layout-content {
+    margin-top: 8px;
+  }
+}
+
+.card-layout+.card-layout {
+  margin-top: 8px;
+}
+
+.card-layout-title-fixed {
+  height        : 100%;
+  display       : flex;
+  flex-direction: column;
+  overflow      : hidden;
+
+  &>.card-layout-content {
+    flex      : 1;
+    overflow-y: auto;
+  }
+}
+
+.card-layout-small {
+  padding: 8px 15px;
+
+  .card-layout-content {
+    margin-top: 0px;
+  }
+
+  .card-layout-title-content {
+    font-size: 14px;
+  }
+
+  .card-layout-title-sign {
+    &::before {
+      height: 11px;
+    }
+  }
+}
+
+.card-layout-tight {
+  padding      : 0;
+  border-radius: 0;
+}
