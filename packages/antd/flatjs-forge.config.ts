@@ -25,6 +25,15 @@ export default defineConfig({
     {
       libraryName: '@wove/react',
     },
+    {
+      libraryName: '@ant-design/icons',
+      libraryDirectory: 'es/icons',
+      transformToDefaultImport: true,
+      camel2DashComponentName: false, // default: true
+      customName(transformedMethodName) {
+        return `@ant-design/icons/es/icons/${transformedMethodName}.js`;
+      },
+    },
   ],
   plugin: {
     pluginConfigs: {

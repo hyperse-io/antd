@@ -3,7 +3,8 @@
   "compilerOptions": {
     "rootDir": "./src",
     "incremental": false,
-    "paths": {}
+    "paths": {},
+    "types": ["node"]
   },
   "exclude": ["**/*.stories.tsx", "**/*.stories.mdx", ".storybook/**"]
 }

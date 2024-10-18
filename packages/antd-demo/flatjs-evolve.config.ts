@@ -79,6 +79,9 @@ export default defineConfig((env) => ({
         libraryDirectory: 'es/icons',
         transformToDefaultImport: true,
         camel2DashComponentName: false, // default: true
+        customName(transformedMethodName) {
+          return `@ant-design/icons/es/icons/${transformedMethodName}.js`;
+        },
       },
       {
         libraryName: '@wove/react',
@@ -93,7 +96,7 @@ export default defineConfig((env) => ({
         libraryName: '@dimjs/utils',
       },
       {
-        libraryName: '@kzfoo/react',
+        libraryName: '@hyperse/antd',
       },
     ],
   },
