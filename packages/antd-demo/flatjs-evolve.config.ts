@@ -99,6 +99,7 @@ export default defineConfig((env) => ({
   },
   multiHtmlCdn: {
     me: ['http://localhost:8000/public/'],
+    prod: ['http://localhost:8000/public/'],
   },
   multiHtmlCdnEnvResolver: function envResolver() {
     return ~location.href.indexOf('localhost') ? 'me' : undefined;

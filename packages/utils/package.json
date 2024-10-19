@@ -31,40 +31,42 @@
     "fix-all-files": "eslint . --fix",
     "typecheck": "tsc --project ./tsconfig.json --noEmit"
   },
+  "dependencies": {
+    "@dnd-kit/core": "^6.1.0",
+    "@dnd-kit/modifiers": "^7.0.0",
+    "@dnd-kit/sortable": "^8.0.0",
+    "@dnd-kit/utilities": "^3.2.2",
+    "@tinymce/tinymce-react": "5.1.1",
+    "ace-builds": "^1.36.2",
+    "dequal": "2.0.3",
+    "pubsub-js": "1.9.4",
+    "react-ace": "^12.0.0",
+    "react-is": "^18.3.1",
+    "react-split": "2.0.14",
+    "simple-mind-map": "^0.12.0",
+    "sql-formatter": "^15.4.4",
+    "use-intl": "3.21.1",
+    "xml-formatter": "^3.6.3"
+  },
   "devDependencies": {
     "@dimjs/lang": "^2.0.0",
     "@dimjs/utils": "^2.0.2",
-    "@flatjs/cli": "2.1.7",
+    "@flatjs/cli": "2.1.9",
     "@hyperse/eslint-config-hyperse": "^1.1.3",
-    "@types/node": "22.5.5",
-    "@types/react": "^18.3.8",
+    "@types/node": "22.7.6",
+    "@types/react": "^18.3.11",
     "cropperjs": "^1.6.2",
-    "eslint": "9.11.0",
+    "eslint": "9.13.0",
     "npm-run-all": "4.1.5",
-    "typescript": "5.6.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "typescript": "5.6.3",
     "vite-tsconfig-paths": "5.0.1",
-    "vitest": "2.1.1"
+    "vitest": "2.1.3"
   },
   "peerDependencies": {
     "@dimjs/lang": ">=2.0.0",
     "@dimjs/utils": ">=2.0.2"
-  },
-  "dependencies": {
-    "@dnd-kit/core": "^6.0.8",
-    "@dnd-kit/modifiers": "^6.0.1",
-    "@dnd-kit/sortable": "^7.0.2",
-    "@dnd-kit/utilities": "^3.2.1",
-    "@tinymce/tinymce-react": "4.3.0",
-    "ace-builds": "^1.32.2",
-    "dequal": "2.0.3",
-    "pubsub-js": "1.9.4",
-    "react-ace": "^10.1.0",
-    "react-is": "^18.2.0",
-    "react-split": "2.0.14",
-    "simple-mind-map": "^0.10.6",
-    "sql-formatter": "^15.0.2",
-    "use-intl": "3.0.0-rc.6",
-    "xml-formatter": "^3.6.2"
   },
   "peerDependenciesMeta": {
     "react": {

@@ -11,8 +11,8 @@
     "target": "ESNext",
     "moduleResolution": "node",
     "paths": {
-      "@hyperse/antd": ["packages/antd/src"],
-      "@hyperse/utils": ["packages/utils/src"]
+      "@hyperse/antd": ["../antd/src"],
+      "@hyperse/utils": ["../utils/src"]
     }
   },
   "exclude": ["node_modules", "**/.*/", "dist", "build", "public"]

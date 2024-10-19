@@ -4,7 +4,7 @@ import { defineConfig } from '@flatjs/forge';
 import { forgePluginStyling } from '@flatjs/forge-plugin-styling';
 const __filename = fileURLToPath(import.meta.url);
 
-const stylingPlugin = forgePluginStyling({
+const stylingPlugin = await forgePluginStyling({
   projectCwd: dirname(__filename),
   format: 'esm',
   use: ['less'],

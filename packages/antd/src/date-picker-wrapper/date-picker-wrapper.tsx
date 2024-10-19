@@ -1,6 +1,6 @@
 import { useMemo } from 'react';
 import { DatePicker } from 'antd';
-import type { PickerDateProps } from 'antd/es/date-picker/generatePicker';
+import type { PickerProps } from 'antd/es/date-picker/generatePicker';
 import dayjs from 'dayjs';
 import { flatbizDate, TAny } from '@hyperse/utils';
 import { hooks } from '@wove/react';
@@ -12,7 +12,7 @@ import {
 } from '../_utils/time.js';
 
 export type DatePickerWrapperProps = Omit<
-  PickerDateProps<TAny>,
+  PickerProps<TAny>,
   'value' | 'onChange' | 'format'
 > & {
   /** 默认格式为 'YYYY-MM-DD' */
