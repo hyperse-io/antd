@@ -4,11 +4,11 @@ import { isArray } from '@dimjs/lang';
 import { classNames } from '@dimjs/utils';
 import { TAny } from '@hyperse/utils';
 import { hooks } from '@wove/react';
-import { DateRangePickerWrapper } from '../../date-range-picker-wrapper';
+import { DateRangePickerWrapper } from '../../date-range-picker-wrapper/index.js';
 import {
   EditableDateRangePickerWrapperConfig,
   EditableFormItemProps,
-} from '../type';
+} from '../type.js';
 
 type FormItemContentProps = Omit<EditableFormItemProps, 'formItemProps'> & {
   value?: [string, string];

@@ -1,6 +1,6 @@
 import { Form } from 'antd';
-import { InputTextAreaWrapper } from '../../input-text-area-wrapper';
-import { EditableFormItemProps, EditableTextareaConfig } from '../type';
+import { InputTextAreaWrapper } from '../../input-text-area-wrapper/index.js';
+import { EditableFormItemProps, EditableTextareaConfig } from '../type.js';
 
 export const TextAreaFormItem = (props: EditableFormItemProps) => {
   const { formItemProps, editableConfig } = props.fieldConfig;

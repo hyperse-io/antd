@@ -3,8 +3,8 @@ import { Form, Radio } from 'antd';
 import { classNames } from '@dimjs/utils';
 import { LabelValueItem } from '@hyperse/utils';
 import { hooks } from '@wove/react';
-import { tableCellRender } from '../../table-cell-render';
-import { EditableFormItemProps, EditableRadioGroupConfig } from '../type';
+import { tableCellRender } from '../../table-cell-render/cell-render.jsx';
+import { EditableFormItemProps, EditableRadioGroupConfig } from '../type.js';
 
 type RadioGroupFormItemContent = Omit<
   EditableFormItemProps,

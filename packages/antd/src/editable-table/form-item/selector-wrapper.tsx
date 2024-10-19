@@ -9,8 +9,8 @@ import {
   TPlainObject,
 } from '@hyperse/utils';
 import { hooks } from '@wove/react';
-import { SelectorWrapper } from '../../selector-wrapper';
-import { EditableFormItemProps, EditableSelectWrapperConfig } from '../type';
+import { SelectorWrapper } from '../../selector-wrapper/index.js';
+import { EditableFormItemProps, EditableSelectWrapperConfig } from '../type.js';
 
 type FormItemContentProps = Omit<EditableFormItemProps, 'formItemProps'> & {
   value?: string | number | Array<string | number>;

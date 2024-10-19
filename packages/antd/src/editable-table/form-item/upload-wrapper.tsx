@@ -1,8 +1,8 @@
 import { Form } from 'antd';
 import { classNames } from '@dimjs/utils';
 import { TAny } from '@hyperse/utils';
-import { UploadWrapper } from '../../upload-wrapper';
-import { EditableFileUploadConfig, EditableFormItemProps } from '../type';
+import { UploadWrapper } from '../../upload-wrapper/index.js';
+import { EditableFileUploadConfig, EditableFormItemProps } from '../type.js';
 
 const UploadWrapperFormItemContent = (
   props: EditableFormItemProps & {

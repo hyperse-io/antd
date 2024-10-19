@@ -1,5 +1,5 @@
 import { Dayjs } from 'dayjs';
-import { DayjsDateTypeEnum } from './constants';
+import { DayjsDateTypeEnum } from './constants.js';
 
 const range = (start: number, end: number) => {
   const result: number[] = [];

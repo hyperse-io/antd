@@ -5,11 +5,11 @@
     "baseUrl": "./",
     "noImplicitAny": false,
     "allowJs": false,
-    "jsx": "react-jsx",
+    "jsx": "preserve",
     "noEmit": false,
     "incremental": true,
     "paths": {},
-    "types": ["vitest/globals", "node", "hammerjs"]
+    "types": ["vitest/globals", "node"]
   },
   "exclude": ["**/node_modules", "**/.*/", "dist", "build"]
 }

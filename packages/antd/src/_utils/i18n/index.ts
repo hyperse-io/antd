@@ -1,7 +1,7 @@
 import { extend } from '@dimjs/utils';
-import { TFbaLocale, TLocale } from '../../types';
-import { en } from './en';
-import { zhCn } from './zh-cn';
+import { TFbaLocale, TLocale } from '../../types/index.js';
+import { en } from './en.js';
+import { zhCn } from './zh-cn.js';
 
 /**
  * 设置 @flatbiz/antd中的国际化语言

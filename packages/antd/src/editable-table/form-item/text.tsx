@@ -1,7 +1,7 @@
 import { useMemo } from 'react';
 import { Form } from 'antd';
 import { isBoolean, isNumber, isString } from '@dimjs/lang';
-import { EditableFormItemProps, FieldSingleConfig } from '../type';
+import { EditableFormItemProps, FieldSingleConfig } from '../type.js';
 
 const FormItemTextContent = (props: {
   value?: string | number;

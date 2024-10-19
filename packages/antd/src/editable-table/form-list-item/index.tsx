@@ -1,11 +1,11 @@
 import { Fragment } from 'react';
 import { isArray } from '@dimjs/lang';
 import { toArray } from '@hyperse/utils';
-import { FormItemHidden } from '../../form-item-hidden';
-import { FormItemAdapter } from '../form-item';
-import { TextFormItem } from '../form-item/text';
-import { FieldSingleConfig, FormListConfig } from '../type';
-import { FormList } from './form-list';
+import { FormItemHidden } from '../../form-item-hidden/index.js';
+import { FormItemAdapter } from '../form-item/index.js';
+import { TextFormItem } from '../form-item/text.jsx';
+import { FieldSingleConfig, FormListConfig } from '../type.js';
+import { FormList } from './form-list.jsx';
 
 export type FormListItemProps = {
   name: Array<number | string>;

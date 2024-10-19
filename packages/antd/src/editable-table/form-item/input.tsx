@@ -1,6 +1,6 @@
 import { Form } from 'antd';
-import { InputWrapper } from '../../input-wrapper';
-import { EditableFormItemProps, EditableInputConfig } from '../type';
+import { InputWrapper } from '../../input-wrapper/index.js';
+import { EditableFormItemProps, EditableInputConfig } from '../type.js';
 
 export const InputFormItem = (props: EditableFormItemProps) => {
   const { formItemProps, editableConfig } = props.fieldConfig;

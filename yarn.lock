@@ -3389,6 +3389,7 @@ __metadata:
     "@flatjs/cli": "npm:2.1.7"
     "@hyperse/antd": "workspace:*"
     "@hyperse/eslint-config-hyperse": "npm:^1.1.3"
+    "@hyperse/utils": "workspace:*"
     "@types/react": "npm:^18.3.8"
     "@types/react-dom": "npm:^18.3.0"
     "@wove/hammer": "npm:^2.0.1"
@@ -3456,7 +3457,7 @@ __metadata:
     npm-run-all: "npm:4.1.5"
     pubsub-js: "npm:1.9.4"
     react: "npm:18.2.0"
-    react-ace: "npm:^10.1.0"
+    react-ace: "npm:^12.0.0"
     react-dom: "npm:18.2.0"
     react-is: "npm:^18.2.0"
     react-split: "npm:2.0.14"
@@ -3624,7 +3625,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@hyperse/utils@npm:^1.0.0, @hyperse/utils@workspace:packages/utils":
+"@hyperse/utils@npm:^1.0.0, @hyperse/utils@workspace:*, @hyperse/utils@workspace:packages/utils":
   version: 0.0.0-use.local
   resolution: "@hyperse/utils@workspace:packages/utils"
   dependencies:
@@ -5681,7 +5682,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ace-builds@npm:^1.32.2, ace-builds@npm:^1.4.14":
+"ace-builds@npm:^1.32.2, ace-builds@npm:^1.32.8, ace-builds@npm:^1.4.14":
   version: 1.36.2
   resolution: "ace-builds@npm:1.36.2"
   checksum: 10/66ea2af6c0671781b9f1d58efa84d3af1335d84f48e54e83b5d0518ddb70d2ebe3caf30fe6552ebc759e4da7b1789e717df165055e09169e37c55df4b5d3b78a
@@ -16756,6 +16757,22 @@ __metadata:
     react: ^0.13.0 || ^0.14.0 || ^15.0.1 || ^16.0.0 || ^17.0.0 || ^18.0.0
     react-dom: ^0.13.0 || ^0.14.0 || ^15.0.1 || ^16.0.0 || ^17.0.0 || ^18.0.0
   checksum: 10/5157dfeb1d7455a84ed8c5eafcb219d8a5d268bed955c948736c8206a93351e5a906716d1df3aa42521dc88159c2541a447e94fbd60d8b81db4bd7368242b6cf
+  languageName: node
+  linkType: hard
+
+"react-ace@npm:^12.0.0":
+  version: 12.0.0
+  resolution: "react-ace@npm:12.0.0"
+  dependencies:
+    ace-builds: "npm:^1.32.8"
+    diff-match-patch: "npm:^1.0.5"
+    lodash.get: "npm:^4.4.2"
+    lodash.isequal: "npm:^4.5.0"
+    prop-types: "npm:^15.8.1"
+  peerDependencies:
+    react: ^0.13.0 || ^0.14.0 || ^15.0.1 || ^16.0.0 || ^17.0.0 || ^18.0.0
+    react-dom: ^0.13.0 || ^0.14.0 || ^15.0.1 || ^16.0.0 || ^17.0.0 || ^18.0.0
+  checksum: 10/56bd138183f2ebf95abb5a506a7e1d1a12e5a1e72e3a39312ef0ee5b2fe0148b430d769f0fceb84c63050e31ea6e22681260a46bc7802cd2295d7679f0c51cbc
   languageName: node
   linkType: hard
 

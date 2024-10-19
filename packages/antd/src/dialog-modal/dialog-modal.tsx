@@ -118,7 +118,7 @@ const ModalRender = (props: BodyAppendDivElementProps & DialogModalProps) => {
   });
 
   fbaHooks.useEffectCustom(() => {
-    window[elementId] = onClose;
+    (window as any)[elementId] = onClose;
   }, [onClose]);
 
   const onCancelHandle = hooks.useCallbackRef((e) => {
@@ -283,7 +283,7 @@ export const dialogModal = {
     );
     return {
       close: () => {
-        window[elementId]?.();
+        (window as any)[elementId]?.();
       },
     };
   },

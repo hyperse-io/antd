@@ -1,17 +1,17 @@
 import { extend } from '@dimjs/utils';
-import { FieldSingleConfig } from '../type';
-import { getEditable } from '../utils';
-import { CheckboxGroupFormItem } from './checkbox-group';
-import { DatePickerWrapperFormItem } from './date-picker-wrapper';
-import { DateRangePickerWrapperFormItem } from './date-range-picker-wrapper';
-import { InputFormItem } from './input';
-import { InputNumberFormItem } from './input-number';
-import { RadioGroupFormItem } from './radio-group';
-import { SelectorWrapperFormItem } from './selector-wrapper';
-import { SwitchWrapperFormItem } from './switch-wrapper';
-import { TextFormItem } from './text';
-import { TextAreaFormItem } from './textarea';
-import { UploadWrapperFormItem } from './upload-wrapper';
+import { FieldSingleConfig } from '../type.js';
+import { getEditable } from '../utils.js';
+import { CheckboxGroupFormItem } from './checkbox-group.jsx';
+import { DatePickerWrapperFormItem } from './date-picker-wrapper.jsx';
+import { DateRangePickerWrapperFormItem } from './date-range-picker-wrapper.jsx';
+import { InputFormItem } from './input.jsx';
+import { InputNumberFormItem } from './input-number.jsx';
+import { RadioGroupFormItem } from './radio-group.jsx';
+import { SelectorWrapperFormItem } from './selector-wrapper.jsx';
+import { SwitchWrapperFormItem } from './switch-wrapper.jsx';
+import { TextFormItem } from './text.jsx';
+import { TextAreaFormItem } from './textarea.jsx';
+import { UploadWrapperFormItem } from './upload-wrapper.jsx';
 
 export type FormItemAdapterProps = {
   name: Array<number | string>;

@@ -3,8 +3,8 @@ import { Checkbox, Form } from 'antd';
 import { classNames } from '@dimjs/utils';
 import { LabelValueItem, TAny } from '@hyperse/utils';
 import { hooks } from '@wove/react';
-import { tableCellRender } from '../../table-cell-render';
-import { EditableCheckboxGroupConfig, EditableFormItemProps } from '../type';
+import { tableCellRender } from '../../table-cell-render/index.js';
+import { EditableCheckboxGroupConfig, EditableFormItemProps } from '../type.js';
 
 type CheckboxGroupFormItemContent = Omit<
   EditableFormItemProps,

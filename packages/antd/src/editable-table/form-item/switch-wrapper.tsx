@@ -2,8 +2,8 @@ import { useMemo } from 'react';
 import { Form, Tag } from 'antd';
 import { classNames } from '@dimjs/utils';
 import { hooks } from '@wove/react';
-import { SwitchWrapper } from '../../switch-wrapper';
-import { EditableFormItemProps, EditableSwitchWrapperConfig } from '../type';
+import { SwitchWrapper } from '../../switch-wrapper/index.js';
+import { EditableFormItemProps, EditableSwitchWrapperConfig } from '../type.js';
 
 type FormItemContentProps = Omit<EditableFormItemProps, 'formItemProps'> & {
   value?: string | number | boolean;

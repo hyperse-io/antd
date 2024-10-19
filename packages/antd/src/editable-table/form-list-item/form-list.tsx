@@ -1,9 +1,9 @@
 import { Button, Form, Space } from 'antd';
 import { DeleteOutlined } from '@ant-design/icons';
 import { classNames } from '@dimjs/utils';
-import { FormItemAdapter } from '../form-item';
-import { FormListConfig } from '../type';
-import { getEditable } from '../utils';
+import { FormItemAdapter } from '../form-item/index.js';
+import { FormListConfig } from '../type.js';
+import { getEditable } from '../utils.js';
 
 export type FormListProps = {
   name: Array<number | string>;

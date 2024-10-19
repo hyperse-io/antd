@@ -9,9 +9,9 @@ import {
 } from '@hyperse/utils';
 import { hooks } from '@wove/react';
 import { ErrorBoundaryWrapper } from '../error-boundary-wrapper/error-boundary.js';
-import 'ace-builds/src-noconflict/ext-language_tools';
-import 'ace-builds/src-noconflict/mode-groovy';
-import 'ace-builds/src-noconflict/snippets/groovy';
+import 'ace-builds/src-noconflict/ext-language_tools.js';
+import 'ace-builds/src-noconflict/mode-groovy.js';
+import 'ace-builds/src-noconflict/snippets/groovy.js';
 
 export type AceEditorGroovyProps = Omit<
   IAceEditorProps,

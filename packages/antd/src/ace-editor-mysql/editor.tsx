@@ -8,8 +8,8 @@ import { hooks } from '@wove/react';
 import { ButtonWrapper } from '../button-wrapper/button-wrapper.js';
 import { ErrorBoundaryWrapper } from '../error-boundary-wrapper/error-boundary.js';
 import 'ace-builds/src-noconflict/ext-language_tools.js';
-import 'ace-builds/src-noconflict/mode-mysql';
-import 'ace-builds/src-noconflict/snippets/mysql';
+import 'ace-builds/src-noconflict/mode-mysql.js';
+import 'ace-builds/src-noconflict/snippets/mysql.js';
 
 const formatSql = (sqlContent: string) => {
   return format(sqlContent, { language: 'sql' })
