@@ -1,8 +1,3 @@
-export * from './ace-editor-groovy/index.js';
-export * from './ace-editor-java/index.js';
-export * from './ace-editor-json/index.js';
-export * from './ace-editor-mysql/index.js';
-export * from './ace-editor-xml/index.js';
 export * from './alert-wrapper/index.js';
 export * from './amount-fen-input/index.js';
 export * from './amount-fen-input-form-item/index.js';
@@ -88,7 +83,6 @@ export * from './selector-wrapper/index.js';
 export * from './selector-wrapper-search/index.js';
 export * from './selector-wrapper-simple/index.js';
 export * from './sms-count-down/index.js';
-export * from './split-wrapper/index.js';
 export * from './styles/index.js';
 export * from './svg-http-view/index.js';
 export * from './switch-confirm-wrapper/index.js';
