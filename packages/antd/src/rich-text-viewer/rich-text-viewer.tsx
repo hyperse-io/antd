@@ -84,7 +84,6 @@ export const RichTextViewer = (props: RichTextViewerProps) => {
           menubar: false,
           toolbar: '',
           statusbar: false,
-          readonly: true,
         }}
       />
     </div>

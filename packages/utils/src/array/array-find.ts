@@ -1,4 +1,4 @@
-import { TAny } from '../types';
+import { TAny } from '../types/index.js';
 
 /**
  * array.find严谨查询，使用 === 进行比较

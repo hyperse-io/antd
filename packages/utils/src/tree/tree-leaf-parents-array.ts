@@ -1,6 +1,6 @@
 import { get } from '@dimjs/utils';
-import { isUndefinedOrNull } from '../lang';
-import { TPlainObject } from '../types';
+import { isUndefinedOrNull } from '../lang/is-empty.js';
+import { TPlainObject } from '../types/index.js';
 
 /**
  * 树叶子节点的所有父节点列表

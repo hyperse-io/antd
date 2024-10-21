@@ -1,5 +1,5 @@
 import { isArray } from '@dimjs/lang';
-import { isUndefinedOrNull } from '../lang';
+import { isUndefinedOrNull } from '../lang/is-empty.js';
 
 /**
  * 转数组

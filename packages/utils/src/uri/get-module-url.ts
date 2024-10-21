@@ -1,7 +1,7 @@
-import { getGlobalData } from '../system/window';
-import { TPlainObject } from '../types/define';
-import { toLinkPath } from './to-link-path';
-import { urlJoin } from './url-join';
+import { getGlobalData } from '../system/window.js';
+import { TPlainObject } from '../types/define.js';
+import { toLinkPath } from './to-link-path.js';
+import { urlJoin } from './url-join.js';
 
 /**
  * 获取指定项目模块地址

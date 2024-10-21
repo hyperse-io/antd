@@ -1,4 +1,4 @@
-import { trim } from './trim';
+import { trim } from './trim.js';
 
 /**
  * 获取字符串字节长度

@@ -1,4 +1,4 @@
-import { TAny } from '../types';
+import { TAny } from '../types/index.js';
 
 /**
  * 分割数组

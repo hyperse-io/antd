@@ -1,5 +1,5 @@
 import { isNumber, isPlainObject } from '@dimjs/lang';
-import { TPlainObject } from '../types';
+import { TPlainObject } from '../types/index.js';
 
 /**
  * 数组中指定数值字段最小值

@@ -1,7 +1,7 @@
 import { extend } from '@dimjs/utils';
-import { TAny } from '../types';
-import { base64ToFile } from './base64-to-file';
-import { fileToBase64 } from './file-to-base64';
+import { TAny } from '../types/index.js';
+import { base64ToFile } from './base64-to-file.js';
+import { fileToBase64 } from './file-to-base64.js';
 
 export type TImageCompressOptions = {
   /** 质量比例 0~1 */

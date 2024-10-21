@@ -11,7 +11,7 @@ import { fbaHooks } from '../fba-hooks/index.js';
 import { fbaUtils } from '../fba-utils/fba-utils.js';
 import './style.less';
 
-export type ButtonWrapperProps = Omit<ButtonProps, 'onClick'> & {
+export type ButtonWrapperProps = Omit<ButtonProps, 'onClick' | 'color'> & {
   /** 当返回 Promise 时，按钮自动loading */
   onClick?: (e: React.MouseEvent<HTMLElement>) => Promise<TAny> | void;
   /** 重复点击间隙，单位毫秒 默认值：500 */
@@ -24,6 +24,7 @@ export type ButtonWrapperProps = Omit<ButtonProps, 'onClick'> & {
   loadingPosition?: 'left' | 'center';
   /** 移除按钮内边距，一般用于 type=link 类型下 */
   removeGap?: boolean;
+  color?: string;
 };
 
 const DefaultButton = (props: {

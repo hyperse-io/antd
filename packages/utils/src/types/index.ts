@@ -1,3 +1,3 @@
-export * from './common';
-export * from './define';
-export * from './tree';
+export * from './common.js';
+export * from './define.js';
+export * from './tree.js';

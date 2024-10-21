@@ -1,7 +1,7 @@
 import { uriParse } from '@dimjs/utils';
-import { getGlobalData } from '../system';
-import { ensureSlash } from './ensure-slash';
-import { isHttpUri } from './is-http-url';
+import { getGlobalData } from '../system/window.js';
+import { ensureSlash } from './ensure-slash.js';
+import { isHttpUri } from './is-http-url.js';
 
 export const getUrlRoute = (url: string) => {
   if (!isHttpUri(url)) return url;

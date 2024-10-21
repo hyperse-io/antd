@@ -1,6 +1,6 @@
 import { isArray } from '@dimjs/lang';
-import { isUndefinedOrNull } from '../lang';
-import { TAny } from '../types';
+import { isUndefinedOrNull } from '../lang/is-empty.js';
+import { TAny } from '../types/index.js';
 
 /**
  * 两个值比较，只用于string、number类型的值比较

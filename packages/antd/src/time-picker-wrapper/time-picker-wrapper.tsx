@@ -61,13 +61,15 @@ export const TimePickerWrapper = (props: TimePickerWrapperProps) => {
 
   const customFormat = format || DayjsTimeTypeEnum.Hms;
 
-  const onChangeTime = hooks.useCallbackRef((time, timeString: string) => {
-    if (time) {
-      onChange?.(timeString);
-    } else {
-      onChange?.(undefined);
+  const onChangeTime = hooks.useCallbackRef(
+    (time, timeString: string | string[]) => {
+      if (time) {
+        onChange?.(timeString as string);
+      } else {
+        onChange?.(undefined);
+      }
     }
-  });
+  );
 
   const timePickerValue = useMemo(() => {
     const value = props.value;

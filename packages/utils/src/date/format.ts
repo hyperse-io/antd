@@ -1,7 +1,7 @@
 import { dateFormat as dateFormatFn } from '@dimjs/utils';
-import { dateNormalize } from './date-normalize';
-import { isDate } from './is-date';
-import { DateFormatType, DateType } from './types';
+import { dateNormalize } from './date-normalize.js';
+import { isDate } from './is-date.js';
+import { DateFormatType, DateType } from './types.js';
 
 export const dateFormat = (
   dateInput: DateType,

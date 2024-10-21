@@ -1,5 +1,5 @@
 import { isArray } from '@dimjs/lang';
-import { trim } from './trim';
+import { trim } from './trim.js';
 
 /**
  * 字符串格式化

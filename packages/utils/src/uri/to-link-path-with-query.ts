@@ -1,5 +1,5 @@
 import { modifyQueryString, paramStrToJson } from '@dimjs/utils';
-import { TPlainObject } from '../types/define';
+import { TPlainObject } from '../types/define.js';
 
 export const toLinkPathWithQuery = (path: string, query: TPlainObject = {}) => {
   return modifyQueryString(

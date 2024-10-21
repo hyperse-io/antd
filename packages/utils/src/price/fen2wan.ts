@@ -1,5 +1,5 @@
 import { price } from '@dimjs/utils';
-import { isNumber } from '../number/is-number';
+import { isNumber } from '../number/is-number.js';
 
 /**
  * 金额转换 分 => 万元

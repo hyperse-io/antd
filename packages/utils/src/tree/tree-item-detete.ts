@@ -1,6 +1,6 @@
-import { TPlainObject } from '../types';
-import { treeFilter } from './tree-filter';
-import { treeToArray } from './tree-to-array';
+import { TPlainObject } from '../types/index.js';
+import { treeFilter } from './tree-filter.js';
+import { treeToArray } from './tree-to-array.js';
 
 /**
  * 根据key值 删除 Tree数据节点以及所有子节点

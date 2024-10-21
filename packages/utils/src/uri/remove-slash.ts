@@ -1,5 +1,5 @@
 import { isString } from '@dimjs/lang';
-import { isUndefinedOrNull } from '../lang';
+import { isUndefinedOrNull } from '../lang/is-empty.js';
 
 /**
  * 移除字符串前后斜线

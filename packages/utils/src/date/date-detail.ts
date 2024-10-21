@@ -1,5 +1,5 @@
-import { dateNormalize } from './date-normalize';
-import { DateType } from './types';
+import { dateNormalize } from './date-normalize.js';
+import { DateType } from './types.js';
 
 const weekConfig = {
   1: '一',

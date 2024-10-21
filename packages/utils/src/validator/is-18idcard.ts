@@ -1,4 +1,4 @@
-import { dateFormat } from '../date/format';
+import { dateFormat } from '../date/format.js';
 
 export const is18IdCard = (sId: string) => {
   if (!/^\d{17}(\d|X|x)$/.test(sId)) {

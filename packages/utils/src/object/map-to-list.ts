@@ -1,4 +1,4 @@
-import { TAny } from '../types';
+import { TAny } from '../types/index.js';
 
 export type MapToListDefaultItem<V> = { label: string; value: V };
 

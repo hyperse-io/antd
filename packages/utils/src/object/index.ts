@@ -1,3 +1,3 @@
-export * from './enum-values';
-export * from './map-to-list';
-export * from './object-get-object';
+export * from './enum-values.js';
+export * from './map-to-list.js';
+export * from './object-get-object.js';

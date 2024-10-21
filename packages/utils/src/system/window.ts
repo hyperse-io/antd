@@ -1,5 +1,5 @@
-import { getUuid } from '../string/uuid';
-import { TPlainObject } from '../types/define';
+import { getUuid } from '../string/uuid.js';
+import { TPlainObject } from '../types/define.js';
 
 export const getGlobalData = <T>() => {
   return (window['GLOBAL'] || {}) as T;

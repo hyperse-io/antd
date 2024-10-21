@@ -1,6 +1,5 @@
 import { useMemo, useState } from 'react';
-import { DatePicker } from 'antd';
-import { RangePickerDateProps } from 'antd/es/date-picker/generatePicker';
+import { DatePicker, GetProps } from 'antd';
 import dayjs, { Dayjs } from 'dayjs';
 import { flatbizDate, TAny } from '@hyperse/utils';
 import { hooks } from '@wove/react';
@@ -11,8 +10,10 @@ import {
   getDisabledSecond,
 } from '../_utils/time.js';
 
+type RangePickerDateProps = GetProps<typeof DatePicker.RangePicker>;
+
 export type DateRangePickerWrapperProps = Omit<
-  RangePickerDateProps<TAny>,
+  RangePickerDateProps,
   'value' | 'onChange' | 'onCalendarChange' | 'format'
 > & {
   value?: [string, string];

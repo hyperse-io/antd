@@ -1,4 +1,4 @@
-import { ensureSlash } from './ensure-slash';
+import { ensureSlash } from './ensure-slash.js';
 
 /**
  * 比较两个path是否相等

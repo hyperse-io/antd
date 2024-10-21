@@ -1,5 +1,5 @@
 import { price } from '@dimjs/utils';
-import { isNumber } from '../number/is-number';
+import { isNumber } from '../number/is-number.js';
 
 /**
  * 格式化金额保留小数点后2位

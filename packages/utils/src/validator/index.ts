@@ -1,2 +1,2 @@
-export * from './is-18idcard';
-export * from './regexp';
+export * from './is-18idcard.js';
+export * from './regexp.js';

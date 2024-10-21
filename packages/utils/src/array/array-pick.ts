@@ -1,5 +1,5 @@
-import { TAny } from '../types';
-import { arrayFilter, arrayFilterByLoosely } from './array-filter';
+import { TAny } from '../types/index.js';
+import { arrayFilter, arrayFilterByLoosely } from './array-filter.js';
 
 /**
  * 严谨查询，使用 === 进行比较

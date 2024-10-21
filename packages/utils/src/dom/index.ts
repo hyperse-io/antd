@@ -1,6 +1,6 @@
-import { getUuid } from '../string/uuid';
-import { findParentsElement } from './find-parents-element';
-import { getScrollNode } from './get-scroll-node';
+import { getUuid } from '../string/uuid.js';
+import { findParentsElement } from './find-parents-element.js';
+import { getScrollNode } from './get-scroll-node.js';
 
 export interface BodyAppendDivElementProps {
   divElement: HTMLDivElement;

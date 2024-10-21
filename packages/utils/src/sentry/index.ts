@@ -4,7 +4,7 @@
 const Sentry = window['Sentry'];
 
 import { getQueryString, PlainObject } from '@dimjs/utils';
-import { TAny } from '../types';
+import { TAny } from '../types/index.js';
 
 type SeverityLevel = 'fatal' | 'error' | 'warning' | 'log' | 'info' | 'debug';
 

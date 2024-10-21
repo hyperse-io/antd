@@ -9,11 +9,7 @@
     "incremental": true,
     "module": "ESNext",
     "target": "ESNext",
-    "moduleResolution": "node",
-    "paths": {
-      "@hyperse/antd": ["../antd/src"],
-      "@hyperse/utils": ["../utils/src"]
-    }
+    "moduleResolution": "node"
   },
   "exclude": ["node_modules", "**/.*/", "dist", "build", "public"]
 }

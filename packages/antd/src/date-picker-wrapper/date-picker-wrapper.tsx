@@ -71,17 +71,19 @@ export const DatePickerWrapper = (props: DatePickerWrapperProps) => {
     return DayjsDateTypeEnum.YMD;
   }, [props.showTime, format]);
 
-  const onChangeDate = hooks.useCallbackRef((date, dateString: string) => {
-    if (date) {
-      if (outputNormalize) {
-        onChange?.(outputNormalize(dateString));
+  const onChangeDate = hooks.useCallbackRef(
+    (date, dateString: string | string[]) => {
+      if (date) {
+        if (outputNormalize) {
+          onChange?.(outputNormalize(dateString));
+        } else {
+          onChange?.(dateString as string);
+        }
       } else {
-        onChange?.(dateString);
+        onChange?.(undefined);
       }
-    } else {
-      onChange?.(undefined);
     }
-  });
+  );
 
   const getDisabledDate = hooks.useCallbackRef((current) => {
     const currentDate = current.format(DayjsDateTypeEnum.YMD);

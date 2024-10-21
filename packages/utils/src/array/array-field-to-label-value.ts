@@ -1,6 +1,6 @@
 import { extend } from '@dimjs/utils';
-import { isUndefinedOrNull } from '../lang';
-import { LabelValueItem, TPlainObject } from '../types';
+import { isUndefinedOrNull } from '../lang/is-empty.js';
+import { LabelValueItem, TPlainObject } from '../types/index.js';
 
 /**
  * 数组中的对象字段，转成label、value字段名对象，主要用于弹框中的数据源转换

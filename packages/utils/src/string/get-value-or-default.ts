@@ -1,4 +1,4 @@
-import { isUndefinedOrNull } from '../lang';
+import { isUndefinedOrNull } from '../lang/is-empty.js';
 
 export const getValueOrDefault = (
   value: string | number | null | undefined,

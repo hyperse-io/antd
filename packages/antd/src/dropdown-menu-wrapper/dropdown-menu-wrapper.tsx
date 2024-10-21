@@ -1,6 +1,6 @@
 import { Fragment, ReactElement, useMemo } from 'react';
 import { ButtonProps, Dropdown, DropdownProps } from 'antd';
-import { ItemType } from 'antd/lib/menu/hooks/useItems.js';
+import { ItemType } from 'antd/es/menu/interface.js';
 import { ExclamationCircleFilled } from '@ant-design/icons';
 import { classNames } from '@dimjs/utils';
 import { hooks } from '@wove/react';
@@ -12,7 +12,7 @@ import { FlexLayout } from '../flex-layout/flex-layout.js';
 import { parentsHasSticky } from './utils.js';
 import './style.less';
 
-export interface DropdownMenuItem extends ButtonProps {
+export interface DropdownMenuItem extends Omit<ButtonProps, 'color'> {
   text?: string | ReactElement;
   color?: string;
   onClick?: (event: React.MouseEvent<HTMLElement>) => void | Promise<void>;

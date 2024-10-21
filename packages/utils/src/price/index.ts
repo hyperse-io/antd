@@ -1,11 +1,11 @@
-import { add, divide, multiply, subtract } from './calculate';
-import { priceFen2wan } from './fen2wan';
-import { priceFen2yuan } from './fen2yuan';
-import { priceFormat } from './format';
-import { priceRemoveTailZero } from './remove-zero';
-import { priceSplit } from './split';
-import { priceWan2fen } from './wan2fen';
-import { priceYuan2fen } from './yuan2fen';
+import { add, divide, multiply, subtract } from './calculate.js';
+import { priceFen2wan } from './fen2wan.js';
+import { priceFen2yuan } from './fen2yuan.js';
+import { priceFormat } from './format.js';
+import { priceRemoveTailZero } from './remove-zero.js';
+import { priceSplit } from './split.js';
+import { priceWan2fen } from './wan2fen.js';
+import { priceYuan2fen } from './yuan2fen.js';
 
 type FlatbizPrice = {
   /**

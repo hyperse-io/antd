@@ -1,11 +1,11 @@
-import { dateTimeEq, dateTimeGt, dateTimeGte, dateTimeIn } from './compare';
-import { dateDetail } from './date-detail';
-import { dateNew } from './date-new';
-import { dateNormalize } from './date-normalize';
-import { dateFormat } from './format';
-import { isDate } from './is-date';
+import { dateTimeEq, dateTimeGt, dateTimeGte, dateTimeIn } from './compare.js';
+import { dateDetail } from './date-detail.js';
+import { dateNew } from './date-new.js';
+import { dateNormalize } from './date-normalize.js';
+import { dateFormat } from './format.js';
+import { isDate } from './is-date.js';
 
-export * from './types';
+export * from './types.js';
 
 type FlatbizDate = {
   /**

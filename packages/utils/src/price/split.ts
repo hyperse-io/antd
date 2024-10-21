@@ -1,5 +1,5 @@
 import { price } from '@dimjs/utils';
-import { isNumber } from '../number/is-number';
+import { isNumber } from '../number/is-number.js';
 
 /**
  * 金额分割（会四舍五入处理，默认添加分隔符）
