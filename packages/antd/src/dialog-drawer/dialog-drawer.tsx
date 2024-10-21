@@ -187,18 +187,16 @@ const ModalRender = (props: BodyAppendDivElementProps & DialogDrawerProps) => {
           maskClosable={true}
           destroyOnClose
           onClose={onClose}
-          // 5.13.0 新增 styles.wrapper，并废弃 contentWrapperStyle drawerStyle maskStyle 属性
-          contentWrapperStyle={{ maxWidth: customSize?.maxWidth }}
           footer={operatePosition === 'footer' ? newOperateRender : null}
           {...otherProps}
           width={customSize?.width}
           styles={{
             ...otherProps.styles,
             body: { ...innerBodyStyle, ...otherProps.styles?.body },
-            // wrapper: {
-            //   maxWidth: customSize?.maxWidth,
-            //   ...otherProps.styles?.wrapper,
-            // },
+            wrapper: {
+              maxWidth: customSize?.maxWidth,
+              ...otherProps.styles?.wrapper,
+            },
           }}
           extra={operatePosition === 'header' ? newOperateRender : extraRender}
           open={open}

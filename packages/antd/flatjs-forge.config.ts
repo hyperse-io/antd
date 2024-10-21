@@ -57,15 +57,9 @@ export default defineConfig({
         return `@ant-design/icons/es/icons/${transformedMethodName}.js`;
       },
     },
-    {
-      libraryName: '@dimjs/utils',
-    },
-    {
-      libraryName: '@dimjs/lang',
-    },
-    {
-      libraryName: '@wove/react',
-    },
+    { libraryName: '@dimjs/utils' },
+    { libraryName: '@dimjs/lang' },
+    { libraryName: '@wove/react' },
   ],
   plugin: {
     extraPlugins: [stylingPlugin],

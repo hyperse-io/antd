@@ -23,12 +23,12 @@ const getHeadBeforeScripts = (serveMode: boolean) => {
       ? [
           'https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.development.js',
           'https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.development.min.js',
-          'https://cdnjs.cloudflare.com/ajax/libs/antd/5.20.5/antd.js',
+          'https://cdnjs.cloudflare.com/ajax/libs/antd/5.21.4/antd.js',
         ]
       : [
           'https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.development.js',
           'https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js',
-          'https://cdnjs.cloudflare.com/ajax/libs/antd/5.20.5/antd.min.js',
+          'https://cdnjs.cloudflare.com/ajax/libs/antd/5.21.4/antd.min.js',
         ]),
   ];
 };
@@ -89,9 +89,9 @@ export default defineConfig((env) => ({
       {
         libraryName: '@dimjs/utils',
       },
-      {
-        libraryName: '@hyperse/antd',
-      },
+      // {
+      //   libraryName: '@hyperse/antd',
+      // },
     ],
   },
   multiHtmlCdn: {
@@ -112,7 +112,7 @@ export default defineConfig((env) => ({
   },
   entryMap: getEntryMap(env.command === 'serve', [
     {
-      name: 'utils',
+      name: 'home',
       options: {
         title: '',
       },

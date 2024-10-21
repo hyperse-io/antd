@@ -186,17 +186,15 @@ export const FbaAppDrawer = (props: FbaAppDrawerProps) => {
       <Drawer
         maskClosable={true}
         destroyOnClose
-        // 5.13.0 新增 styles.wrapper，并废弃 contentWrapperStyle drawerStyle maskStyle 属性
-        contentWrapperStyle={{ maxWidth: customSize?.maxWidth }}
         footer={operatePosition === 'footer' ? newOperateRender : null}
         {...otherProps}
         width={customSize?.width}
         styles={{
           ...otherProps.styles,
-          // wrapper: {
-          //   maxWidth: customSize?.maxWidth,
-          //   ...otherProps.styles?.wrapper,
-          // },
+          wrapper: {
+            maxWidth: customSize?.maxWidth,
+            ...otherProps.styles?.wrapper,
+          },
         }}
         className={classNames('app-dialog-drawer', otherProps.className)}
         extra={operatePosition === 'header' ? newOperateRender : extraRender}

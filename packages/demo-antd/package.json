@@ -1,5 +1,5 @@
 {
-  "name": "@hyperse/antd-demo",
+  "name": "@hyperse/demo-antd",
   "version": "1.0.0",
   "private": true,
   "type": "module",
@@ -24,7 +24,8 @@
     "test-task": "vitest run",
     "test-unit": "vitest run --passWithNoTests",
     "test-watch": "vitest watch --ui",
-    "typecheck": "tsc --project ./tsconfig.json --noEmit"
+    "typecheck": "tsc --project ./tsconfig.json --noEmit",
+    "serve": "npx flat serve evolve"
   },
   "dependencies": {
     "@dimjs/lang": "^2.0.0",

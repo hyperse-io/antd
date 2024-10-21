@@ -11,15 +11,8 @@ export default defineConfig({
       dtsFile.split('/').length <= 1 && /index.d.ts/.test(dtsFile),
   },
   modularImports: [
-    {
-      libraryName: '@dimjs/utils',
-    },
-    {
-      libraryName: '@dimjs/lang',
-    },
-    {
-      libraryName: '@wove/react',
-    },
+    { libraryName: '@dimjs/utils' },
+    { libraryName: '@dimjs/lang' },
   ],
   output: {
     format: 'esm',

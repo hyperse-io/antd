@@ -42,17 +42,18 @@ export default defineConfig({
   },
   modularImports: [
     {
-      libraryName: '@dimjs/utils',
+      libraryName: '@ant-design/icons',
+      libraryDirectory: 'es/icons',
+      transformToDefaultImport: true,
+      camel2DashComponentName: false, // default: true
+      customName(transformedMethodName) {
+        return `@ant-design/icons/es/icons/${transformedMethodName}.js`;
+      },
     },
-    {
-      libraryName: '@dimjs/lang',
-    },
-    {
-      libraryName: '@wove/react',
-    },
-    {
-      libraryName: '@hyperse/antd',
-    },
+    { libraryName: '@dimjs/utils' },
+    { libraryName: '@dimjs/lang' },
+    { libraryName: '@wove/react' },
+    { libraryName: '@hyperse/antd' },
   ],
   plugin: {
     extraPlugins: [stylingPlugin],

@@ -17,8 +17,8 @@
       "path": "packages/pro-layout",
     },
     {
-      "name": "demo",
-      "path": "packages/antd-demo",
+      "name": "demo-antd",
+      "path": "packages/demo-antd",
     },
   ],
   "extensions": {
