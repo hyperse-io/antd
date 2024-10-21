@@ -1,12 +1,5 @@
-import { bootstrap } from '@hyperse/pro-layout';
+import { createRoot } from 'react-dom/client';
 import { Demo } from './Demo';
-bootstrap({
-  layoutMode: 'no-layout',
-  routeList: [
-    {
-      path: '/',
-      element: <Demo />,
-      breadConfig: 'demo1列表',
-    },
-  ],
-});
+import './index.less';
+
+createRoot(document.getElementById('app')!).render(<Demo />);
