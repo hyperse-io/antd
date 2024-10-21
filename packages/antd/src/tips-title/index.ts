@@ -1,1 +1,1 @@
-export * from './tips-title.js';
+export * from './tips-title.jsx';

@@ -1,1 +1,1 @@
-export * from './tree-selector-wrapper.js';
+export * from './tree-selector-wrapper.jsx';

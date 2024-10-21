@@ -3359,12 +3359,12 @@ __metadata:
     "@hyperse/eslint-config-hyperse": "npm:^1.1.3"
     "@hyperse/utils": "workspace:^"
     "@tinymce/tinymce-react": "npm:5.1.1"
-    "@types/node": "npm:22.7.6"
+    "@types/node": "npm:22.7.7"
     "@types/react": "npm:^18.3.11"
     "@wove/react": "npm:^2.0.2"
     ace-builds: "npm:^1.36.2"
     ahooks: "npm:^3.8.1"
-    antd: "npm:5.21.4"
+    antd: "npm:5.21.5"
     dayjs: "npm:1.11.13"
     dequal: "npm:2.0.3"
     eslint: "npm:9.13.0"
@@ -3376,7 +3376,7 @@ __metadata:
     react-is: "npm:^18.3.1"
     react-split: "npm:2.0.14"
     simple-mind-map: "npm:^0.12.0"
-    sql-formatter: "npm:^15.4.4"
+    sql-formatter: "npm:^15.4.5"
     typescript: "npm:5.6.3"
     use-intl: "npm:3.21.1"
     vite-tsconfig-paths: "npm:5.0.1"
@@ -3390,7 +3390,7 @@ __metadata:
     "@hyperse/utils": ">=1.0.0"
     "@wove/react": ">=2.0.2"
     ahooks: ">=3.7.11"
-    antd: ">=5.11.0"
+    antd: ">=5.21.4"
     dayjs: ">=1.11.9"
     react: ">=18.2.0"
     react-dom: ">=18.2.0"
@@ -3425,7 +3425,7 @@ __metadata:
     "@types/react": "npm:^18.3.11"
     "@types/react-dom": "npm:^18.3.1"
     "@wove/react": "npm:^2.0.2"
-    antd: "npm:^5.21.4"
+    antd: "npm:^5.21.5"
     eslint: "npm:^9.13.0"
     react: "npm:^18.3.1"
     react-dom: "npm:^18.3.1"
@@ -3508,12 +3508,12 @@ __metadata:
     "@hyperse/eslint-config-hyperse": "npm:^1.1.3"
     "@hyperse/utils": "npm:^1.0.0"
     "@tinymce/tinymce-react": "npm:5.1.1"
-    "@types/node": "npm:22.7.6"
+    "@types/node": "npm:22.7.7"
     "@types/react": "npm:^18.3.11"
     "@wove/react": "npm:^2.0.2"
     ace-builds: "npm:^1.36.2"
     ahooks: "npm:^3.8.1"
-    antd: "npm:5.21.4"
+    antd: "npm:5.21.5"
     cropperjs: "npm:^1.6.2"
     dayjs: "npm:1.11.13"
     dequal: "npm:2.0.3"
@@ -3524,11 +3524,11 @@ __metadata:
     react-ace: "npm:^12.0.0"
     react-dom: "npm:18.3.1"
     react-is: "npm:^18.3.1"
-    react-router: "npm:^6.8.1"
-    react-router-dom: "npm:^6.8.1"
+    react-router: "npm:^6.27.0"
+    react-router-dom: "npm:^6.27.0"
     react-split: "npm:2.0.14"
     simple-mind-map: "npm:^0.12.0"
-    sql-formatter: "npm:^15.4.4"
+    sql-formatter: "npm:^15.4.5"
     typescript: "npm:5.6.3"
     use-intl: "npm:3.21.1"
     vite-tsconfig-paths: "npm:5.0.1"
@@ -3543,7 +3543,7 @@ __metadata:
     "@hyperse/utils": ">=1.0.0"
     "@wove/react": ">=2.0.2"
     ahooks: ">=3.7.11"
-    antd: ">=5.11.0"
+    antd: ">=5.21.4"
     dayjs: ">=1.11.9"
     react: ">=18.2.0"
     react-dom: ">=18.2.0"
@@ -3581,7 +3581,7 @@ __metadata:
     "@flatjs/cli": "npm:2.1.9"
     "@hyperse/eslint-config-hyperse": "npm:^1.1.3"
     "@tinymce/tinymce-react": "npm:5.1.1"
-    "@types/node": "npm:22.7.6"
+    "@types/node": "npm:22.7.7"
     "@types/react": "npm:^18.3.11"
     ace-builds: "npm:^1.36.2"
     cropperjs: "npm:^1.6.2"
@@ -3595,7 +3595,7 @@ __metadata:
     react-is: "npm:^18.3.1"
     react-split: "npm:2.0.14"
     simple-mind-map: "npm:^0.12.0"
-    sql-formatter: "npm:^15.4.4"
+    sql-formatter: "npm:^15.4.5"
     typescript: "npm:5.6.3"
     use-intl: "npm:3.21.1"
     vite-tsconfig-paths: "npm:5.0.1"
@@ -4774,12 +4774,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:22.7.6":
-  version: 22.7.6
-  resolution: "@types/node@npm:22.7.6"
+"@types/node@npm:*, @types/node@npm:22.7.7":
+  version: 22.7.7
+  resolution: "@types/node@npm:22.7.7"
   dependencies:
     undici-types: "npm:~6.19.2"
-  checksum: 10/46a8d6bcd61098ece36f790c4bd500537cf78fe075dbfe48f1e07a29efa6cba18cff3b2564aed80fb183244f5d9a95a63b09e27c9f5181ed927ac16ef493bd95
+  checksum: 10/ada6c5f850fa09621e21923d7b17c3f3b5264c3b39c0953006f4a8b0b3d4b6d77ac02e2bbf8bae1d493abf81668804624470d895dd4483875fde8382b6eb7933
   languageName: node
   linkType: hard
 
@@ -5854,9 +5854,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"antd@npm:5.21.4, antd@npm:^5.21.4":
-  version: 5.21.4
-  resolution: "antd@npm:5.21.4"
+"antd@npm:5.21.5, antd@npm:^5.21.5":
+  version: 5.21.5
+  resolution: "antd@npm:5.21.5"
   dependencies:
     "@ant-design/colors": "npm:^7.1.0"
     "@ant-design/cssinjs": "npm:^1.21.1"
@@ -5873,7 +5873,7 @@ __metadata:
     classnames: "npm:^2.5.1"
     copy-to-clipboard: "npm:^3.3.3"
     dayjs: "npm:^1.11.11"
-    rc-cascader: "npm:~3.28.1"
+    rc-cascader: "npm:~3.28.2"
     rc-checkbox: "npm:~3.3.0"
     rc-collapse: "npm:~3.8.0"
     rc-dialog: "npm:~9.6.0"
@@ -5910,7 +5910,7 @@ __metadata:
   peerDependencies:
     react: ">=16.9.0"
     react-dom: ">=16.9.0"
-  checksum: 10/941941375a409f24b941a2cc5d1164d9b2304e703fc5202b31140043351ff4d5803b365bf303947884e7af5f78923aafc833596c26e739543faac5c22974b501
+  checksum: 10/3e8142d316f4bc3af90f391b29582a2a6fa99ef244fa7e7d495685f2561f92900b52de01c482f0779a1d8ae838b2eb41ec54130d0ab7f4fd75dfc325e887ea7a
   languageName: node
   linkType: hard
 
@@ -15585,9 +15585,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rc-cascader@npm:~3.28.1":
-  version: 3.28.1
-  resolution: "rc-cascader@npm:3.28.1"
+"rc-cascader@npm:~3.28.2":
+  version: 3.28.2
+  resolution: "rc-cascader@npm:3.28.2"
   dependencies:
     "@babel/runtime": "npm:^7.12.5"
     array-tree-filter: "npm:^2.1.0"
@@ -15598,7 +15598,7 @@ __metadata:
   peerDependencies:
     react: ">=16.9.0"
     react-dom: ">=16.9.0"
-  checksum: 10/bb2feb79c0db19f459b265e9a0afb87611f4ba06c4776a5ea8ddcb0bfc81403292ada3a1c29cd7511872f8d2bfda7c29eab6dbc32052a60baf49576a50866d77
+  checksum: 10/30c583fab14d325959041a6712c045334ba996b5b3370b3d78ca808db52d901f8d18e9c34a0f60352d1df25b7bdb4564fbbbf3cd7a7b361d859c3d94683def45
   languageName: node
   linkType: hard
 
@@ -16215,7 +16215,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-router-dom@npm:^6.8.1":
+"react-router-dom@npm:^6.27.0":
   version: 6.27.0
   resolution: "react-router-dom@npm:6.27.0"
   dependencies:
@@ -16228,7 +16228,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-router@npm:6.27.0, react-router@npm:^6.8.1":
+"react-router@npm:6.27.0, react-router@npm:^6.27.0":
   version: 6.27.0
   resolution: "react-router@npm:6.27.0"
   dependencies:
@@ -17509,16 +17509,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sql-formatter@npm:^15.4.4":
-  version: 15.4.4
-  resolution: "sql-formatter@npm:15.4.4"
+"sql-formatter@npm:^15.4.5":
+  version: 15.4.5
+  resolution: "sql-formatter@npm:15.4.5"
   dependencies:
     argparse: "npm:^2.0.1"
     get-stdin: "npm:=8.0.0"
     nearley: "npm:^2.20.1"
   bin:
     sql-formatter: bin/sql-formatter-cli.cjs
-  checksum: 10/27bcad2146290799459e92d618a8e615e7b106169280ff269d6374f5b19c12705dd855c18195cc380e012a39e0786142768cd1c79a68fdf1711cbc5c44d1b1b5
+  checksum: 10/0895dee8e6be5fbc28d903264b2207a82c50c3391afafe0bdf271b2fa8fbed38ebf343a12aaf1e86ab143c8fbaa891a3fb7fdeccf6eda123dbaf68c8bd411c4c
   languageName: node
   linkType: hard
 

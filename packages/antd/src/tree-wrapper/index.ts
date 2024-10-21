@@ -5,7 +5,7 @@ import {
   TreeWrapper as TreeWrapperInner,
   TreeWrapperProps,
   TreeWrapperRefApi,
-} from './tree-wrapper.js';
+} from './tree-wrapper.jsx';
 /**
  * Tree包装组件，默认返回父节点，可配置不返回
  * @param props
