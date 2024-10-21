@@ -1,1 +1,1 @@
-export * from './dynamic-node.js';
+export * from './dynamic-node.jsx';

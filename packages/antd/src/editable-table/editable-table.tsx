@@ -11,10 +11,10 @@ import { ColumnsType } from 'antd/es/table';
 import { PlusOutlined } from '@ant-design/icons';
 import { classNames } from '@dimjs/utils';
 import { isUndefinedOrNull, TAny, toArray, TPlainObject } from '@hyperse/utils';
-import { ButtonWrapper } from '../button-wrapper/button-wrapper.js';
-import { TextSymbolWrapper } from '../text-symbol-wrapper/symbol.js';
-import { TipsWrapper, TipsWrapperProps } from '../tips-wrapper/tips-wrapper.js';
-import { FormListItem } from './form-list-item/index.js';
+import { ButtonWrapper } from '../button-wrapper/index.js';
+import { TextSymbolWrapper } from '../text-symbol-wrapper/index.js';
+import { TipsWrapper, TipsWrapperProps } from '../tips-wrapper/index.js';
+import { FormListItem } from './form-list-item/index.jsx';
 import {
   EditableTableName,
   EditableTableRecordType,

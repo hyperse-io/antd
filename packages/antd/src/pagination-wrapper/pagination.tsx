@@ -1,5 +1,5 @@
 import { Pagination, PaginationProps } from 'antd';
-import { MiddleSelect, SmallSelect } from './select.js';
+import { MiddleSelect, SmallSelect } from './select.jsx';
 
 /**
  * 由于 antd 5.3.x 分页Pagination组件，存在点击分页选择框时，一直朝下

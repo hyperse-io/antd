@@ -1,1 +1,1 @@
-export * from './anchor-steps.js';
+export * from './anchor-steps.jsx';

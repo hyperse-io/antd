@@ -7,7 +7,7 @@ import { hooks } from '@wove/react';
 import {
   ButtonWrapper,
   ButtonWrapperProps,
-} from '../../button-wrapper/button-wrapper.js';
+} from '../../button-wrapper/index.js';
 import { fbaHooks } from '../../fba-hooks/index.js';
 import { CtxProvider } from './context.js';
 import './style.less';

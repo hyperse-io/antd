@@ -17,7 +17,7 @@ import {
   TagListRender,
   TagListRenderProps,
   TagListRenderValue,
-} from '../tag-list-render/tag-list.js';
+} from '../tag-list-render/tag-list.jsx';
 import './style.less';
 const tableColumnOperateRender = (
   options: (item: TAny, index: number) => ButtonOperateProps

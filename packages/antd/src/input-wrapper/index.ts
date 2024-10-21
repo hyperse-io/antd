@@ -1,1 +1,1 @@
-export * from './input-wrapper.js';
+export * from './input-wrapper.jsx';

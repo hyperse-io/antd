@@ -1,8 +1,8 @@
 import { classNames } from '@dimjs/utils';
-import { FormItemWrapper } from '../form-item-wrapper/form-item-wrapper.js';
-import { FormItemTextContent } from './content.js';
+import { FormItemWrapper } from '../form-item-wrapper/form-item-wrapper.jsx';
+import { FormItemTextContent } from './content.jsx';
 import { type FormItemTextProps } from './types.js';
-import { useRequestFormItemText } from './use-request.js';
+import { useRequestFormItemText } from './use-request.jsx';
 
 /**
  * FormItem 文本显示，默认不换行，超出省略（鼠标悬浮可显示）

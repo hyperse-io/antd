@@ -1,7 +1,7 @@
 import { ReactElement, useRef, useState } from 'react';
 import { Anchor, Steps } from 'antd';
 import { classNames } from '@dimjs/utils';
-import { Gap } from '../gap/gap.js';
+import { Gap } from '../gap/gap.jsx';
 import './style.less';
 
 function isElement(node: Element) {

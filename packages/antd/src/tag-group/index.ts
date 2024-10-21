@@ -1,1 +1,1 @@
-export * from './tag-group.js';
+export * from './tag-group.jsx';

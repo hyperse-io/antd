@@ -1,1 +1,1 @@
-export * from './date-range-picker-wrapper-form-item.js';
+export * from './date-range-picker-wrapper-form-item.jsx';

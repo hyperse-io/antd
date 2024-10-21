@@ -4,11 +4,11 @@ import { ItemType } from 'antd/es/menu/interface.js';
 import { ExclamationCircleFilled } from '@ant-design/icons';
 import { classNames } from '@dimjs/utils';
 import { hooks } from '@wove/react';
-import { ButtonWrapper } from '../button-wrapper/button-wrapper.js';
-import { dialogConfirm } from '../dialog-confirm/dialog-confirm.js';
-import { DialogModalProps } from '../dialog-modal/dialog-modal.js';
+import { ButtonWrapper } from '../button-wrapper/index.js';
+import { dialogConfirm } from '../dialog-confirm/index.js';
+import { DialogModalProps } from '../dialog-modal/index.js';
 import { fbaUtils } from '../fba-utils/fba-utils.js';
-import { FlexLayout } from '../flex-layout/flex-layout.js';
+import { FlexLayout } from '../flex-layout/index.js';
 import { parentsHasSticky } from './utils.js';
 import './style.less';
 

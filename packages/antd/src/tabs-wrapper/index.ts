@@ -1,1 +1,1 @@
-export * from './tabs-wrapper.js';
+export * from './tabs-wrapper.jsx';

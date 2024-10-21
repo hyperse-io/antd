@@ -4,7 +4,7 @@ import { DragOutlined } from '@ant-design/icons';
 import { useSortable } from '@dnd-kit/sortable';
 import { CSS } from '@dnd-kit/utilities';
 import { isUndefinedOrNull, noop } from '@hyperse/utils';
-import { IconWrapper } from '../icon-wrapper/icon-wrapper.js';
+import { IconWrapper } from '../icon-wrapper/icon-wrapper.jsx';
 
 type TableTrHandleProps = RowProps & {
   dragIcon?: ReactElement;

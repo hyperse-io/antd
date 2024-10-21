@@ -1,1 +1,1 @@
-export * from './time-range-picker-wrapper.js';
+export * from './time-range-picker-wrapper.jsx';

@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Alert, Button } from 'antd';
 import { isUndefinedOrNull, type TNoopDefine } from '@hyperse/utils';
-import { FlexLayout } from '../flex-layout/flex-layout.js';
+import { FlexLayout } from '../flex-layout/index.js';
 
 interface ErrorBoundaryProps {
   message?: React.ReactNode;

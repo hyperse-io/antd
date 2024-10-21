@@ -11,7 +11,7 @@ import {
 } from '@hyperse/utils';
 import { hooks } from '@wove/react';
 import { RequestStatus } from '../request-status/index.js';
-import { SelectorWrapperProps } from './types.js';
+import { SelectorWrapperProps } from './types.jsx';
 import { useRequest } from './use-request.js';
 import { getVauleList } from './utils.js';
 import './style.less';

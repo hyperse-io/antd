@@ -1,1 +1,1 @@
-export * from './flex-layout.js';
+export * from './flex-layout.jsx';

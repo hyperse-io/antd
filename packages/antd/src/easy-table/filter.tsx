@@ -14,14 +14,11 @@ import { classNames } from '@dimjs/utils';
 import { type TAny } from '@hyperse/utils';
 import { hooks } from '@wove/react';
 import { BlockLayout } from '../block-layout/index.js';
-import {
-  ButtonWrapper,
-  ButtonWrapperProps,
-} from '../button-wrapper/button-wrapper.js';
+import { ButtonWrapper, ButtonWrapperProps } from '../button-wrapper/index.js';
 import { EasyForm, EasyFormProps } from '../easy-form/index.js';
 import { fbaHooks } from '../fba-hooks/index.js';
-import { FormOperateColProps } from '../form-grid/form-operate-col.js';
-import { FormRowProps } from '../form-grid/form-row.js';
+import { type FormOperateColProps } from '../form-grid/form-operate-col.jsx';
+import { type FormRowProps } from '../form-grid/form-row.js';
 import { FormGrid } from '../form-grid/index.js';
 import { EasyTableContext } from './context.js';
 import { easyTableModel } from './model.js';

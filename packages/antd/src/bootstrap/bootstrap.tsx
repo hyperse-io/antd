@@ -5,8 +5,8 @@ import { TAny, toArray, TPlainObject } from '@hyperse/utils';
 import {
   ConfigProviderWrapper,
   ConfigProviderWrapperProps,
-} from '../config-provider-wrapper/config-provider-wrapper.js';
-import { FbaApp } from '../fba-app/fba-app.js';
+} from '../config-provider-wrapper/config-provider-wrapper.jsx';
+import { FbaApp } from '../fba-app/fba-app.jsx';
 import { fbaHooks } from '../fba-hooks/index.js';
 import './style.less';
 

@@ -1,1 +1,1 @@
-export * from './form-item-text.js';
+export * from './form-item-text.jsx';

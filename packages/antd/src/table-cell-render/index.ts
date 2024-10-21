@@ -1,1 +1,1 @@
-export * from './cell-render.js';
+export * from './cell-render.jsx';

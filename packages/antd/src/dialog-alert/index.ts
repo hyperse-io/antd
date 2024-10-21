@@ -1,1 +1,1 @@
-export * from './dialog-alert.js';
+export * from './dialog-alert.jsx';

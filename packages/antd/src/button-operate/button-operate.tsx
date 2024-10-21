@@ -22,15 +22,12 @@ import { MoreOutlined } from '@ant-design/icons';
 import { isPlainObject, isPromise, isString, isUndefined } from '@dimjs/lang';
 import { classNames } from '@dimjs/utils';
 import { hooks } from '@wove/react';
-import {
-  ButtonWrapper,
-  ButtonWrapperProps,
-} from '../button-wrapper/button-wrapper.js';
-import { DialogModalProps } from '../dialog-modal/dialog-modal.js';
+import { ButtonWrapper, ButtonWrapperProps } from '../button-wrapper/index.js';
+import { DialogModalProps } from '../dialog-modal/dialog-modal.jsx';
 import {
   DropdownMenuWrapper,
   DropdownMenuWrapperProps,
-} from '../dropdown-menu-wrapper/dropdown-menu-wrapper.js';
+} from '../dropdown-menu-wrapper/index.js';
 import { fbaUtils } from '../fba-utils/fba-utils.js';
 import './style.less';
 

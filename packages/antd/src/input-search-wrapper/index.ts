@@ -1,1 +1,1 @@
-export * from './input-search-wrapper.js';
+export * from './input-search-wrapper.jsx';

@@ -3,7 +3,7 @@ import {
   formItemClassName,
   getFormItemLayoutClassName,
   getFormLayoutClassName,
-} from './form/index.js';
+} from './form/index.jsx';
 
 /**
  * 预定义className

@@ -1,1 +1,1 @@
-export * from './tag-list.js';
+export * from './tag-list.jsx';

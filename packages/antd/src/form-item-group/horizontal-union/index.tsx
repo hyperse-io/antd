@@ -7,7 +7,7 @@ import {
 } from 'react';
 import { Form } from 'antd';
 import { classNames } from '@dimjs/utils';
-import { FlexLayout } from '../../flex-layout/flex-layout.js';
+import { FlexLayout } from '../../flex-layout/index.js';
 import './style.less';
 
 export type FormItemHorizontalUnionProps = {

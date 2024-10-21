@@ -1,1 +1,1 @@
-export * from './upload-wrapper.js';
+export * from './upload-wrapper.jsx';

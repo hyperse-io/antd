@@ -1,1 +1,1 @@
-export * from './config-provider-wrapper.js';
+export * from './config-provider-wrapper.jsx';

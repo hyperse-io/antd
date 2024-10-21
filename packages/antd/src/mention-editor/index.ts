@@ -1,1 +1,1 @@
-export * from './mention-editor.js';
+export * from './mention-editor.jsx';

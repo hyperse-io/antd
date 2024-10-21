@@ -1,1 +1,1 @@
-export * from './table-scrollbar.js';
+export * from './table-scrollbar.jsx';

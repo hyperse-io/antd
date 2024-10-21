@@ -1,1 +1,1 @@
-export * from './drag.js';
+export * from './drag.jsx';

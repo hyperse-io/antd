@@ -4,7 +4,7 @@ import { classNames } from '@dimjs/utils';
 import { generateIntArray } from '@hyperse/utils';
 import { hooks } from '@wove/react';
 import { Pdf } from '../pdf/index.js';
-import { Navigation } from './navigation.js';
+import { Navigation } from './navigation.jsx';
 import './style.less';
 
 export type PdfPreviewProps = {

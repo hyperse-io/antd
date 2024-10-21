@@ -1,1 +1,1 @@
-export * from './dialog-confirm.js';
+export * from './dialog-confirm.jsx';

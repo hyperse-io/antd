@@ -5,7 +5,7 @@ import { hooks } from '@wove/react';
 import {
   MentionsWrapper,
   type MentionsWrapperProps,
-} from '../mentions-wrapper/mentions.js';
+} from '../mentions-wrapper/index.js';
 import { type ParamItem } from './types.js';
 
 export type OperationPresetProps = {

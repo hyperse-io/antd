@@ -1,6 +1,6 @@
 import { ReactNode } from 'react';
 import { TAny, TPlainObject } from '@hyperse/utils';
-import { FormItemWrapperProps } from '../form-item-wrapper/form-item-wrapper.js';
+import { FormItemWrapperProps } from '../form-item-wrapper/index.js';
 
 export type FormItemTextServiceConfig = {
   onRequest: (params?: TAny) => Promise<TAny>;

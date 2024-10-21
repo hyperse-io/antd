@@ -1,1 +1,1 @@
-export * from './amount-fen-input.js';
+export * from './amount-fen-input.jsx';

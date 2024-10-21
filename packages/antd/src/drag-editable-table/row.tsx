@@ -1,5 +1,5 @@
 import { getCtx } from './context.js';
-import { TableTrHandle } from './table-tr-handle.js';
+import { TableTrHandle } from './table-tr-handle.jsx';
 
 export const Row = (props) => {
   const ctx = getCtx();

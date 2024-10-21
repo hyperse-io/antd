@@ -1,1 +1,1 @@
-export * from './dialog-drawer.js';
+export * from './dialog-drawer.jsx';

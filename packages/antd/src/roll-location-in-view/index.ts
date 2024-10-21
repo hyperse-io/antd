@@ -1,1 +1,1 @@
-export * from './in-view.js';
+export * from './in-view.jsx';

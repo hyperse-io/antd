@@ -1,1 +1,1 @@
-export * from './drag-table.js';
+export * from './drag-table.jsx';

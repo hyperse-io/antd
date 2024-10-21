@@ -20,7 +20,7 @@ import { hooks } from '@wove/react';
 import { fbaHooks } from '../fba-hooks/index.js';
 import { PaginationWrapper } from '../pagination-wrapper/index.js';
 import { EasyTableContext } from './context.js';
-import { FoldOperateDropdown } from './fold-operate-dropdown.js';
+import { FoldOperateDropdown } from './fold-operate-dropdown.jsx';
 import { easyTableModel } from './model.js';
 import {
   type EasyTableProps,

@@ -1,1 +1,1 @@
-export * from './drag-form-list.js';
+export * from './drag-form-list.jsx';

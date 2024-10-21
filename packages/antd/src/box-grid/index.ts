@@ -1,5 +1,5 @@
-import { Col } from './col.js';
-import { Row } from './row.js';
+import { Col } from './col.jsx';
+import { Row } from './row.jsx';
 import { getGridMapByRange } from './utils.js';
 import './index.less';
 

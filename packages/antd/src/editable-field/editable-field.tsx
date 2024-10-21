@@ -16,7 +16,7 @@ import { classNames } from '@dimjs/utils';
 import { isUndefinedOrNull, TAny } from '@hyperse/utils';
 import { EditableFieldContext } from '../editable-field-provider/context.js';
 import { fbaHooks } from '../fba-hooks/index.js';
-import { IconWrapper } from '../icon-wrapper/icon-wrapper.js';
+import { IconWrapper } from '../icon-wrapper/index.js';
 import './style.less';
 
 export interface EditableFieldProps {

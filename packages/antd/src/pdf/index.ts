@@ -1,5 +1,5 @@
-import { PdfDocument } from './document.js';
-import { PdfPage } from './page.js';
+import { PdfDocument } from './document.jsx';
+import { PdfPage } from './page.jsx';
 
 /**
  * pdf预览

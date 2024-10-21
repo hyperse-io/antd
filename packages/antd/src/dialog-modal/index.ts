@@ -1,1 +1,1 @@
-export * from './dialog-modal.js';
+export * from './dialog-modal.jsx';

@@ -1,1 +1,1 @@
-export * from './page-fixed-footer.js';
+export * from './page-fixed-footer.jsx';

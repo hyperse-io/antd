@@ -15,7 +15,7 @@ import {
 } from '@dnd-kit/sortable';
 import { type TAny, type TPlainObject } from '@hyperse/utils';
 import { CtxProvider } from './context.js';
-import { Row } from './row.js';
+import { Row } from './row.jsx';
 
 type DragTableProps = Omit<TableProps<TPlainObject>, 'dataSource'> & {
   /**

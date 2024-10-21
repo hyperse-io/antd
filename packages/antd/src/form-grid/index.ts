@@ -1,6 +1,6 @@
-import { FormCol } from './form-col.js';
-import { FormOperateCol } from './form-operate-col.js';
-import { FormRow } from './form-row.js';
+import { FormCol } from './form-col.jsx';
+import { FormOperateCol } from './form-operate-col.jsx';
+import { FormRow } from './form-row.jsx';
 
 export const FormGrid = {
   /**

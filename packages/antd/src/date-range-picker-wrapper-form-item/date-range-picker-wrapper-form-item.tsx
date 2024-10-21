@@ -6,12 +6,12 @@ import { hooks } from '@wove/react';
 import {
   DateRangePickerWrapper,
   DateRangePickerWrapperProps,
-} from '../date-range-picker-wrapper/date-range-picker-wrapper.js';
+} from '../date-range-picker-wrapper/date-range-picker-wrapper.jsx';
 import { fbaHooks } from '../fba-hooks/index.js';
 import {
   FormItemWrapper,
   FormItemWrapperProps,
-} from '../form-item-wrapper/form-item-wrapper.js';
+} from '../form-item-wrapper/form-item-wrapper.jsx';
 import { FormItemNamePath } from '../types/index.js';
 
 export type DateRangePickerWrapperFormItemProps = Omit<

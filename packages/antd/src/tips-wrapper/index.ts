@@ -1,1 +1,1 @@
-export * from './tips-wrapper.js';
+export * from './tips-wrapper.jsx';

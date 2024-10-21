@@ -1,9 +1,9 @@
 import { memo } from 'react';
 import { isString } from '@dimjs/lang';
-import { OverflowAuto } from './overflow-auto.js';
-import { OverflowLength } from './overflow-length.js';
-import { OverflowWidth } from './overflow-width.js';
-import { TextOverflowProps } from './types.js';
+import { OverflowAuto } from './overflow-auto.jsx';
+import { OverflowLength } from './overflow-length.jsx';
+import { OverflowWidth } from './overflow-width.jsx';
+import { TextOverflowProps } from './types.jsx';
 import './style.less';
 
 const InnerTextOverflow = (props: TextOverflowProps) => {

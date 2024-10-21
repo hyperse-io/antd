@@ -1,7 +1,7 @@
 import { Button, Form, Space } from 'antd';
 import { DeleteOutlined } from '@ant-design/icons';
 import { classNames } from '@dimjs/utils';
-import { FormItemAdapter } from '../form-item/index.js';
+import { FormItemAdapter } from '../form-item/index.jsx';
 import { FormListConfig } from '../type.js';
 import { getEditable } from '../utils.js';
 

@@ -1,1 +1,1 @@
-export * from './symbol.js';
+export * from './symbol.jsx';

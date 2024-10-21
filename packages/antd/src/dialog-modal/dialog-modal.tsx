@@ -11,16 +11,13 @@ import {
   TPlainObject,
 } from '@hyperse/utils';
 import { hooks } from '@wove/react';
-import {
-  ButtonWrapper,
-  ButtonWrapperProps,
-} from '../button-wrapper/button-wrapper.js';
+import { ButtonWrapper, ButtonWrapperProps } from '../button-wrapper/index.js';
 import {
   ConfigProviderWrapper,
   ConfigProviderWrapperProps,
-} from '../config-provider-wrapper/config-provider-wrapper.js';
+} from '../config-provider-wrapper/index.js';
 import { fbaHooks } from '../fba-hooks/index.js';
-import { FlexLayout } from '../flex-layout/flex-layout.js';
+import { FlexLayout } from '../flex-layout/index.js';
 import { DialogModalCtxProvider, useDialogModalCtx } from './context.js';
 import './style.less';
 

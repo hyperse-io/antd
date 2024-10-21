@@ -1,1 +1,1 @@
-export * from './tag-wrapper.js';
+export * from './tag-wrapper.jsx';

@@ -9,7 +9,7 @@ import {
 import { toArray } from '@hyperse/utils';
 import { hooks } from '@wove/react';
 import { fbaHooks } from '../fba-hooks/index.js';
-import { SortableItem } from './sortable-item.js';
+import { SortableItem } from './sortable-item.jsx';
 import { DragCollapseItemKey, DragCollapseProps } from './types.js';
 import './style.less';
 

@@ -1,8 +1,8 @@
 import { fbaUtils } from '../fba-utils/fba-utils.js';
-import { EasyTable as EasyTableInner } from './easy-table.js';
-import { EasyTableFilter } from './filter.js';
+import { EasyTable as EasyTableInner } from './easy-table.jsx';
+import { EasyTableFilter } from './filter.jsx';
 import { useEasyTable } from './hooks.js';
-import { EasyTableTable } from './table.js';
+import { EasyTableTable } from './table.jsx';
 
 /**
  * 对 查询条件+表格数据 进行深度封装，内置数据交互处理

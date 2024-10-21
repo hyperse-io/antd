@@ -1,1 +1,1 @@
-export * from './error-boundary.js';
+export * from './error-boundary.jsx';

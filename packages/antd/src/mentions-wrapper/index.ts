@@ -1,1 +1,1 @@
-export * from './mentions.js';
+export * from './mentions.jsx';

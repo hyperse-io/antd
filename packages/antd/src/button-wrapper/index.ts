@@ -1,1 +1,1 @@
-export * from './button-wrapper.js';
+export * from './button-wrapper.jsx';

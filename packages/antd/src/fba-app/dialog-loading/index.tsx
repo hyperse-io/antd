@@ -1,7 +1,7 @@
 import { CSSProperties } from 'react';
 import { Modal, theme } from 'antd';
 import { classNames } from '@dimjs/utils';
-import { BlockLayout } from '../../block-layout/layout.js';
+import { BlockLayout } from '../../block-layout/index.js';
 import './style.less';
 
 export type FbaAppLoadingProps = {

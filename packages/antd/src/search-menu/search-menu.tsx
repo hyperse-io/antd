@@ -4,7 +4,7 @@ import { type TPlainObject, valueIsEqual } from '@hyperse/utils';
 import { hooks } from '@wove/react';
 import { fbaHooks } from '../fba-hooks/index.js';
 import { InputSearchWrapper } from '../input-search-wrapper/index.js';
-import { type IListViewProps, ListView } from './list-view/index.js';
+import { type IListViewProps, ListView } from './list-view/index.jsx';
 import { type ISearchMenuProps } from './type.js';
 import './style.less';
 

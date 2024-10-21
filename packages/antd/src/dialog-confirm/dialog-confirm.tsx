@@ -1,5 +1,8 @@
 import { classNames } from '@dimjs/utils';
-import { dialogModal, DialogModalProps } from '../dialog-modal/dialog-modal.js';
+import {
+  dialogModal,
+  DialogModalProps,
+} from '../dialog-modal/dialog-modal.jsx';
 import './style.less';
 
 /**

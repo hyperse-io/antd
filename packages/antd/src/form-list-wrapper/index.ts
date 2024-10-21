@@ -1,1 +1,1 @@
-export * from './form-list-wrapper.js';
+export * from './form-list-wrapper.jsx';

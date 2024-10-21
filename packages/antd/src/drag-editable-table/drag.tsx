@@ -18,9 +18,9 @@ import {
   EditableTable,
   EditableTableColumn,
   EditableTableProps,
-} from '../editable-table/editable-table.js';
+} from '../editable-table/index.js';
 import { CtxProvider } from './context.js';
-import { Row } from './row.js';
+import { Row } from './row.jsx';
 
 export type DragEditableTableProps = EditableTableProps & {
   /**

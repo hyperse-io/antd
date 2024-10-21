@@ -1,1 +1,1 @@
-export * from './rich-text-viewer.js';
+export * from './rich-text-viewer.jsx';

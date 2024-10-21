@@ -1,1 +1,1 @@
-export * from './icon-wrapper.js';
+export * from './icon-wrapper.jsx';

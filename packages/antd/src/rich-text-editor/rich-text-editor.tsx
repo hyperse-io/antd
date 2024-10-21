@@ -6,7 +6,7 @@ import { classNames } from '@dimjs/utils';
 import { getStrByteLen, type TAny } from '@hyperse/utils';
 import { Editor, type IAllProps } from '@tinymce/tinymce-react';
 import { hooks } from '@wove/react';
-import { Preview } from './preview/preview.js';
+import { Preview } from './preview/preview.jsx';
 import './style.less';
 
 export interface RichTextEditorProps

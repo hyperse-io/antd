@@ -1,1 +1,1 @@
-export * from './switch-confirm-wrapper.js';
+export * from './switch-confirm-wrapper.jsx';

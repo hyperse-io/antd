@@ -4,9 +4,9 @@ import { classNames } from '@dimjs/utils';
 import { TPlainObject } from '@hyperse/utils';
 import { hooks } from '@wove/react';
 import { fbaHooks } from '../fba-hooks/index.js';
-import { Relation } from './compts/relation.js';
-import { RelationGroupList } from './compts/relation-group-list.js';
-import { RelationItem } from './compts/relation-item.js';
+import { Relation } from './compts/relation.jsx';
+import { RelationGroupList } from './compts/relation-group-list.jsx';
+import { RelationItem } from './compts/relation-item.jsx';
 import {
   RelationTreeProps,
   TRelationTreeCustomData,

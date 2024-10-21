@@ -1,1 +1,1 @@
-export * from './form-item-wrapper.js';
+export * from './form-item-wrapper.jsx';

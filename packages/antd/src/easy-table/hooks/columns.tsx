@@ -1,12 +1,12 @@
 import { useMemo } from 'react';
 import { type TAny, type TPlainObject } from '@hyperse/utils';
-import { ButtonWrapper } from '../../button-wrapper/button-wrapper.js';
+import { ButtonWrapper } from '../../button-wrapper/index.js';
 import { fbaHooks } from '../../fba-hooks/index.js';
-import { FlexLayout } from '../../flex-layout/flex-layout.js';
-import { IconWrapper } from '../../icon-wrapper/icon-wrapper.js';
+import { FlexLayout } from '../../flex-layout/index.js';
+import { IconWrapper } from '../../icon-wrapper/index.js';
 import { SvgHttpView } from '../../svg-http-view/index.js';
-import { TipsWrapper } from '../../tips-wrapper/tips-wrapper.js';
-import { FoldOperateDropdown } from '../fold-operate-dropdown.js';
+import { TipsWrapper } from '../../tips-wrapper/index.js';
+import { FoldOperateDropdown } from '../fold-operate-dropdown.jsx';
 import { type EasyTableProps } from '../type.js';
 
 export const useColumnsAppendTips = (props: { columns: TPlainObject[] }) => {

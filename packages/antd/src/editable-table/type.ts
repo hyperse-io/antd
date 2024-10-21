@@ -10,11 +10,11 @@ import {
 import { CheckboxGroupProps } from 'antd/lib/checkbox';
 import { TextAreaProps } from 'antd/lib/input';
 import { TAny } from '@hyperse/utils';
-import { DatePickerWrapperProps } from '../date-picker-wrapper/date-picker-wrapper.js';
-import { DateRangePickerWrapperProps } from '../date-range-picker-wrapper/date-range-picker-wrapper.js';
+import { DatePickerWrapperProps } from '../date-picker-wrapper/index.js';
+import { DateRangePickerWrapperProps } from '../date-range-picker-wrapper/index.js';
 import { SelectorWrapperProps } from '../selector-wrapper/types.js';
-import { SwitchWrapperProps } from '../switch-wrapper/switch-wrapper.js';
-import { UploadWrapperProps } from '../upload-wrapper/upload-wrapper.js';
+import { SwitchWrapperProps } from '../switch-wrapper/index.js';
+import { UploadWrapperProps } from '../upload-wrapper/index.js';
 
 export type EditableTableName = string | number | Array<string | number>;
 export type EditableTableRecordType = FormListFieldData & {

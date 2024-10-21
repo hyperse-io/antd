@@ -1,1 +1,1 @@
-export * from './data-render.js';
+export * from './data-render.jsx';

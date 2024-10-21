@@ -1,1 +1,1 @@
-export * from './css-node-hover.js';
+export * from './css-node-hover.jsx';

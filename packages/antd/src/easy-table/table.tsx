@@ -18,17 +18,17 @@ import {
   type TPlainObject,
 } from '@hyperse/utils';
 import { hooks } from '@wove/react';
-import { BlockLayout } from '../block-layout/layout.js';
+import { BlockLayout } from '../block-layout/index.js';
 import { fbaHooks } from '../fba-hooks/index.js';
-import { TableScrollbar } from '../table-scrollbar/table-scrollbar.js';
+import { TableScrollbar } from '../table-scrollbar/index.js';
 import { EasyTableContext } from './context.js';
-import { FoldOperate } from './fold-operate.js';
+import { FoldOperate } from './fold-operate.jsx';
 import {
   useColumnByAsyncColumnRequest,
   useColumnsAppendInnerColumn,
   useColumnsAppendTips,
   useColumnsToHidden,
-} from './hooks/columns.js';
+} from './hooks/columns.jsx';
 import { easyTableModel } from './model.js';
 import { type TEasyTableTableColumn } from './type.js';
 

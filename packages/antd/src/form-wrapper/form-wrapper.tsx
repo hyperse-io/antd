@@ -1,6 +1,6 @@
 import { ReactNode, useMemo } from 'react';
 import { Form, FormProps } from 'antd';
-import { TFormLayoutPreClassNameProps } from '../pre-defined-class-name/form/index.js';
+import { TFormLayoutPreClassNameProps } from '../pre-defined-class-name/form/index.jsx';
 import { preDefinedClassName } from '../pre-defined-class-name/index.js';
 
 export type FormWrapperProps<Values = any> = TFormLayoutPreClassNameProps &

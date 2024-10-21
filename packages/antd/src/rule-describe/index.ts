@@ -1,1 +1,1 @@
-export * from './rule-describe.js';
+export * from './rule-describe.jsx';

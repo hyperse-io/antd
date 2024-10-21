@@ -1,1 +1,1 @@
-export * from './selector-wrapper.js';
+export * from './selector-wrapper.jsx';

@@ -1,5 +1,5 @@
-import { FbaAppConfirm } from '../dialog-confirm/index.js';
-import { FbaAppModalProps } from '../dialog-modal/index.js';
+import { FbaAppConfirm } from '../dialog-confirm/index.jsx';
+import { FbaAppModalProps } from '../dialog-modal/index.jsx';
 
 // export type DialogAlertProps = Omit<
 //   DialogModalProps,

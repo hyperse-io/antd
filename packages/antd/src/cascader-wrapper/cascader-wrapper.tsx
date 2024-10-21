@@ -15,7 +15,7 @@ import { fbaHooks } from '../fba-hooks/index.js';
 import {
   RequestStatus,
   TRequestStatusProps,
-} from '../request-status/request-status.js';
+} from '../request-status/request-status.jsx';
 import { cascaderWrapperModel } from './model.js';
 import './style.less';
 

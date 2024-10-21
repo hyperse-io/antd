@@ -1,1 +1,1 @@
-export * from './checkbox-wrapper.js';
+export * from './checkbox-wrapper.jsx';

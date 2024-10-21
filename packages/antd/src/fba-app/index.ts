@@ -8,7 +8,7 @@ import {
   useDialogLoading,
   useDialogModal,
   useDialogModal2,
-} from './fba-app.js';
+} from './fba-app.jsx';
 
 export const FbaApp = fbaUtils.attachPropertiesToComponent(FbaAppInner, {
   /** 不支持多次弹框，第二个弹框可使用useDialogDrawer2 */

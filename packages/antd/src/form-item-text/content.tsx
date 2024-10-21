@@ -2,8 +2,8 @@ import { type CSSProperties, Fragment } from 'react';
 import { Spin, Tooltip } from 'antd';
 import { QuestionCircleFilled, RedoOutlined } from '@ant-design/icons';
 import { isUndefinedOrNull, TAny } from '@hyperse/utils';
-import { TextOverflow } from '../text-overflow/text-overflow.js';
-import { TipsWrapper } from '../tips-wrapper/tips-wrapper.js';
+import { TextOverflow } from '../text-overflow/index.js';
+import { TipsWrapper } from '../tips-wrapper/index.js';
 import { type FormItemTextProps } from './types.js';
 
 export const FormItemTextContent = (

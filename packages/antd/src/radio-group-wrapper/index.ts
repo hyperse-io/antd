@@ -1,1 +1,1 @@
-export * from './radio-group-wrapper.js';
+export * from './radio-group-wrapper.jsx';

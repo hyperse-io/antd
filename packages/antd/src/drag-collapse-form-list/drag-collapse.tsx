@@ -10,7 +10,7 @@ import {
 import { TAny, toArray, TPlainObject } from '@hyperse/utils';
 import { hooks } from '@wove/react';
 import { fbaHooks } from '../fba-hooks/index.js';
-import { SortableItem } from './sortable-item.js';
+import { SortableItem } from './sortable-item.jsx';
 import { DragCollapseFormListProps } from './types.js';
 import './style.less';
 

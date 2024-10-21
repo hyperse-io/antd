@@ -1,1 +1,1 @@
-export * from './permission.js';
+export * from './permission.jsx';

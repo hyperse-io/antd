@@ -1,6 +1,6 @@
 import { Form, FormItemProps, InputNumberProps } from 'antd';
 import { classNames } from '@dimjs/utils';
-import { AmountFenInput } from '../amount-fen-input/amount-fen-input.js';
+import { AmountFenInput } from '../amount-fen-input/amount-fen-input.jsx';
 import './style.less';
 
 export type AmountFenInputFormItemProps = FormItemProps & {

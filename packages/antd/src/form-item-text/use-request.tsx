@@ -8,7 +8,7 @@ import {
   type TPlainObject,
 } from '@hyperse/utils';
 import { fbaHooks } from '../fba-hooks/index.js';
-import { FormItemWrapperProps } from '../form-item-wrapper/form-item-wrapper.js';
+import { FormItemWrapperProps } from '../form-item-wrapper/index.js';
 import { type FormItemTextServiceConfig } from './types.js';
 
 export const useRequestFormItemText = (props: {

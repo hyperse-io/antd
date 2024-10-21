@@ -1,9 +1,9 @@
 import { Fragment } from 'react';
 import { classNames } from '@dimjs/utils';
-import { FormItemHidden } from '../form-item-hidden/form-item-hidden.js';
-import { FormItemWrapper } from '../form-item-wrapper/form-item-wrapper.js';
-import { FormItemTextContent } from './content.js';
-import { RequestText } from './request-text.js';
+import { FormItemHidden } from '../form-item-hidden/index.js';
+import { FormItemWrapper } from '../form-item-wrapper/index.js';
+import { FormItemTextContent } from './content.jsx';
+import { RequestText } from './request-text.jsx';
 import { type FormItemTextProps } from './types.js';
 import './style.less';
 /**

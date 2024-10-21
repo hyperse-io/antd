@@ -1,5 +1,5 @@
 import { classNames } from '@dimjs/utils';
-import { FbaAppModal, FbaAppModalProps } from '../dialog-modal/index.js';
+import { FbaAppModal, FbaAppModalProps } from '../dialog-modal/index.jsx';
 import './style.less';
 
 export type FbaAppConfirmProps = FbaAppModalProps;

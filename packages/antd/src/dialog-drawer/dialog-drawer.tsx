@@ -11,14 +11,11 @@ import { isPromise, isString } from '@dimjs/lang';
 import { dom, TNoopDefine, TPlainObject } from '@hyperse/utils';
 import { hooks } from '@wove/react';
 import { BodyAppendDivElementProps } from '../_utils/dom.js';
-import {
-  ButtonWrapper,
-  ButtonWrapperProps,
-} from '../button-wrapper/button-wrapper.js';
+import { ButtonWrapper, ButtonWrapperProps } from '../button-wrapper/index.js';
 import {
   ConfigProviderWrapper,
   ConfigProviderWrapperProps,
-} from '../config-provider-wrapper/config-provider-wrapper.js';
+} from '../config-provider-wrapper/config-provider-wrapper.jsx';
 import { fbaHooks } from '../fba-hooks/index.js';
 import { CtxProvider, useDialogDrawerCtx } from './context.js';
 

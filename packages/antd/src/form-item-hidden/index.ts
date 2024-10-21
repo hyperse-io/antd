@@ -1,1 +1,1 @@
-export * from './form-item-hidden.js';
+export * from './form-item-hidden.jsx';

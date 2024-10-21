@@ -6,7 +6,7 @@ import { isPromise } from '@dimjs/lang';
 import { classNames } from '@dimjs/utils';
 import { isUndefinedOrNull, TAny } from '@hyperse/utils';
 import { hooks } from '@wove/react';
-import { ConfigProviderWrapper } from '../config-provider-wrapper/config-provider-wrapper.js';
+import { ConfigProviderWrapper } from '../config-provider-wrapper/config-provider-wrapper.jsx';
 import { fbaHooks } from '../fba-hooks/index.js';
 import { fbaUtils } from '../fba-utils/fba-utils.js';
 import './style.less';

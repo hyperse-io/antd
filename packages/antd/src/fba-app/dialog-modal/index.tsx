@@ -9,9 +9,9 @@ import { getFbaLocaleMessage } from '../../_utils/i18n/index.js';
 import {
   ButtonWrapper,
   ButtonWrapperProps,
-} from '../../button-wrapper/button-wrapper.js';
+} from '../../button-wrapper/index.js';
 import { fbaHooks } from '../../fba-hooks/index.js';
-import { FlexLayout } from '../../flex-layout/flex-layout.js';
+import { FlexLayout } from '../../flex-layout/index.js';
 import { CtxProvider } from './context.js';
 import './style.less';
 

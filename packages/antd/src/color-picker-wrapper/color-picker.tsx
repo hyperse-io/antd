@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { ColorPicker, type ColorPickerProps } from 'antd';
 import { CloseCircleOutlined } from '@ant-design/icons';
-import { IconWrapper } from '../icon-wrapper/icon-wrapper.js';
+import { IconWrapper } from '../icon-wrapper/icon-wrapper.jsx';
 import './style.less';
 
 export type ColorPickerWrapperProps = Omit<

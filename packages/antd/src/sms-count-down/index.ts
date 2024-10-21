@@ -1,1 +1,1 @@
-export * from './sms-count-down.js';
+export * from './sms-count-down.jsx';

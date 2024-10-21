@@ -1,1 +1,1 @@
-export * from './text-overflow.js';
+export * from './text-overflow.jsx';

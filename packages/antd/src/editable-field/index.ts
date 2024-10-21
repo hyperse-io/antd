@@ -1,1 +1,1 @@
-export * from './editable-field.js';
+export * from './editable-field.jsx';

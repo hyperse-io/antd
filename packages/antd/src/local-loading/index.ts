@@ -1,7 +1,7 @@
 import { TPlainObject } from '@hyperse/utils';
 import { fbaUtils } from '../fba-utils/index.js';
 import { useLocalLoadingCtx } from './context.js';
-import { LocalLoadingInner } from './local-loading.js';
+import { LocalLoadingInner } from './local-loading.jsx';
 
 /**
  * 局部加载，包含接口数据处理逻辑

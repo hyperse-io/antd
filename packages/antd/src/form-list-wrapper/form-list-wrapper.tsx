@@ -2,9 +2,9 @@ import { Fragment, type ReactElement, useRef } from 'react';
 import { Empty, Form, type FormListFieldData } from 'antd';
 import { classNames } from '@dimjs/utils';
 import { getUuid, toArray } from '@hyperse/utils';
-import { ButtonWrapper } from '../button-wrapper/button-wrapper.js';
+import { ButtonWrapper } from '../button-wrapper/index.js';
 import { FormItemGroup } from '../form-item-group/index.js';
-import { TextSymbolWrapper } from '../text-symbol-wrapper/symbol.js';
+import { TextSymbolWrapper } from '../text-symbol-wrapper/index.js';
 import { type FormListWrapperProps } from './types.js';
 import './style.less';
 

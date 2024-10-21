@@ -1,1 +1,1 @@
-export * from './cascader-wrapper.js';
+export * from './cascader-wrapper.jsx';

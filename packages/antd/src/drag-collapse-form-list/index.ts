@@ -1,1 +1,1 @@
-export * from './drag-collapse.js';
+export * from './drag-collapse.jsx';
