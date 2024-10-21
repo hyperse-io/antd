@@ -5,9 +5,9 @@ export enum IFrameEvents {
   messageReceived = 'messageReceived',
 }
 
-export const IFRAME_EVENT_FLAG = `FLATBIZ-LAYOUT`;
+export const IFRAME_EVENT_FLAG = `HYPERSE-LAYOUT`;
 
-export type IframeMessage<T = unknown> = { type: 'FLATBIZ-LAYOUT'; data: T };
+export type IframeMessage<T = unknown> = { type: 'HYPERSE-LAYOUT'; data: T };
 export type IframeHandler<T = unknown> = (data: T) => void;
 export type IframeEvents = {
   [name: string]: Array<IframeHandler<unknown>>;

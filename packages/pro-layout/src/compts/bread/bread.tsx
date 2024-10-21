@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 import { Breadcrumb } from 'antd';
 import { classNames } from '@dimjs/utils';
 import { getGlobalData, toLinkPath } from '@hyperse/utils';
-import { bootstrapCtx } from '../../context/layout-ctx';
-import { useBread } from '../../hooks/use-bread';
-import { type TGlobalData } from '../../types';
+import { bootstrapCtx } from '../../context/layout-ctx.js';
+import { useBread } from '../../hooks/use-bread.js';
+import { type TGlobalData } from '../../types/menu.js';
 import './bread.less';
 
 type BreadProps = {

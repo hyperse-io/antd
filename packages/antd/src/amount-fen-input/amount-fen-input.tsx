@@ -1,5 +1,5 @@
 import { InputNumber, type InputNumberProps } from 'antd';
-import { flatbizPrice, isUndefinedOrNull } from '@hyperse/utils';
+import { hypersePrice, isUndefinedOrNull } from '@hyperse/utils';
 
 export type AmountFenInputProps = Omit<InputNumberProps, 'defaultValue'> & {
   value?: number;
@@ -9,7 +9,7 @@ export type AmountFenInputProps = Omit<InputNumberProps, 'defaultValue'> & {
 export const AmountFenInput = (props: AmountFenInputProps) => {
   const value = isUndefinedOrNull(props.value)
     ? undefined
-    : flatbizPrice.fen2yuan(props.value);
+    : hypersePrice.fen2yuan(props.value);
   return (
     <InputNumber
       {...props}
@@ -19,7 +19,7 @@ export const AmountFenInput = (props: AmountFenInputProps) => {
         props.onChange?.(
           isUndefinedOrNull(value)
             ? undefined
-            : Number(flatbizPrice.yuan2fen(value as number))
+            : Number(hypersePrice.yuan2fen(value as number))
         );
       }}
     />

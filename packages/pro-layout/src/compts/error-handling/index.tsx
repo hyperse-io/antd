@@ -1,6 +1,6 @@
 import { message } from 'antd';
 import { exception, hooks } from '@wove/react';
-import { useIframe } from '../../layout/layout-iframe/use-iframe';
+import { useIframe } from '../../layout/layout-iframe/use-iframe.js';
 export const ErrorHandling = (props: {
   verifySessionExpired?: (err) => boolean;
 }) => {

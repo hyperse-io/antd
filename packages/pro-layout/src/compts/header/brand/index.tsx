@@ -1,7 +1,7 @@
 import { Fragment } from 'react';
 import { hooks } from '@wove/react';
-import { useLayoutCtx } from '../../../context/layout-ctx';
-import { TGlobalData } from '../../../types';
+import { useLayoutCtx } from '../../../context/layout-ctx.js';
+import { TGlobalData } from '../../../types/index.js';
 import './style.less';
 
 export const HeaderBrand = () => {

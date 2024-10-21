@@ -1,5 +1,5 @@
-import { getHostUrlAndRouteBaseName } from '../../utils';
-import { currentIsIframe } from './iframe-tab-mode';
+import { getHostUrlAndRouteBaseName } from '../../utils/utils.js';
+import { currentIsIframe } from './iframe-tab-mode.js';
 
 const guessNoLayoutLink = (url: string) => {
   const { routeBaseName } = getHostUrlAndRouteBaseName(url);

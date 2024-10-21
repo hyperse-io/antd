@@ -1,2 +1,2 @@
-export * from './event';
-export * from './iframe';
+export * from './event.js';
+export * from './iframe.js';

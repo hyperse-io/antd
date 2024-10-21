@@ -1,5 +1,5 @@
 import { TAny, TPlainObject } from '@hyperse/utils';
-import { useIframe } from '../layout/layout-iframe/use-iframe';
+import { useIframe } from '../layout/layout-iframe/use-iframe.js';
 
 /**
  * iframe tab 注册刷新方法

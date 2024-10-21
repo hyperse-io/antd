@@ -1,11 +1,11 @@
 import { Fragment } from 'react';
-import { type AppRouteProps, AppRoutes } from './app-routes';
-import useAntdApp from './compts/antd-app';
-import { ContentLayoutCheck } from './compts/content-layout-check';
-import { ErrorHandling } from './compts/error-handling';
-import { IframeTabRoutesTiming } from './compts/routes-timing/iframe-tab-timing';
-import { LayoutPage } from './layout/layout-page';
-import { type BootstrapOptions } from './types';
+import { type AppRouteProps, AppRoutes } from './app-routes.js';
+import useAntdApp from './compts/antd-app/index.js';
+import { ContentLayoutCheck } from './compts/content-layout-check/index.js';
+import { ErrorHandling } from './compts/error-handling/index.js';
+import { IframeTabRoutesTiming } from './compts/routes-timing/iframe-tab-timing.js';
+import { LayoutPage } from './layout/layout-page/index.js';
+import { type BootstrapOptions } from './types/index.js';
 
 export type AppProps = AppRouteProps & {
   iframeTabAloneView?: boolean;

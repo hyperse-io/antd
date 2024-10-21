@@ -9,9 +9,7 @@
     "incremental": true,
     "paths": {},
     "types": ["vitest/globals", "node"],
-    "target": "ESNext",
-    "module": "ESNext",
-    "moduleResolution": "Node"
+    "target": "ESNext"
   },
   "exclude": ["**/node_modules", "**/.*/", "dist", "build"]
 }

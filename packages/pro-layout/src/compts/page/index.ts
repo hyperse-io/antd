@@ -1,2 +1,2 @@
-export * from './page';
-export * from './page-wrapper';
+export * from './page.js';
+export * from './page-wrapper.js';

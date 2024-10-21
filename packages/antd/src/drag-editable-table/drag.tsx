@@ -63,11 +63,14 @@ export type DragEditableTableProps = EditableTableProps & {
  * 2. Table 参数 components.body.row 被组件内部使用
  * ```
  */
-export const DragEditableTable = (props) => {
+export const DragEditableTable = (props: DragEditableTableProps) => {
   const { dragIcon, uidFieldKey, onDragChange, disabledDrag, ...otherProps } =
     props;
   const form = Form.useFormInstance();
-  const dataList = Form.useWatch(props.name, form);
+  const dataList = Form.useWatch(
+    props.completeName ? props.completeName : props.name,
+    form
+  );
 
   const sensors = useSensors(
     useSensor(PointerSensor, {
@@ -88,7 +91,7 @@ export const DragEditableTable = (props) => {
       const dataListNew = arrayMove(dataList, activeIndex, overIndex);
       form.setFields([
         {
-          name: props.name,
+          name: props.completeName ? props.completeName : props.name,
           value: dataListNew,
         },
       ]);
@@ -103,7 +106,12 @@ export const DragEditableTable = (props) => {
   const columns: EditableTableColumn[] = disabledDrag
     ? otherProps.columns
     : [
-        { dataIndex: '__sort', width: 40, key: '__sort', align: 'center' },
+        {
+          dataIndex: '__sort',
+          width: 40,
+          key: '__sort',
+          align: 'center',
+        } as EditableTableColumn,
       ].concat(otherProps.columns || []);
 
   return (

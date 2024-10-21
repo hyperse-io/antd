@@ -4,7 +4,7 @@ import { en } from './en.js';
 import { zhCn } from './zh-cn.js';
 
 /**
- * 设置 @flatbiz/antd中的国际化语言
+ * 设置 @hyperse/antd中的国际化语言
  * @param locale
  * @param customLocaleMessage
  */
@@ -25,7 +25,7 @@ export const setFbaLocaleMessage = (
 };
 
 /**
- * 读取 @flatbiz/antd中的国际化语言
+ * 读取 @hyperse/antd中的国际化语言
  * @param key
  * @returns
  */

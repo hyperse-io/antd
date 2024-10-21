@@ -11,16 +11,19 @@ import {
   treeToArray,
   valueIsEqual,
 } from '@hyperse/utils';
-import { App } from './app-layout';
-import { ErrorHandling } from './compts/error-handling';
-import { NormalRoutesTiming } from './compts/routes-timing/normal-timing';
-import { LayoutProvider } from './context/layout-ctx';
+import { App } from './app-layout.js';
+import { ErrorHandling } from './compts/error-handling/index.js';
+import { NormalRoutesTiming } from './compts/routes-timing/normal-timing.js';
+import { LayoutProvider } from './context/layout-ctx.js';
 import {
   type IframeTabItem,
   type LayoutCtxProps,
   type TMenuItem,
-} from './types/index';
-import { pathIncludePath, saveIframeOpenNewTabItemOperateLink } from './utils';
+} from './types/index.js';
+import {
+  pathIncludePath,
+  saveIframeOpenNewTabItemOperateLink,
+} from './utils/index.js';
 import {
   addIframeTabListByMenuItem,
   addOrUpdateIframeTabListByMenuItem,
@@ -38,12 +41,12 @@ import {
   refreshIframeTabLink,
   saveCacheIframeActiveItem,
   saveIframeTabToCache,
-} from './utils/menu';
+} from './utils/menu.js';
 import {
   getPurePath,
   guessIframeTabItemLink,
   parseIframeTabItemUrlInfo,
-} from './utils/utils';
+} from './utils/utils.js';
 
 export const AppProvider = (props) => {
   const navigate = useNavigate();

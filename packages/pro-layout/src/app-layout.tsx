@@ -2,14 +2,14 @@ import { Fragment } from 'react';
 import { Layout } from 'antd';
 import { classNames } from '@dimjs/utils';
 import { isWindowsEnv } from '@hyperse/utils';
-import { AppRoutes } from './app-routes';
-import useAntdApp from './compts/antd-app';
-import { Header } from './compts/header';
-import { SiderBar } from './compts/sider-bar';
-import { useLayoutCtx } from './context/layout-ctx';
-import { LayoutIFrame } from './layout/layout-iframe';
-import { EventHandling } from './layout/layout-iframe/event-handling';
-import { LayoutPage } from './layout/layout-page';
+import { AppRoutes } from './app-routes.js';
+import useAntdApp from './compts/antd-app/index.js';
+import { Header } from './compts/header/index.js';
+import { SiderBar } from './compts/sider-bar/index.js';
+import { useLayoutCtx } from './context/layout-ctx.js';
+import { EventHandling } from './layout/layout-iframe/event-handling/index.js';
+import { LayoutIFrame } from './layout/layout-iframe/index.js';
+import { LayoutPage } from './layout/layout-page/index.js';
 
 export const App = () => {
   const layoutCtx = useLayoutCtx();
@@ -24,8 +24,8 @@ export const App = () => {
       <EventHandling />
       <Layout
         hasSider={true}
-        className={classNames('flatbiz-layout', {
-          'flatbiz-layout-windows': isWindows,
+        className={classNames('hyperse-layout', {
+          'hyperse-layout-windows': isWindows,
         })}
       >
         {layoutCtx.siderBarMenus.length === 0 ||
@@ -33,7 +33,7 @@ export const App = () => {
           <SiderBar />
         )}
 
-        <Layout className="flatbiz-layout-main" hasSider={false}>
+        <Layout className="hyperse-layout-main" hasSider={false}>
           {!layoutCtx.hideHeader ? <Header /> : null}
           {isIframeMain ? (
             <LayoutIFrame />

@@ -99,7 +99,7 @@ export type EditableTableProps = {
    * ```
    * 例如 处在formList内部
    * 1. name=[0,dataList]
-   * 2. prevCompleteName=[array, 0, dataList]
+   * 2. completeName=[xxxList, 0, dataList]
    * ```
    */
   completeName?: Array<string | number>;
@@ -308,11 +308,14 @@ export const EditableTable = (props: EditableTableProps) => {
     form,
   ]);
 
-  const formListDataSource = Form.useWatch(props.name, form);
+  const formListDataSource = Form.useWatch(
+    props.completeName ? props.completeName : props.name,
+    form
+  );
 
   useEffect(() => {
     const names = toArray<string>(props.name);
-    if (names[0] === undefined || /^\d+$/.test(`${names[0]}`)) {
+    if (/^\d+$/.test(`${names?.[0]}`) && props.completeName === undefined) {
       void message.error(
         '当前Editable处在FormList内部，必须赋值completeName参数'
       );

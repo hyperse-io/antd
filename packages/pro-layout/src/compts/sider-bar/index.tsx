@@ -17,10 +17,10 @@ import {
   valueIsEqual,
 } from '@hyperse/utils';
 import { hooks } from '@wove/react';
-import { useLayoutCtx } from '../../context/layout-ctx';
-import { type TMenuItem } from '../../types';
-import { HeaderBrand } from '../header/brand';
-import { Shrink } from '../shrink';
+import { useLayoutCtx } from '../../context/layout-ctx.js';
+import { type TMenuItem } from '../../types/menu.js';
+import { HeaderBrand } from '../header/brand/index.js';
+import { Shrink } from '../shrink/index.js';
 import './style.less';
 
 const { Sider } = Layout;
@@ -127,10 +127,10 @@ export const SiderBar = () => {
             ),
             label: item.name,
             children: getMenuItem(item.children, index + 1),
-            popupClassName: 'flatbiz-layout-sider-submenu-popup',
+            popupClassName: 'hyperse-layout-sider-submenu-popup',
             className:
               index === 0 && !item.iconImg && !item.iconImgActive
-                ? 'flatbiz-layout-menu-item-no-icon'
+                ? 'hyperse-layout-menu-item-no-icon'
                 : undefined,
           };
         }
@@ -239,7 +239,7 @@ export const SiderBar = () => {
   return (
     <Sider
       theme="light"
-      className="flatbiz-layout-sider"
+      className="hyperse-layout-sider"
       collapsed={layoutCtx.collapsed}
       width={layoutCtx.sidebarWidth}
       collapsedWidth={layoutCtx.collapsedWidth}

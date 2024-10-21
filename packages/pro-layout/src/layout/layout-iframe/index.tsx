@@ -17,9 +17,9 @@ import {
   valueIsEqual,
 } from '@hyperse/utils';
 import { hooks } from '@wove/react';
-import { Loader } from '../../compts/loader';
-import { useLayoutCtx } from '../../context/layout-ctx';
-import { IframePage } from './iframe-page';
+import { Loader } from '../../compts/loader/loader.js';
+import { useLayoutCtx } from '../../context/layout-ctx.js';
+import { IframePage } from './iframe-page.js';
 import './style.less';
 /**
  * 此处如果存在面包屑/tabbar路由菜单, 需要处理layout/flex布局问题

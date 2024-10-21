@@ -14,9 +14,9 @@ import {
   urlJoin,
   valueIsEqual,
 } from '@hyperse/utils';
-import { IframeTabItem, TMenuItem } from '../types';
-import { pathIncludePath, sortItemsByPath } from './path';
-import { globalData } from './system';
+import { IframeTabItem, TMenuItem } from '../types/menu.js';
+import { pathIncludePath, sortItemsByPath } from './path.js';
+import { globalData } from './system.js';
 import {
   getIframeTabPurePath,
   guessIframeTabItemLink,
@@ -26,9 +26,9 @@ import {
   parseIframeMainUrlInfo,
   parseIframeTabItemUrlInfo,
   syncUrlSearch,
-} from './utils';
+} from './utils.js';
 
-const appName = globalData.appName || 'flatbiz-layout';
+const appName = globalData.appName || 'hyperse-layout';
 
 function removeNodesAtDepth(tree, depth: number, maxDepth: number) {
   for (let i = tree.length - 1; i >= 0; i--) {
@@ -202,16 +202,16 @@ export const getTargetMenuParentChain = (
 
 export const saveIframeTabToCache = (menuList: IframeTabItem[]) => {
   const newList = isArray(menuList) ? menuList : [];
-  window[appName] = newList;
+  (window as any)[appName] = newList;
   sessionStorageCache.set(appName, { menuList: newList });
 };
 
 export const getIframeTabCacheList = (): IframeTabItem[] => {
   try {
-    if (window[appName]) return [...window[appName]];
+    if (window[appName]) return [...(window as any)[appName]];
     const { menuList } = sessionStorageCache.get(appName) || {};
     const newList = isArray(menuList) ? (menuList as IframeTabItem[]) : [];
-    window[appName] = newList;
+    (window as any)[appName] = newList;
     return newList;
   } catch (_error) {
     return [];

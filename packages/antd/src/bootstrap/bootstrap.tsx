@@ -39,11 +39,11 @@ export type BootstrapProps = {
   };
 };
 /**
- * 如果当前项目入口不使用@flatbiz/pro-layout，必须使用 Bootstrap 组件包装
+ * 如果当前项目入口不使用@hyperse/pro-layout，必须使用 Bootstrap 组件包装
  * ```
  * Bootstrap 内部
  * 1. 封装 antd App组件
- * 2. 封装 @flatbiz/antd FbaApp组件
+ * 2. 封装 @hyperse/antd FbaApp组件
  * 3. 适配 light/dark模式
  * 4. 封装 antd ConfigProvider 可配置主题
  * ```

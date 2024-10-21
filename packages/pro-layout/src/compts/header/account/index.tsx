@@ -1,9 +1,9 @@
 import { Button, Dropdown, MenuProps, Space } from 'antd';
 import { LogoutOutlined, UserOutlined } from '@ant-design/icons';
 import { hooks } from '@wove/react';
-import { useLayoutCtx } from '../../../context/layout-ctx';
-import { TAdminUser, TGlobalData } from '../../../types';
-import { clearStorage } from '../../../utils';
+import { useLayoutCtx } from '../../../context/layout-ctx.js';
+import { TAdminUser, TGlobalData } from '../../../types/index.js';
+import { clearStorage } from '../../../utils/index.js';
 import './style.less';
 
 export interface HeaderAccountProps {

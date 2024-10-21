@@ -1,4 +1,4 @@
-import { guessIframeMainLink } from '../../utils';
+import { guessIframeMainLink } from '../../utils/utils.js';
 
 export const currentIsIframe = () => {
   return self != top;

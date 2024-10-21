@@ -12,22 +12,22 @@ import {
   toArray,
   urlJoin,
 } from '@hyperse/utils';
-import { AntdAppWrapper } from './antd-app';
-import { AppNoLayout } from './app-no-layout';
-import { AppProvider } from './app-provider';
-import { ErrorBoundary, ErrorFallback } from './compts/error-boundary';
-import { Container } from './container';
-import { BootstrapCtx } from './context/layout-ctx';
-import { IframeMainRegister } from './iframe-register';
-import { proLayoutModels } from './model/layout-model';
+import { AntdAppWrapper } from './antd-app.js';
+import { AppNoLayout } from './app-no-layout.js';
+import { AppProvider } from './app-provider.js';
+import { ErrorBoundary, ErrorFallback } from './compts/error-boundary/index.js';
+import { Container } from './container.js';
+import { BootstrapCtx } from './context/layout-ctx.js';
+import { IframeMainRegister } from './iframe-register.js';
+import { proLayoutModels } from './model/layout-model.js';
 import {
   type BreadConfigItem,
   RouteBreadConfig,
   TRouteItemProps,
-} from './types';
-import { type BootstrapOptions } from './types/layout';
-import { type TGlobalData } from './types/menu';
-import { getMenus, globalData } from './utils';
+} from './types/index.js';
+import { type BootstrapOptions } from './types/layout.js';
+import { type TGlobalData } from './types/menu.js';
+import { getMenus, globalData } from './utils/index.js';
 
 /**
  * ```

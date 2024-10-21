@@ -1,7 +1,7 @@
 import { MenuFoldOutlined, MenuUnfoldOutlined } from '@ant-design/icons';
 import { classNames } from '@dimjs/utils';
 import { hooks } from '@wove/react';
-import { useLayoutCtx } from '../../context/layout-ctx';
+import { useLayoutCtx } from '../../context/layout-ctx.js';
 import './style.less';
 
 export const Shrink = (props: { className?: string }) => {

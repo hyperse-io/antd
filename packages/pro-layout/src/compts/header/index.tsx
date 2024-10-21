@@ -9,17 +9,17 @@ import {
   valueIsEqual,
 } from '@hyperse/utils';
 import { hooks } from '@wove/react';
-import { useLayoutCtx } from '../../context/layout-ctx';
-import { type TMenuItem } from '../../types';
+import { useLayoutCtx } from '../../context/layout-ctx.js';
+import { type TMenuItem } from '../../types/menu.js';
+import { clearStorage } from '../../utils/menu.js';
 import {
-  clearStorage,
   findOneLeafNode,
   guessIframeMainLink,
   guessNormalItemLink,
-} from '../../utils';
-import { Shrink } from '../shrink';
-import { HeaderAccount } from './account';
-import { HeaderBrand } from './brand';
+} from '../../utils/utils.js';
+import { Shrink } from '../shrink/index.js';
+import { HeaderAccount } from './account/index.js';
+import { HeaderBrand } from './brand/index.js';
 import './style.less';
 
 const HeaderBarIcon = (props: {
@@ -186,8 +186,8 @@ export const Header = () => {
       }
     }
   });
-  const className = classNames('flatbiz-layout-main-header', {
-    'flatbiz-layout-main-header-has-menu': topMenus.length > 0,
+  const className = classNames('hyperse-layout-main-header', {
+    'hyperse-layout-main-header-has-menu': topMenus.length > 0,
   });
   return (
     <div className={className} style={{ height: headerHeight as number }}>
@@ -199,9 +199,9 @@ export const Header = () => {
       ) : null}
 
       {layoutCtx.systemName ? (
-        <div className="flatbiz-layout-system-name">{layoutCtx.systemName}</div>
+        <div className="hyperse-layout-system-name">{layoutCtx.systemName}</div>
       ) : null}
-      <div className="flatbiz-layout-header-fill">
+      <div className="hyperse-layout-header-fill">
         <ConfigProviderWrapper
           theme={{
             token: {
@@ -223,9 +223,9 @@ export const Header = () => {
         >
           {topMenus.length > 0 ? (
             <Menu
-              className="flatbiz-layout-topmenu"
+              className="hyperse-layout-topmenu"
               mode="horizontal"
-              overflowedIndicatorPopupClassName="flatbiz-layout-topmenu-overflowed-modal"
+              overflowedIndicatorPopupClassName="hyperse-layout-topmenu-overflowed-modal"
               direction="rtl"
               triggerSubMenuAction="click"
               selectedKeys={

@@ -1,6 +1,6 @@
 import { Fragment } from 'react';
 import { TAny } from '@hyperse/utils';
-import { useIframe } from './hooks';
+import { useIframe } from './hooks/index.js';
 
 export const IframeMainRegister = () => {
   const iframeApi = useIframe((data: TAny) => {

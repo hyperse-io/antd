@@ -1,7 +1,7 @@
 import { App } from 'antd';
-import type { MessageInstance } from 'antd/es/message/interface';
-import type { ModalStaticFunctions } from 'antd/es/modal/confirm';
-import type { NotificationInstance } from 'antd/es/notification/interface';
+import type { MessageInstance } from 'antd/es/message/interface.js';
+import type { ModalStaticFunctions } from 'antd/es/modal/confirm.js';
+import type { NotificationInstance } from 'antd/es/notification/interface.js';
 
 let message: MessageInstance;
 let notification: NotificationInstance;

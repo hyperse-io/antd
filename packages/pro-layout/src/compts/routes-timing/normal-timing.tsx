@@ -1,7 +1,7 @@
 import { Fragment } from 'react';
 import { useLocation } from 'react-router-dom';
 import { hooks } from '@wove/react';
-import { useLayoutCtx } from '../../context/layout-ctx';
+import { useLayoutCtx } from '../../context/layout-ctx.js';
 
 /**
  * 普通路由变化逻辑

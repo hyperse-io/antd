@@ -11,8 +11,8 @@ import { Button, Result } from 'antd';
 import { dialogLoading, fbaHooks } from '@hyperse/antd';
 import { TAny, TPlainObject } from '@hyperse/utils';
 import { hooks } from '@wove/react';
-import { PageWrapperCtxProvider, usePageWrapperCtx } from './ctx';
-import { Page, PageProps } from './page';
+import { PageWrapperCtxProvider, usePageWrapperCtx } from './ctx.js';
+import { Page, PageProps } from './page.js';
 
 type PageContentProps = Omit<PageWrapperProps, 'serviceConfig'> & {
   respData?: TAny;

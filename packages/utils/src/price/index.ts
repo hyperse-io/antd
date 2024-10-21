@@ -7,7 +7,7 @@ import { priceSplit } from './split.js';
 import { priceWan2fen } from './wan2fen.js';
 import { priceYuan2fen } from './yuan2fen.js';
 
-type FlatbizPrice = {
+type HypersePrice = {
   /**
    * 金额转换 分 => 元
    */
@@ -64,7 +64,7 @@ type FlatbizPrice = {
   divide: typeof divide;
 };
 
-export const flatbizPrice: FlatbizPrice = {
+export const hypersePrice: HypersePrice = {
   fen2yuan: priceFen2yuan,
   fen2wan: priceFen2wan,
   yuan2fen: priceYuan2fen,

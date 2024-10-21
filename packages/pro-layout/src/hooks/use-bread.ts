@@ -6,7 +6,7 @@ import {
 } from 'react-router-dom';
 import { paramStrToJson, pick } from '@dimjs/utils';
 import { ensureSlash, removeSlash, TPlainObject } from '@hyperse/utils';
-import { BreadConfigItem, BreadDataItem } from '../types/route';
+import { BreadConfigItem, BreadDataItem } from '../types/route.js';
 
 export type UseBreadRoute = {
   path: string;

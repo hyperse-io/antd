@@ -1,4 +1,4 @@
-const storageKey = 'flatbiz';
+const storageKey = 'hyperse';
 
 export const localStorageCache = {
   set: (key: string, value: Record<string, unknown>) => {

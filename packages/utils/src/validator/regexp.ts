@@ -1,4 +1,4 @@
-export const flatbizRegExp = {
+export const hyperseRegExp = {
   /** 汉字格式  */
   chineseCharactersRegExp: /[\u4e00-\u9fa5]/,
   /** 手机号格式  */

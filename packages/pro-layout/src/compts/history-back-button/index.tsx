@@ -4,9 +4,9 @@ import { isPromise } from '@dimjs/lang';
 import { ButtonWrapper, ButtonWrapperProps } from '@hyperse/antd';
 import { toLinkPath } from '@hyperse/utils';
 import { hooks } from '@wove/react';
-import { bootstrapCtx } from '../../context/layout-ctx';
-import { useBread } from '../../hooks/use-bread';
-import { getHostUrlAndRouteBaseName } from '../../utils';
+import { bootstrapCtx } from '../../context/layout-ctx.js';
+import { useBread } from '../../hooks/use-bread.js';
+import { getHostUrlAndRouteBaseName } from '../../utils/utils.js';
 
 export type HistoryBackProps = ButtonWrapperProps & {
   level?: number;

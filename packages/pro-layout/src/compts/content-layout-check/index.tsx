@@ -1,7 +1,7 @@
 import { ReactElement } from 'react';
-import { BootstrapOptions } from '../../types';
-import { IframeTabMode } from './iframe-tab-mode';
-import { NoLayoutMode } from './no-layout-mode';
+import { BootstrapOptions } from '../../types/layout.js';
+import { IframeTabMode } from './iframe-tab-mode.js';
+import { NoLayoutMode } from './no-layout-mode.js';
 
 type ContentLayoutCheckProps = {
   layoutMode?: BootstrapOptions['layoutMode'];

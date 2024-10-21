@@ -32,7 +32,7 @@ export interface DropdownMenuWrapperProps extends Omit<DropdownProps, 'menu'> {
 
 /**
  * DropdownMenuWrapper
- * 升级 antd 5.5.1 后，Dropdown 中 Popconfirm弹框使用存在问题，所以在 @flatbiz/antd@4.2.49版本修改为使用dialogConfirm组件实现二次弹框确认功能
+ * 升级 antd 5.5.1 后，Dropdown 中 Popconfirm弹框使用存在问题，所以在 @hyperse/antd@4.2.49版本修改为使用dialogConfirm组件实现二次弹框确认功能
  * @param props
  * @returns
  * ```

@@ -8,14 +8,14 @@ import {
   urlJoinMulti,
   valueIsEqual,
 } from '@hyperse/utils';
-import { NotFound } from './compts/404';
-import { Bread } from './compts/bread';
-import { Loader } from './compts/loader';
+import { NotFound } from './compts/404/index.js';
+import { Bread } from './compts/bread/index.js';
+import { Loader } from './compts/loader/loader.js';
 import {
   type BootstrapOptions,
   BreadConfigItem,
   type TRouteItemProps,
-} from './types';
+} from './types/index.js';
 
 export type AppRouteProps = {
   routeList: TRouteItemProps[];

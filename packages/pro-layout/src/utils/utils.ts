@@ -9,8 +9,8 @@ import {
   urlJoin,
   urlJoinMulti,
 } from '@hyperse/utils';
-import { TGlobalData, TMenuItem } from '../types';
-import { sortItemsByPath } from './path';
+import { TGlobalData, TMenuItem } from '../types/index.js';
+import { sortItemsByPath } from './path.js';
 
 /**
  * 找到第一个叶子节点
@@ -65,8 +65,8 @@ export const guessMenuLink = (path) => {
  * 获取 rotue path（不包含routeBaseName）
  * ```
  * 例如：
- * /pages/flatbiz/demo-layout/main/system-set/menu1?env=me
- * routeBaseName = pages/flatbiz/demo-layout
+ * /pages/hyperse/demo-layout/main/system-set/menu1?env=me
+ * routeBaseName = pages/hyperse/demo-layout
  * =>
  * /main/system-set/menu1
  * ```
@@ -84,8 +84,8 @@ export const getPurePath = (path: string) => {
  * 获取 iframe rotue path（不包含routeBaseName、main）
  * ```
  * 例如：
- * routeBaseName = pages/flatbiz/demo-layout
- * 1. /pages/flatbiz/demo-layout/main/system-set/menu1?env=me
+ * routeBaseName = pages/hyperse/demo-layout
+ * 1. /pages/hyperse/demo-layout/main/system-set/menu1?env=me
  * 2. /main/system-set/menu1?env=me
  * 3. /system-set/menu1
  * =>
@@ -118,7 +118,7 @@ export const getIframeMainPurePath = (pathOrUrl: string) => {
  * 解析指定iframe main url数据
  * ```
  * 例如
- * http://dev.flatjs.com:6900/pages/flatbiz/demo-iframe/main/module1/menu1?name=xxx
+ * http://dev.flatjs.com:6900/pages/hyperse/demo-iframe/main/module1/menu1?name=xxx
  * =>
  *  path: /main/module1/menu1
  *  search: ?name=xxx
@@ -140,7 +140,7 @@ export const parseIframeMainUrlInfo = (url: string) => {
  * 解析指定iframe 内部 url数据
  * ```
  * 例如
- * http://dev.flatjs.com:6900/pages/flatbiz/demo-iframe/main/module1/menu1?name=xxx
+ * http://dev.flatjs.com:6900/pages/hyperse/demo-iframe/main/module1/menu1?name=xxx
  * =>
  *  path: /module1/menu1
  *  search: ?name=xxx
@@ -170,25 +170,25 @@ export const pathStartWithPath = (path1: string, path2: string) => {
  *
  * ```
  * 例如1
- * routeBaseName = pages/flatbiz/demo-layout
- * http://dev.flatjs.com/pages/flatbiz/demo-iframe/main/module1/menu1?name=xxx
- * http://dev.flatjs.com/pages/flatbiz/demo-iframe/module1/menu1?name=xxx
+ * routeBaseName = pages/hyperse/demo-layout
+ * http://dev.flatjs.com/pages/hyperse/demo-iframe/main/module1/menu1?name=xxx
+ * http://dev.flatjs.com/pages/hyperse/demo-iframe/module1/menu1?name=xxx
  * /main/module1/menu1?name=xxx
  * /module1/menu1?name=xxx
  * =>
- *  http://dev.flatjs.com/pages/flatbiz/demo-iframe/module1/menu1?name=xxx
+ *  http://dev.flatjs.com/pages/hyperse/demo-iframe/module1/menu1?name=xxx
  * ```
  *
  * ```
  *  *****
  * 例如2
- * routeBaseName = pages/flatbiz/demo-layout
- * http://dev.flatjs.com/pages/flatbiz/demo-iframe/main/module1/menu1
- * http://dev.flatjs.com/pages/flatbiz/demo-iframe/module1/menu1
+ * routeBaseName = pages/hyperse/demo-layout
+ * http://dev.flatjs.com/pages/hyperse/demo-iframe/main/module1/menu1
+ * http://dev.flatjs.com/pages/hyperse/demo-iframe/module1/menu1
  * /main/module1/menu1
  * /module1/menu1
  * =>
- *  http://dev.flatjs.com/pages/flatbiz/demo-iframe/module1/menu1
+ *  http://dev.flatjs.com/pages/hyperse/demo-iframe/module1/menu1
  * ```
  */
 export const guessIframeTabItemLink = (pathOrUrl: string) => {
@@ -224,25 +224,25 @@ export const guessNormalItemLink = (pathOrUrl: string) => {
  *
  * ```
  * 例如1
- * routeBaseName = pages/flatbiz/demo-layout
- * http://dev.flatjs.com/pages/flatbiz/demo-iframe/main/module1/menu1?name=xxx
- * http://dev.flatjs.com/pages/flatbiz/demo-iframe/module1/menu1?name=xxx
+ * routeBaseName = pages/hyperse/demo-layout
+ * http://dev.flatjs.com/pages/hyperse/demo-iframe/main/module1/menu1?name=xxx
+ * http://dev.flatjs.com/pages/hyperse/demo-iframe/module1/menu1?name=xxx
  * /main/module1/menu1?name=xxx
  * /module1/menu1?name=xxx
  * =>
- *  http://dev.flatjs.com/pages/flatbiz/demo-iframe/main/module1/menu1?name=xxx
+ *  http://dev.flatjs.com/pages/hyperse/demo-iframe/main/module1/menu1?name=xxx
  * ```
  *
  * ```
  *  *****
  * 例如2
- * routeBaseName = pages/flatbiz/demo-layout
- * http://dev.flatjs.com/pages/flatbiz/demo-iframe/main/module1/menu1
- * http://dev.flatjs.com/pages/flatbiz/demo-iframe/module1/menu1
+ * routeBaseName = pages/hyperse/demo-layout
+ * http://dev.flatjs.com/pages/hyperse/demo-iframe/main/module1/menu1
+ * http://dev.flatjs.com/pages/hyperse/demo-iframe/module1/menu1
  * /main/module1/menu1
  * /module1/menu1
  * =>
- *  http://dev.flatjs.com/pages/flatbiz/demo-iframe/main/module1/menu1
+ *  http://dev.flatjs.com/pages/hyperse/demo-iframe/main/module1/menu1
  * ```
  */
 export const guessIframeMainLink = (pathOrUrl: string) => {

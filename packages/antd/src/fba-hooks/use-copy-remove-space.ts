@@ -4,7 +4,7 @@ import { useEffectCustom } from './use-effect-custom.js';
 const innerIgnoreClass = [
   'ace_editor',
   'tox-tinymce',
-  'cancel-flatbiz-antd-copy',
+  'cancel-hyperse-antd-copy',
 ];
 
 export type CopyRemoveSpaceProps = {
@@ -36,7 +36,7 @@ export type CopyRemoveSpaceProps = {
  *    };
  * 2. 某些控件（例如：ace编辑器、富文本等）内部自定义处理copy逻辑，此处不能进行拦截，通过配置class属性来忽略
  * 3. ignoreClass包括操作目标class、以及层层父节点class，通过目标节点层层父节点的class匹配成功后，取消后续copy文案处理逻辑
- * 3. ignoreClass 内置有 ['ace_editor', 'tox-tinymce', 'cancel-flatbiz-antd-copy']
+ * 3. ignoreClass 内置有 ['ace_editor', 'tox-tinymce', 'cancel-hyperse-antd-copy']
  * ```
  */
 export const useCopyRemoveSpace = (props?: CopyRemoveSpaceProps) => {

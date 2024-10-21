@@ -4,7 +4,7 @@ import {
   sessionStorageCache,
   TPlainObject,
 } from '@hyperse/utils';
-import { TGlobalData } from '../types';
+import { TGlobalData } from '../types/index.js';
 
 export const globalData = getGlobalData<TGlobalData>();
 const iframeOpenNewTabItemOperateLinkKey =

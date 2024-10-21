@@ -2,7 +2,7 @@ import { useMemo } from 'react';
 import { DatePicker } from 'antd';
 import type { PickerProps } from 'antd/es/date-picker/generatePicker';
 import dayjs from 'dayjs';
-import { flatbizDate, TAny } from '@hyperse/utils';
+import { hyperseDate, TAny } from '@hyperse/utils';
 import { hooks } from '@wove/react';
 import { DayjsDateTypeEnum, TDayjsDateType } from '../_utils/constants.js';
 import {
@@ -92,7 +92,7 @@ export const DatePickerWrapper = (props: DatePickerWrapperProps) => {
     }
     if (minDateTimeDayInst && maxDateTimeDayInst) {
       if (
-        !flatbizDate.in(
+        !hyperseDate.in(
           currentDate,
           minDateTimeDayInst.format(DayjsDateTypeEnum.YMD),
           maxDateTimeDayInst.format(DayjsDateTypeEnum.YMD)
@@ -102,7 +102,7 @@ export const DatePickerWrapper = (props: DatePickerWrapperProps) => {
       }
     } else if (minDateTimeDayInst) {
       if (
-        !flatbizDate.gte(
+        !hyperseDate.gte(
           currentDate,
           minDateTimeDayInst.format(DayjsDateTypeEnum.YMD)
         )
@@ -111,7 +111,7 @@ export const DatePickerWrapper = (props: DatePickerWrapperProps) => {
       }
     } else if (maxDateTimeDayInst) {
       if (
-        !flatbizDate.gte(
+        !hyperseDate.gte(
           maxDateTimeDayInst.format(DayjsDateTypeEnum.YMD),
           currentDate
         )
@@ -126,7 +126,7 @@ export const DatePickerWrapper = (props: DatePickerWrapperProps) => {
     if (value) {
       const valueFt = inputNormalize ? inputNormalize(value) : value;
       if (valueFt) {
-        return dayjs(flatbizDate.dateNormalize(valueFt));
+        return dayjs(hyperseDate.dateNormalize(valueFt));
       }
     }
     return undefined;

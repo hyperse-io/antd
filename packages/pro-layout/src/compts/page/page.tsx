@@ -10,7 +10,7 @@ import { isUndefined } from '@dimjs/lang';
 import { classNames } from '@dimjs/utils';
 import { isWindowsEnv } from '@hyperse/utils';
 import { hooks } from '@wove/react';
-import { Loader } from '../loader';
+import { Loader } from '../loader/loader.js';
 import './style.less';
 
 export interface PageProps {

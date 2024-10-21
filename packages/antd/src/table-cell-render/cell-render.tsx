@@ -5,8 +5,8 @@ import { get } from '@dimjs/utils';
 import {
   cutString,
   DateFormatType,
-  flatbizDate,
-  flatbizPrice,
+  hyperseDate,
+  hypersePrice,
   isNumber,
   isUndefinedOrNull,
   TAny,
@@ -35,7 +35,7 @@ const tableColumnDateRender = (
   return (value: string | number) => {
     if (isEmpty(value) || value === '') return defaultValue;
     try {
-      return flatbizDate.format(new Date(value), dateFormatType);
+      return hyperseDate.format(new Date(value), dateFormatType);
     } catch (_error) {
       return value || defaultValue;
     }
@@ -104,17 +104,17 @@ const tableColumnFen2yuanCellRender = (options?: {
       if (isNumber(options?.defaultValue as string | number)) {
         return (
           <span className={className}>
-            {flatbizPrice.format(options?.defaultValue)}
+            {hypersePrice.format(options?.defaultValue)}
           </span>
         );
       }
       return <span className={className}>{options?.defaultValue}</span>;
     }
     if (!isNumber(value as number | string)) return value;
-    const amount = flatbizPrice.fen2yuan(value);
+    const amount = hypersePrice.fen2yuan(value);
     return (
       <span className={className}>
-        {flatbizPrice.format(amount, options?.defaultValue, {
+        {hypersePrice.format(amount, options?.defaultValue, {
           separator: options?.separator || false,
         })}
       </span>
@@ -138,19 +138,19 @@ const tableColumnFen2wanCellRender = (options?: {
       if (isNumber(options?.defaultValue as string | number)) {
         return (
           <span className={className}>
-            {flatbizPrice.format(options?.defaultValue)}
+            {hypersePrice.format(options?.defaultValue)}
           </span>
         );
       }
       return <span className={className}>{options?.defaultValue}</span>;
     }
     if (!isNumber(value as number | string)) return value;
-    const amount = flatbizPrice.fen2wan(value);
+    const amount = hypersePrice.fen2wan(value);
     const amountNew = options?.removeTailZero
-      ? flatbizPrice.removeTailZero(amount, options?.defaultValue, {
+      ? hypersePrice.removeTailZero(amount, options?.defaultValue, {
           separator: options?.separator || false,
         })
-      : flatbizPrice.format(amount, options?.defaultValue, {
+      : hypersePrice.format(amount, options?.defaultValue, {
           separator: options?.separator || false,
         });
     return <span className={className}>{amountNew}</span>;

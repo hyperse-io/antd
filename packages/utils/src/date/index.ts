@@ -7,7 +7,7 @@ import { isDate } from './is-date.js';
 
 export * from './types.js';
 
-type FlatbizDate = {
+type HyperseDate = {
   /**
    * 判断是否为合法日期
    */
@@ -60,7 +60,7 @@ type FlatbizDate = {
   dateNormalize: typeof dateNormalize;
 };
 
-export const flatbizDate: FlatbizDate = {
+export const hyperseDate: HyperseDate = {
   isDate: isDate,
   format: dateFormat,
   gte: dateTimeGte,

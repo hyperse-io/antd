@@ -23,7 +23,7 @@ export type IframeApiProps = {
        if (menuItem?.id) {
          window.parent.postMessage(
            JSON.stringify({
-             type: 'FLATBIZ-LAYOUT',
+             type: 'HYPERSE-LAYOUT',
              data: {
                type: 'redirect_to_frame_layout_menu_third_item',
                data: {

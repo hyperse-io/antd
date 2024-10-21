@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'react';
 import { DatePicker, GetProps } from 'antd';
 import dayjs, { Dayjs } from 'dayjs';
-import { flatbizDate, TAny } from '@hyperse/utils';
+import { hyperseDate, TAny } from '@hyperse/utils';
 import { hooks } from '@wove/react';
 import { DayjsDateTypeEnum, TDayjsDateType } from '../_utils/constants.js';
 import {
@@ -89,8 +89,8 @@ export const DateRangePickerWrapper = (props: DateRangePickerWrapperProps) => {
   }, [value]);
   const rangePickerValue = useMemo(() => {
     if (date1 && date2) {
-      const newDate1 = flatbizDate.dateNormalize(date1);
-      const newDate2 = flatbizDate.dateNormalize(date2);
+      const newDate1 = hyperseDate.dateNormalize(date1);
+      const newDate2 = hyperseDate.dateNormalize(date2);
       return [dayjs(newDate1), dayjs(newDate2)];
     }
     return undefined;
@@ -129,7 +129,7 @@ export const DateRangePickerWrapper = (props: DateRangePickerWrapperProps) => {
     }
     if (minDateTimeDayInst && maxDateTimeDayInst) {
       if (
-        !flatbizDate.in(
+        !hyperseDate.in(
           currentDate,
           minDateTimeDayInst.format(DayjsDateTypeEnum.YMD),
           maxDateTimeDayInst.format(DayjsDateTypeEnum.YMD)
@@ -139,7 +139,7 @@ export const DateRangePickerWrapper = (props: DateRangePickerWrapperProps) => {
       }
     } else if (minDateTimeDayInst) {
       if (
-        !flatbizDate.gte(
+        !hyperseDate.gte(
           currentDate,
           minDateTimeDayInst.format(DayjsDateTypeEnum.YMD)
         )
@@ -148,7 +148,7 @@ export const DateRangePickerWrapper = (props: DateRangePickerWrapperProps) => {
       }
     } else if (maxDateTimeDayInst) {
       if (
-        !flatbizDate.gte(
+        !hyperseDate.gte(
           maxDateTimeDayInst.format(DayjsDateTypeEnum.YMD),
           currentDate
         )

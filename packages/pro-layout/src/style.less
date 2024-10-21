@@ -1,9 +1,9 @@
 html,
 body,
 #app,
-#app > .ant-app {
+#app>.ant-app {
   height: 100%;
-  width: 100%;
+  width : 100%;
   margin: 0;
 }
 
@@ -22,40 +22,41 @@ body,
   background-color: var(--bg-color);
 }
 
-.flatbiz-layout {
-  overflow: auto;
-  height: 100vh;
-  position: fixed;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  display: flex;
+.hyperse-layout {
+  overflow      : auto;
+  height        : 100vh;
+  position      : fixed;
+  left          : 0;
+  top           : 0;
+  bottom        : 0;
+  right         : 0;
+  display       : flex;
   flex-direction: row;
 }
 
-.flatbiz-layout-main {
-  display: flex;
+.hyperse-layout-main {
+  display : flex;
   overflow: hidden;
-  flex: 1;
+  flex    : 1;
 }
-.flatbiz-layout-main-content {
-  flex: 1;
+
+.hyperse-layout-main-content {
+  flex      : 1;
   overflow-y: auto;
 }
 
-.flatbiz-layout-windows,
+.hyperse-layout-windows,
 .layout-page-windows,
 .page-windows {
   ::-webkit-scrollbar {
-    width: 8px;
-    height: 8px;
+    width           : 8px;
+    height          : 8px;
     background-color: #eee;
   }
 
   ::-webkit-scrollbar-thumb {
     background-color: #cfcfcf;
-    border-radius: 10px;
+    border-radius   : 10px;
 
     &:hover {
       background-color: #a8a8a8;

@@ -1,2 +1,2 @@
-export * from './error-boundary';
-export * from './error-fallback';
+export * from './error-boundary.js';
+export * from './error-fallback.js';

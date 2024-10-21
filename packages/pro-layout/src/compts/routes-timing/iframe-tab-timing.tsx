@@ -1,7 +1,7 @@
 import { Fragment } from 'react';
 import { useLocation } from 'react-router-dom';
 import { hooks } from '@wove/react';
-import { useIframe } from '../../hooks';
+import { useIframe } from '../../hooks/index.js';
 
 /**
  * iframe tab路由变化逻辑

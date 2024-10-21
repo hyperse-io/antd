@@ -3,12 +3,12 @@ import { useNavigate } from 'react-router-dom';
 import { message } from 'antd';
 import { valueIsEqual } from '@hyperse/utils';
 import { hooks } from '@wove/react';
-import { useLayoutCtx } from '../../../context/layout-ctx';
+import { useLayoutCtx } from '../../../context/layout-ctx.js';
 import {
   type IframeTabItem,
   type TGlobalData,
   type TMenuItem,
-} from '../../../types/index';
+} from '../../../types/index.js';
 import {
   getIframeOpenNewTabItemOperateLinkList,
   getIframeTabName,
@@ -16,8 +16,8 @@ import {
   parseIframeMainUrlInfo,
   parseSiderTargetMenuByPath,
   updateCaheIframeListByActiveId,
-} from '../../../utils';
-import { useIframe } from '../use-iframe';
+} from '../../../utils/index.js';
+import { useIframe } from '../use-iframe.js';
 
 export type RedirectToFrameLayoutMenuItem = IframeTabItem;
 
