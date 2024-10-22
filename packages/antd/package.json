@@ -458,8 +458,8 @@
     "@dimjs/model-react": "^2.0.1",
     "@dimjs/utils": "^2.0.2",
     "@flatjs/cli": "2.1.9",
-    "@hyperse/eslint-config-hyperse": "^1.1.3",
-    "@types/node": "22.7.7",
+    "@hyperse/eslint-config-hyperse": "^1.2.1",
+    "@types/node": "22.7.8",
     "@types/react": "^18.3.11",
     "@wove/react": "^2.0.2",
     "ahooks": "^3.8.1",
@@ -498,7 +498,7 @@
     "@dnd-kit/utilities": "^3.2.2",
     "@hyperse/utils": "workspace:^",
     "@tinymce/tinymce-react": "5.1.1",
-    "ace-builds": "^1.36.2",
+    "ace-builds": "^1.36.3",
     "dequal": "2.0.3",
     "pubsub-js": "1.9.4",
     "react-ace": "^12.0.0",
@@ -506,7 +506,7 @@
     "react-split": "2.0.14",
     "simple-mind-map": "^0.12.0",
     "sql-formatter": "^15.4.5",
-    "use-intl": "3.21.1",
+    "use-intl": "3.22.0",
     "xml-formatter": "^3.6.3"
   },
   "peerDependenciesMeta": {

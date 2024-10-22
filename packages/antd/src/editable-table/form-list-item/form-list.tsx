@@ -2,7 +2,7 @@ import { Button, Form, Space } from 'antd';
 import { DeleteOutlined } from '@ant-design/icons';
 import { classNames } from '@dimjs/utils';
 import { FormItemAdapter } from '../form-item/index.jsx';
-import { FormListConfig } from '../type.js';
+import { type FormListConfig } from '../type.js';
 import { getEditable } from '../utils.js';
 
 export type FormListProps = {
