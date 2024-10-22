@@ -1,4 +1,4 @@
-import { CSSProperties, Fragment } from 'react';
+import { type CSSProperties, Fragment } from 'react';
 import { Popover, Tooltip } from 'antd';
 import { isUndefined } from '@dimjs/lang';
 import { classNames } from '@dimjs/utils';

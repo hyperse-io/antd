@@ -1,5 +1,5 @@
 import { arrayRemove } from '@dimjs/utils';
-import { TAny } from '../types/index.js';
+import { type TAny } from '../types/index.js';
 
 /**
  * 一维数组中两个元素交换位置

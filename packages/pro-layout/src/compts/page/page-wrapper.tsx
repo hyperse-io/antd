@@ -2,17 +2,17 @@ import {
   Children,
   forwardRef,
   Fragment,
-  ReactElement,
+  type ReactElement,
   useImperativeHandle,
   useState,
 } from 'react';
 import { isFragment } from 'react-is';
 import { Button, Result } from 'antd';
 import { dialogLoading, fbaHooks } from '@hyperse/antd';
-import { TAny, TPlainObject } from '@hyperse/utils';
+import { type TAny, type TPlainObject } from '@hyperse/utils';
 import { hooks } from '@wove/react';
 import { PageWrapperCtxProvider, usePageWrapperCtx } from './ctx.js';
-import { Page, PageProps } from './page.jsx';
+import { Page, type PageProps } from './page.jsx';
 
 type PageContentProps = Omit<PageWrapperProps, 'serviceConfig'> & {
   respData?: TAny;

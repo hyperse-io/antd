@@ -4,13 +4,16 @@ import { isArray } from '@dimjs/lang';
 import { classNames } from '@dimjs/utils';
 import {
   arrayField2LabelValue,
-  LabelValueItem,
-  TAny,
-  TPlainObject,
+  type LabelValueItem,
+  type TAny,
+  type TPlainObject,
 } from '@hyperse/utils';
 import { hooks } from '@wove/react';
 import { SelectorWrapper } from '../../selector-wrapper/index.js';
-import { EditableFormItemProps, EditableSelectWrapperConfig } from '../type.js';
+import {
+  type EditableFormItemProps,
+  type EditableSelectWrapperConfig,
+} from '../type.js';
 
 type FormItemContentProps = Omit<EditableFormItemProps, 'formItemProps'> & {
   value?: string | number | Array<string | number>;

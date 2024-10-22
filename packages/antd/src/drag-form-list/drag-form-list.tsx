@@ -11,7 +11,7 @@ import { getUuid, type TAny, toArray, type TPlainObject } from '@hyperse/utils';
 import { hooks } from '@wove/react';
 import { BlockLayout } from '../block-layout/index.js';
 import { ButtonWrapper } from '../button-wrapper/index.js';
-import { FormItemHorizontalUnionProps } from '../form-item-group/horizontal-union/index.js';
+import { type FormItemHorizontalUnionProps } from '../form-item-group/horizontal-union/index.jsx';
 import { FormItemGroup } from '../form-item-group/index.js';
 import { TextSymbolWrapper } from '../text-symbol-wrapper/index.js';
 import { SortableItem } from './sortable-item.jsx';

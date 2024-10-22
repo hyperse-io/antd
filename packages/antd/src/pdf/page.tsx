@@ -1,4 +1,4 @@
-import { CSSProperties, ReactNode, useState } from 'react';
+import { type CSSProperties, type ReactNode, useState } from 'react';
 import { Spin } from 'antd';
 import { classNames } from '@dimjs/utils';
 import { hooks } from '@wove/react';

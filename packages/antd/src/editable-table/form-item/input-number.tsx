@@ -1,6 +1,9 @@
 import { Form, InputNumber } from 'antd';
 import { classNames } from '@dimjs/utils';
-import { EditableFormItemProps, EditableInputNumberConfig } from '../type.js';
+import {
+  type EditableFormItemProps,
+  type EditableInputNumberConfig,
+} from '../type.js';
 
 export const InputNumberFormItem = (props: EditableFormItemProps) => {
   const { formItemProps, editableConfig } = props.fieldConfig;

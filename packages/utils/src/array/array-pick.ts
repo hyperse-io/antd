@@ -1,4 +1,4 @@
-import { TAny } from '../types/index.js';
+import { type TAny } from '../types/index.js';
 import { arrayFilter, arrayFilterByLoosely } from './array-filter.js';
 
 /**

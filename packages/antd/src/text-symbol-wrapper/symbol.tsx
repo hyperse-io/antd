@@ -1,7 +1,7 @@
 import {
   type CSSProperties,
   type ReactElement,
-  ReactNode,
+  type ReactNode,
   useMemo,
 } from 'react';
 import { classNames } from '@dimjs/utils';

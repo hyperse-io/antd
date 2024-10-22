@@ -1,7 +1,7 @@
 import { type CSSProperties, Fragment } from 'react';
 import { Spin, Tooltip } from 'antd';
 import { QuestionCircleFilled, RedoOutlined } from '@ant-design/icons';
-import { isUndefinedOrNull, TAny } from '@hyperse/utils';
+import { isUndefinedOrNull, type TAny } from '@hyperse/utils';
 import { TextOverflow } from '../text-overflow/index.js';
 import { TipsWrapper } from '../tips-wrapper/index.js';
 import { type FormItemTextProps } from './types.js';

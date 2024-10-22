@@ -1,4 +1,4 @@
-import { CSSProperties } from 'react';
+import { type CSSProperties } from 'react';
 import { Modal, theme } from 'antd';
 import { classNames } from '@dimjs/utils';
 import { BlockLayout } from '../../block-layout/index.js';

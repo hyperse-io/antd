@@ -1,12 +1,12 @@
-import { Fragment, ReactElement, useMemo } from 'react';
-import { ButtonProps, Dropdown, DropdownProps } from 'antd';
-import { ItemType } from 'antd/es/menu/interface.js';
+import { Fragment, type ReactElement, useMemo } from 'react';
+import { type ButtonProps, Dropdown, type DropdownProps } from 'antd';
+import { type ItemType } from 'antd/es/menu/interface.js';
 import { ExclamationCircleFilled } from '@ant-design/icons';
 import { classNames } from '@dimjs/utils';
 import { hooks } from '@wove/react';
 import { ButtonWrapper } from '../button-wrapper/index.js';
 import { dialogConfirm } from '../dialog-confirm/index.js';
-import { DialogModalProps } from '../dialog-modal/index.js';
+import { type DialogModalProps } from '../dialog-modal/index.js';
 import { fbaUtils } from '../fba-utils/fba-utils.js';
 import { FlexLayout } from '../flex-layout/index.js';
 import { parentsHasSticky } from './utils.js';

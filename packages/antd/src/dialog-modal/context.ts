@@ -1,4 +1,4 @@
-import { TPlainObject } from '@hyperse/utils';
+import { type TPlainObject } from '@hyperse/utils';
 import { createCtx } from '@wove/react';
 
 export const [useDialogModalCtx, DialogModalCtxProvider] = createCtx<{

@@ -16,8 +16,8 @@ import {
 import { type TPlainObject } from '@hyperse/utils';
 import {
   EditableTable,
-  EditableTableColumn,
-  EditableTableProps,
+  type EditableTableColumn,
+  type EditableTableProps,
 } from '../editable-table/index.js';
 import { CtxProvider } from './context.js';
 import { Row } from './row.jsx';

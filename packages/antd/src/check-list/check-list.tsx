@@ -1,10 +1,10 @@
-import { ReactNode, useMemo } from 'react';
+import { type ReactNode, useMemo } from 'react';
 import { classNames, extend } from '@dimjs/utils';
 import { hooks } from '@wove/react';
-import { CommonPropsWithChildren } from '../_utils/native-props.js';
+import { type CommonPropsWithChildren } from '../_utils/native-props.js';
 import { fbaHooks } from '../fba-hooks/index.js';
 import { CheckListCtxProvider } from './context.js';
-import { CheckListItemValue } from './types.js';
+import { type CheckListItemValue } from './types.js';
 import { getValueList } from './utils.js';
 import './style.less';
 

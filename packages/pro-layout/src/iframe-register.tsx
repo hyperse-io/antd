@@ -1,5 +1,5 @@
 import { Fragment } from 'react';
-import { TAny } from '@hyperse/utils';
+import { type TAny } from '@hyperse/utils';
 import { useIframe } from './hooks/index.js';
 
 export const IframeMainRegister = () => {

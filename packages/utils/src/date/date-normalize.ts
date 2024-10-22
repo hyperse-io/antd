@@ -1,5 +1,5 @@
 import { dateNormalize as dateNormalizeFn } from '@dimjs/utils';
-import { DateType } from './types.js';
+import { type DateType } from './types.js';
 /**
  * 指定数据转日期格式
  * @param dateInput

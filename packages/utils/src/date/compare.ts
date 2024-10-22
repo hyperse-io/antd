@@ -1,5 +1,5 @@
 import { dateNormalize } from './date-normalize.js';
-import { DateType } from './types.js';
+import { type DateType } from './types.js';
 
 /**
  * 日期比较：大于等于

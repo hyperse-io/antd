@@ -1,8 +1,11 @@
-import { CSSProperties, ReactElement, ReactNode } from 'react';
+import { type CSSProperties, type ReactElement, type ReactNode } from 'react';
 import { Space } from 'antd';
 import { isPromise } from '@dimjs/lang';
 import { hooks } from '@wove/react';
-import { ButtonWrapper, ButtonWrapperProps } from '../button-wrapper/index.js';
+import {
+  ButtonWrapper,
+  type ButtonWrapperProps,
+} from '../button-wrapper/index.js';
 import { useDialogDrawerCtx } from '../dialog-drawer/context.js';
 import { fbaHooks } from '../fba-hooks/index.js';
 import './style.less';

@@ -1,4 +1,4 @@
-import { ReactElement, useMemo } from 'react';
+import { type ReactElement, useMemo } from 'react';
 import { Empty, Spin } from 'antd';
 import { extend } from '@dimjs/utils';
 import { valueIsEqual } from '@hyperse/utils';

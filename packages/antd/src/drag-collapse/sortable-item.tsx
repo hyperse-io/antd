@@ -1,13 +1,13 @@
-import { CSSProperties, Fragment } from 'react';
+import { type CSSProperties, Fragment } from 'react';
 import { Collapse } from 'antd';
 import { DragOutlined } from '@ant-design/icons';
 import { classNames } from '@dimjs/utils';
 import { useSortable } from '@dnd-kit/sortable';
 import { CSS } from '@dnd-kit/utilities';
 import {
-  DragCollapseItem,
-  DragCollapseItemKey,
-  DragCollapseProps,
+  type DragCollapseItem,
+  type DragCollapseItemKey,
+  type DragCollapseProps,
 } from './types.js';
 type SortableItemProps = {
   openKeys: DragCollapseItemKey[];

@@ -1,12 +1,20 @@
-import { Fragment, ReactNode, useMemo, useState } from 'react';
+import { Fragment, type ReactNode, useMemo, useState } from 'react';
 import { flushSync } from 'react-dom';
-import { Button, message, Upload, UploadProps } from 'antd';
-import { UploadChangeParam } from 'antd/lib/upload';
-import { UploadFile, UploadListType } from 'antd/lib/upload/interface.js';
+import { Button, message, Upload, type UploadProps } from 'antd';
+import { type UploadChangeParam } from 'antd/lib/upload';
+import {
+  type UploadFile,
+  type UploadListType,
+} from 'antd/lib/upload/interface.js';
 import { PlusOutlined } from '@ant-design/icons';
 import { isPlainObject } from '@dimjs/lang';
 import { classNames, extend } from '@dimjs/utils';
-import { isUndefinedOrNull, TAny, toArray, TPlainObject } from '@hyperse/utils';
+import {
+  isUndefinedOrNull,
+  type TAny,
+  toArray,
+  type TPlainObject,
+} from '@hyperse/utils';
 import { hooks } from '@wove/react';
 import { fbaHooks } from '../fba-hooks/index.js';
 import './style.less';

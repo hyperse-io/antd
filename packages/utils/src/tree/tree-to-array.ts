@@ -1,4 +1,4 @@
-import { TPlainObject } from '../types/define.js';
+import { type TPlainObject } from '../types/define.js';
 
 /**
  * 树结构数据，由嵌套结构转成平铺结构，返回值不改变原数据命名

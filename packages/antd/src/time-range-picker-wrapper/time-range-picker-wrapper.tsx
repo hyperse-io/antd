@@ -1,11 +1,11 @@
 import { useMemo } from 'react';
-import { TimePicker, TimeRangePickerProps } from 'antd';
-import dayjs, { Dayjs } from 'dayjs';
+import { TimePicker, type TimeRangePickerProps } from 'antd';
+import dayjs, { type Dayjs } from 'dayjs';
 import { hooks } from '@wove/react';
 import {
   DayjsDateTypeEnum,
   DayjsTimeTypeEnum,
-  TDayjsTimeType,
+  type TDayjsTimeType,
 } from '../_utils/constants.js';
 import {
   getDisabledHour,

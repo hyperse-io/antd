@@ -1,10 +1,10 @@
-import { ForwardRefExoticComponent, RefAttributes } from 'react';
-import { attachPropertiesToComponent, TPlainObject } from '@hyperse/utils';
+import { type ForwardRefExoticComponent, type RefAttributes } from 'react';
+import { attachPropertiesToComponent, type TPlainObject } from '@hyperse/utils';
 import { getTreeDataList } from './hooks.js';
 import {
   TreeWrapper as TreeWrapperInner,
-  TreeWrapperProps,
-  TreeWrapperRefApi,
+  type TreeWrapperProps,
+  type TreeWrapperRefApi,
 } from './tree-wrapper.jsx';
 /**
  * Tree包装组件，默认返回父节点，可配置不返回

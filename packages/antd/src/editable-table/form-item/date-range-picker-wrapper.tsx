@@ -2,12 +2,12 @@ import { useMemo } from 'react';
 import { Form } from 'antd';
 import { isArray } from '@dimjs/lang';
 import { classNames } from '@dimjs/utils';
-import { TAny } from '@hyperse/utils';
+import { type TAny } from '@hyperse/utils';
 import { hooks } from '@wove/react';
 import { DateRangePickerWrapper } from '../../date-range-picker-wrapper/index.js';
 import {
-  EditableDateRangePickerWrapperConfig,
-  EditableFormItemProps,
+  type EditableDateRangePickerWrapperConfig,
+  type EditableFormItemProps,
 } from '../type.js';
 
 type FormItemContentProps = Omit<EditableFormItemProps, 'formItemProps'> & {

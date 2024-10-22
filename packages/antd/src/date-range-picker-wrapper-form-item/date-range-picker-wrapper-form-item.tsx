@@ -1,18 +1,18 @@
 import { forwardRef, useImperativeHandle, useMemo, useRef } from 'react';
 import { Form, Input } from 'antd';
 import { isArray } from '@dimjs/lang';
-import { TAny } from '@hyperse/utils';
+import { type TAny } from '@hyperse/utils';
 import { hooks } from '@wove/react';
 import {
   DateRangePickerWrapper,
-  DateRangePickerWrapperProps,
+  type DateRangePickerWrapperProps,
 } from '../date-range-picker-wrapper/date-range-picker-wrapper.jsx';
 import { fbaHooks } from '../fba-hooks/index.js';
 import {
   FormItemWrapper,
-  FormItemWrapperProps,
+  type FormItemWrapperProps,
 } from '../form-item-wrapper/form-item-wrapper.jsx';
-import { FormItemNamePath } from '../types/index.js';
+import { type FormItemNamePath } from '../types/index.js';
 
 export type DateRangePickerWrapperFormItemProps = Omit<
   FormItemWrapperProps,

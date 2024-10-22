@@ -1,5 +1,5 @@
 import { ConfigProvider } from 'antd';
-import { ConfigProviderProps } from 'antd/es/config-provider';
+import { type ConfigProviderProps } from 'antd/es/config-provider';
 import enUS from 'antd/es/locale/en_US.js';
 import zhCN from 'antd/es/locale/zh_CN.js';
 import dayjs from 'dayjs';
@@ -12,7 +12,7 @@ import weekOfYear from 'dayjs/plugin/weekOfYear.js';
 import weekYear from 'dayjs/plugin/weekYear.js';
 import { setFbaLocaleMessage } from '../_utils/i18n/index.js';
 import { fbaHooks } from '../fba-hooks/index.js';
-import { TFbaLocale, TLocale } from '../types/index.js';
+import { type TFbaLocale, type TLocale } from '../types/index.js';
 import 'dayjs/locale/en.js';
 import 'dayjs/locale/zh-cn.js';
 dayjs.extend(customParseFormat);

@@ -1,4 +1,4 @@
-import { Dispatch, SetStateAction, useState } from 'react';
+import { type Dispatch, type SetStateAction, useState } from 'react';
 import { hooks } from '@wove/react';
 
 export const useSafeState = <S extends undefined | unknown>(

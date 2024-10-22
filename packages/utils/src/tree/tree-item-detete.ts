@@ -1,4 +1,4 @@
-import { TPlainObject } from '../types/index.js';
+import { type TPlainObject } from '../types/index.js';
 import { treeFilter } from './tree-filter.js';
 import { treeToArray } from './tree-to-array.js';
 

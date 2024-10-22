@@ -1,5 +1,5 @@
 import { isArray } from '@dimjs/lang';
-import { TPlainObject } from '../types/define.js';
+import { type TPlainObject } from '../types/define.js';
 
 /**
  * 树结构数据，复制字段数据为新字段值（配置方式）

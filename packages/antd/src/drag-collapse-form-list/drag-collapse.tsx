@@ -1,5 +1,5 @@
 import { Fragment, useMemo, useRef, useState } from 'react';
-import { Form, FormListFieldData } from 'antd';
+import { Form, type FormListFieldData } from 'antd';
 import { arrayRemove, classNames } from '@dimjs/utils';
 import { closestCenter, DndContext, DragOverlay } from '@dnd-kit/core';
 import {
@@ -7,11 +7,11 @@ import {
   SortableContext,
   verticalListSortingStrategy,
 } from '@dnd-kit/sortable';
-import { TAny, toArray, TPlainObject } from '@hyperse/utils';
+import { type TAny, toArray, type TPlainObject } from '@hyperse/utils';
 import { hooks } from '@wove/react';
 import { fbaHooks } from '../fba-hooks/index.js';
 import { SortableItem } from './sortable-item.jsx';
-import { DragCollapseFormListProps } from './types.js';
+import { type DragCollapseFormListProps } from './types.js';
 import './style.less';
 
 /**

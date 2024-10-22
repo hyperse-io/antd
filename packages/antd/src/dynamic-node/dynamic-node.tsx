@@ -1,4 +1,4 @@
-import { CSSProperties, ReactElement } from 'react';
+import { type CSSProperties, type ReactElement } from 'react';
 import { createRoot } from 'react-dom/client';
 import { classNames } from '@dimjs/utils';
 import { bodyAppendDivElement } from '../_utils/dom.js';

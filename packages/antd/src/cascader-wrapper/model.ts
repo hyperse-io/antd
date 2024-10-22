@@ -1,7 +1,7 @@
-import { API, ModelType } from '@dimjs/model';
+import { type API, type ModelType } from '@dimjs/model';
 import { Model } from '@dimjs/model-react';
-import { TAny, TPlainObject } from '@hyperse/utils';
-import { TRequestStatus } from '../request-status/request-status.js';
+import { type TAny, type TPlainObject } from '@hyperse/utils';
+import { type TRequestStatus } from '../request-status/request-status.js';
 
 export type ModelState = {
   selectorList: TPlainObject[];

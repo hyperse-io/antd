@@ -1,7 +1,7 @@
 import { useRef, useState } from 'react';
 import { Input } from 'antd';
-import { TextAreaProps } from 'antd/lib/input';
-import { isUndefinedOrNull, TAny } from '@hyperse/utils';
+import { type TextAreaProps } from 'antd/lib/input';
+import { isUndefinedOrNull, type TAny } from '@hyperse/utils';
 import { hooks } from '@wove/react';
 import { fbaHooks } from '../fba-hooks/index.js';
 

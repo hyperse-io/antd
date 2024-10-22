@@ -1,5 +1,5 @@
 import { getGlobalData } from '../system/window.js';
-import { TPlainObject } from '../types/define.js';
+import { type TPlainObject } from '../types/define.js';
 import { toLinkPath } from './to-link-path.js';
 import { urlJoin } from './url-join.js';
 

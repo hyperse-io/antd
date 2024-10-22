@@ -2,7 +2,7 @@ import { useMemo, useRef } from 'react';
 import { useSize } from 'ahooks';
 import { Tooltip } from 'antd';
 import { classNames } from '@dimjs/utils';
-import { TextOverflowProps } from './types.js';
+import { type TextOverflowProps } from './types.js';
 
 export const OverflowWidth = (props: Omit<TextOverflowProps, 'maxLength'>) => {
   const rootRef = useRef<HTMLDivElement>(null);

@@ -1,6 +1,6 @@
 import { Fragment, type ReactElement, type ReactNode, useEffect } from 'react';
 import { Result } from 'antd';
-import { TPlainObject } from '@hyperse/utils';
+import { type TPlainObject } from '@hyperse/utils';
 import { type BootstrapOptions } from './types/layout.js';
 
 export const Container = (props: {

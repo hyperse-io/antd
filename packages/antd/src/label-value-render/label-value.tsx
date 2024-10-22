@@ -1,14 +1,19 @@
-import { CSSProperties, ReactElement, useMemo, useState } from 'react';
+import {
+  type CSSProperties,
+  type ReactElement,
+  useMemo,
+  useState,
+} from 'react';
 import { classNames } from '@dimjs/utils';
-import { isNumber, isUndefinedOrNull, TAny } from '@hyperse/utils';
+import { isNumber, isUndefinedOrNull, type TAny } from '@hyperse/utils';
 import { hooks } from '@wove/react';
 import { BoxGrid } from '../box-grid/index.js';
-import { TBoxBreakpoint } from '../box-grid/type.js';
+import { type TBoxBreakpoint } from '../box-grid/type.js';
 import { fbaHooks } from '../fba-hooks/index.js';
 import { TextOverflow } from '../text-overflow/index.js';
 import { TextSymbolWrapper } from '../text-symbol-wrapper/index.js';
 import { TipsWrapper } from '../tips-wrapper/index.js';
-import { TLabelValueItem, TLabelValueRenderItem } from './types.js';
+import { type TLabelValueItem, type TLabelValueRenderItem } from './types.js';
 import { getRenderGrid } from './utils.js';
 import './style.less';
 

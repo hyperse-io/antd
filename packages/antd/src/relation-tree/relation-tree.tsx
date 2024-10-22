@@ -1,17 +1,17 @@
-import { Fragment, ReactElement, useState } from 'react';
+import { Fragment, type ReactElement, useState } from 'react';
 import { Empty, Form } from 'antd';
 import { classNames } from '@dimjs/utils';
-import { TPlainObject } from '@hyperse/utils';
+import { type TPlainObject } from '@hyperse/utils';
 import { hooks } from '@wove/react';
 import { fbaHooks } from '../fba-hooks/index.js';
 import { Relation } from './compts/relation.jsx';
 import { RelationGroupList } from './compts/relation-group-list.jsx';
 import { RelationItem } from './compts/relation-item.jsx';
 import {
-  RelationTreeProps,
-  TRelationTreeCustomData,
-  TRelationTreeData,
-  TRelationTreeRelationItem,
+  type RelationTreeProps,
+  type TRelationTreeCustomData,
+  type TRelationTreeData,
+  type TRelationTreeRelationItem,
 } from './type.js';
 import { deleteLoop, filterSurplusData } from './utils.js';
 import './style.less';

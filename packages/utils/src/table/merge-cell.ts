@@ -1,6 +1,6 @@
 import { isArray } from '@dimjs/lang';
 import { valueIsEqual } from '../string/value-is-equal.js';
-import { TAny, TPlainObject } from '../types/index.js';
+import { type TAny, type TPlainObject } from '../types/index.js';
 
 /**
  * 表格合并单元格计算

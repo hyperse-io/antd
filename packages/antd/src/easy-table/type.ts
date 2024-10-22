@@ -2,7 +2,7 @@ import { type CSSProperties, type ReactElement } from 'react';
 import { type FormInstance, type PaginationProps } from 'antd';
 import { type ColumnsType } from 'antd/es/table';
 import { type TAny, type TPlainObject } from '@hyperse/utils';
-import { TipsWrapperProps } from '../tips-wrapper/tips-wrapper.js';
+import { type TipsWrapperProps } from '../tips-wrapper/tips-wrapper.js';
 
 export type TEasyTableTableColumn<T> = ColumnsType<T>[0] & {
   dataIndex?: keyof T | (string & {});

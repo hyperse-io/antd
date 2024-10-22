@@ -1,13 +1,13 @@
 import {
   cloneElement,
   isValidElement,
-  ReactElement,
-  ReactNode,
+  type ReactElement,
+  type ReactNode,
   useMemo,
 } from 'react';
-import { Form, FormItemProps } from 'antd';
-import { composeProps, TAny } from '@hyperse/utils';
-import { TFormItemLayoutPreClassNameProps } from '../pre-defined-class-name/form/index.js';
+import { Form, type FormItemProps } from 'antd';
+import { composeProps, type TAny } from '@hyperse/utils';
+import { type TFormItemLayoutPreClassNameProps } from '../pre-defined-class-name/form/index.js';
 import { preDefinedClassName } from '../pre-defined-class-name/index.js';
 
 export type FormItemWrapperProps = FormItemProps &

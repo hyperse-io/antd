@@ -1,4 +1,4 @@
-import { ReactElement } from 'react';
+import { type ReactElement } from 'react';
 import { EditableFieldContext } from './context.js';
 
 export interface EditableFieldProviderProps {

@@ -1,4 +1,4 @@
-import { CSSProperties, ReactElement, useRef } from 'react';
+import { type CSSProperties, type ReactElement, useRef } from 'react';
 import { useMutationObserver } from 'ahooks';
 import { classNames } from '@dimjs/utils';
 import { fbaHooks } from '../fba-hooks/index.js';

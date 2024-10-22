@@ -1,4 +1,4 @@
-import { CSSProperties, FC, ReactElement } from 'react';
+import { type CSSProperties, type FC, type ReactElement } from 'react';
 import { classNames } from '@dimjs/utils';
 import { fbaHooks } from '../../fba-hooks/index.js';
 import './style.less';

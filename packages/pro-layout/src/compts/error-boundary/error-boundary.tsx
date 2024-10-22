@@ -1,12 +1,12 @@
 import {
   Component,
-  ComponentType,
-  ErrorInfo,
-  FunctionComponent,
+  type ComponentType,
+  type ErrorInfo,
+  type FunctionComponent,
   isValidElement,
-  PropsWithChildren,
-  PropsWithRef,
-  ReactElement,
+  type PropsWithChildren,
+  type PropsWithRef,
+  type ReactElement,
 } from 'react';
 
 const changedArray = (a: Array<unknown> = [], b: Array<unknown> = []) =>

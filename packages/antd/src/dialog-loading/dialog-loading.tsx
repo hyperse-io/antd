@@ -1,4 +1,4 @@
-import { CSSProperties, useState } from 'react';
+import { type CSSProperties, useState } from 'react';
 import { createRoot } from 'react-dom/client';
 import { Modal, theme } from 'antd';
 import { isString } from '@dimjs/lang';
@@ -6,7 +6,7 @@ import { classNames } from '@dimjs/utils';
 import { hooks } from '@wove/react';
 import {
   bodyAppendDivElement,
-  BodyAppendDivElementProps,
+  type BodyAppendDivElementProps,
   removeBodyChild,
 } from '../_utils/dom.js';
 import { fbaHooks } from '../fba-hooks/index.js';

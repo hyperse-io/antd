@@ -4,7 +4,7 @@ import { toArray } from '@hyperse/utils';
 import { FormItemHidden } from '../../form-item-hidden/index.js';
 import { FormItemAdapter } from '../form-item/index.jsx';
 import { TextFormItem } from '../form-item/text.jsx';
-import { FieldSingleConfig, FormListConfig } from '../type.js';
+import { type FieldSingleConfig, type FormListConfig } from '../type.js';
 import { FormList } from './form-list.jsx';
 
 export type FormListItemProps = {

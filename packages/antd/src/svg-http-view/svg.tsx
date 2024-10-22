@@ -1,4 +1,4 @@
-import { CSSProperties, useMemo } from 'react';
+import { type CSSProperties, useMemo } from 'react';
 import { classNames } from '@dimjs/utils';
 import { isHttpUri } from '@hyperse/utils';
 import './style.less';

@@ -1,25 +1,34 @@
 import {
   isValidElement,
-  ReactElement,
+  type ReactElement,
   useEffect,
   useMemo,
   useRef,
 } from 'react';
-import { Form, FormListOperation, message, Table, TableProps } from 'antd';
-import { FormListFieldData, FormListProps } from 'antd/es/form';
-import { ColumnsType } from 'antd/es/table';
+import { Form, message, Table, type TableProps } from 'antd';
+import {
+  type FormListFieldData,
+  type FormListOperation,
+  type FormListProps,
+} from 'antd/es/form';
+import { type ColumnsType } from 'antd/es/table';
 import { PlusOutlined } from '@ant-design/icons';
 import { classNames } from '@dimjs/utils';
-import { isUndefinedOrNull, TAny, toArray, TPlainObject } from '@hyperse/utils';
+import {
+  isUndefinedOrNull,
+  type TAny,
+  toArray,
+  type TPlainObject,
+} from '@hyperse/utils';
 import { ButtonWrapper } from '../button-wrapper/index.js';
 import { TextSymbolWrapper } from '../text-symbol-wrapper/index.js';
-import { TipsWrapper, TipsWrapperProps } from '../tips-wrapper/index.js';
+import { TipsWrapper, type TipsWrapperProps } from '../tips-wrapper/index.js';
 import { FormListItem } from './form-list-item/index.jsx';
 import {
-  EditableTableName,
-  EditableTableRecordType,
-  FieldSingleConfig,
-  FormListConfig,
+  type EditableTableName,
+  type EditableTableRecordType,
+  type FieldSingleConfig,
+  type FormListConfig,
 } from './type.js';
 import './style.less';
 

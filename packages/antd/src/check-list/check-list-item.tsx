@@ -1,8 +1,8 @@
-import { CSSProperties, ReactElement } from 'react';
+import { type CSSProperties, type ReactElement } from 'react';
 import { classNames } from '@dimjs/utils';
 import { hooks } from '@wove/react';
 import { useCheckListCtx } from './context.js';
-import { CheckListItemValue } from './types.js';
+import { type CheckListItemValue } from './types.js';
 
 export type CheckListItemContentProps = {
   checked?: boolean;

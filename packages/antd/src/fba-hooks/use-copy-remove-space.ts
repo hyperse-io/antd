@@ -1,4 +1,4 @@
-import { TAny, trim } from '@hyperse/utils';
+import { type TAny, trim } from '@hyperse/utils';
 import { useEffectCustom } from './use-effect-custom.js';
 
 const innerIgnoreClass = [

@@ -1,5 +1,5 @@
 import { toArray } from '@hyperse/utils';
-import { CheckListItemValue, CheckListValue } from './types.js';
+import { type CheckListItemValue, type CheckListValue } from './types.js';
 
 export const getValueList = (value?: CheckListValue, multiple?: boolean) => {
   if (value !== undefined) {

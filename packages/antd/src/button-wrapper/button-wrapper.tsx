@@ -1,10 +1,10 @@
-import { ReactElement, useState } from 'react';
-import { Button, ButtonProps } from 'antd';
-import { OverrideToken } from 'antd/es/theme/interface';
+import { type ReactElement, useState } from 'react';
+import { Button, type ButtonProps } from 'antd';
+import { type OverrideToken } from 'antd/es/theme/interface';
 import { LoadingOutlined } from '@ant-design/icons';
 import { isPromise } from '@dimjs/lang';
 import { classNames } from '@dimjs/utils';
-import { isUndefinedOrNull, TAny } from '@hyperse/utils';
+import { isUndefinedOrNull, type TAny } from '@hyperse/utils';
 import { hooks } from '@wove/react';
 import { ConfigProviderWrapper } from '../config-provider-wrapper/config-provider-wrapper.jsx';
 import { fbaHooks } from '../fba-hooks/index.js';

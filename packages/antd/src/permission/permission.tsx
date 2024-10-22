@@ -1,4 +1,4 @@
-import { Fragment, ReactNode } from 'react';
+import { Fragment, type ReactNode } from 'react';
 import { fbaUtils } from '../fba-utils/index.js';
 
 export interface PermissionProps {

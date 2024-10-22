@@ -1,4 +1,4 @@
-import { Fragment, isValidElement, ReactElement } from 'react';
+import { Fragment, isValidElement, type ReactElement } from 'react';
 import { message } from 'antd';
 
 export type FileExportProps = {

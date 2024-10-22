@@ -1,6 +1,6 @@
-import { isValidElement, ReactElement, useState } from 'react';
-import { Button, message, Upload, UploadProps } from 'antd';
-import { TAny } from '@hyperse/utils';
+import { isValidElement, type ReactElement, useState } from 'react';
+import { Button, message, Upload, type UploadProps } from 'antd';
+import { type TAny } from '@hyperse/utils';
 import { hooks } from '@wove/react';
 
 export type FileImportProps = {

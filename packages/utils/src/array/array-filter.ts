@@ -1,4 +1,4 @@
-import { TAny } from '../types/index.js';
+import { type TAny } from '../types/index.js';
 
 /**
  * array.filter严谨查询，使用 === 进行比较

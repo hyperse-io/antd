@@ -1,6 +1,6 @@
 import { isUndefined } from '@dimjs/lang';
 import { toArray } from '../array/to-array.js';
-import { TPlainObject } from '../types/index.js';
+import { type TPlainObject } from '../types/index.js';
 import { treeToArray } from './tree-to-array.js';
 
 const own = {}.hasOwnProperty;

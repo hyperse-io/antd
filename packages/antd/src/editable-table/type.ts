@@ -1,20 +1,20 @@
-import { ReactElement, ReactNode } from 'react';
+import { type ReactElement, type ReactNode } from 'react';
 import {
-  FormItemProps,
-  FormListFieldData,
-  FormListOperation,
-  InputNumberProps,
-  InputProps,
-  RadioGroupProps,
+  type FormItemProps,
+  type FormListFieldData,
+  type FormListOperation,
+  type InputNumberProps,
+  type InputProps,
+  type RadioGroupProps,
 } from 'antd';
-import { CheckboxGroupProps } from 'antd/lib/checkbox';
-import { TextAreaProps } from 'antd/lib/input';
-import { TAny } from '@hyperse/utils';
-import { DatePickerWrapperProps } from '../date-picker-wrapper/index.js';
-import { DateRangePickerWrapperProps } from '../date-range-picker-wrapper/index.js';
-import { SelectorWrapperProps } from '../selector-wrapper/types.js';
-import { SwitchWrapperProps } from '../switch-wrapper/index.js';
-import { UploadWrapperProps } from '../upload-wrapper/index.js';
+import { type CheckboxGroupProps } from 'antd/lib/checkbox';
+import { type TextAreaProps } from 'antd/lib/input';
+import { type TAny } from '@hyperse/utils';
+import { type DatePickerWrapperProps } from '../date-picker-wrapper/index.js';
+import { type DateRangePickerWrapperProps } from '../date-range-picker-wrapper/index.js';
+import { type SelectorWrapperProps } from '../selector-wrapper/types.js';
+import { type SwitchWrapperProps } from '../switch-wrapper/index.js';
+import { type UploadWrapperProps } from '../upload-wrapper/index.js';
 
 export type EditableTableName = string | number | Array<string | number>;
 export type EditableTableRecordType = FormListFieldData & {

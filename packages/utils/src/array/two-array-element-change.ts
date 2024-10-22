@@ -1,4 +1,4 @@
-import { TAny } from '../types/index.js';
+import { type TAny } from '../types/index.js';
 
 /**
  * 两个数组中元素变换

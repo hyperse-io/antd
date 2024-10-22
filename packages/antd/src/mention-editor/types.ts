@@ -1,4 +1,4 @@
-import { TAny } from '@hyperse/utils';
+import { type TAny } from '@hyperse/utils';
 
 export type ParamItem = {
   /** 模版参数code */

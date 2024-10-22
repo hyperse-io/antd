@@ -1,4 +1,4 @@
-import { CSSProperties, ReactElement, type ReactNode } from 'react';
+import { type CSSProperties, type ReactElement, type ReactNode } from 'react';
 import { Space } from 'antd';
 import { QuestionCircleOutlined } from '@ant-design/icons';
 import { classNames } from '@dimjs/utils';

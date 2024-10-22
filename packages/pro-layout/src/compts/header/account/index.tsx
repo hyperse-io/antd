@@ -1,8 +1,8 @@
-import { Button, Dropdown, MenuProps, Space } from 'antd';
+import { Button, Dropdown, type MenuProps, Space } from 'antd';
 import { LogoutOutlined, UserOutlined } from '@ant-design/icons';
 import { hooks } from '@wove/react';
 import { useLayoutCtx } from '../../../context/layout-ctx.js';
-import { TAdminUser, TGlobalData } from '../../../types/index.js';
+import { type TAdminUser, type TGlobalData } from '../../../types/index.js';
 import { clearStorage } from '../../../utils/index.js';
 import './style.less';
 

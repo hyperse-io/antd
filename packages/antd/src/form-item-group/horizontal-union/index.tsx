@@ -1,8 +1,8 @@
 import {
   cloneElement,
-  CSSProperties,
+  type CSSProperties,
   isValidElement,
-  ReactElement,
+  type ReactElement,
   useMemo,
 } from 'react';
 import { Form } from 'antd';

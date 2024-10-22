@@ -1,4 +1,4 @@
-import { Card, CardProps } from 'antd';
+import { Card, type CardProps } from 'antd';
 import { classNames } from '@dimjs/utils';
 import './style.less';
 /**

@@ -1,4 +1,4 @@
-import { ReactElement } from 'react';
+import { type ReactElement } from 'react';
 
 export type TextOverflowProps = {
   /** text 为ReactElement类型时，maxLength配置无效 */

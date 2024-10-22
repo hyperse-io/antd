@@ -1,5 +1,5 @@
 import { extend } from '@dimjs/utils';
-import { TAny } from '../types/index.js';
+import { type TAny } from '../types/index.js';
 import { base64ToFile } from './base64-to-file.js';
 import { fileToBase64 } from './file-to-base64.js';
 

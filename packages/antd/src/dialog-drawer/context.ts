@@ -1,5 +1,5 @@
-import { CSSProperties } from 'react';
-import { TPlainObject } from '@hyperse/utils';
+import { type CSSProperties } from 'react';
+import { type TPlainObject } from '@hyperse/utils';
 import { createCtx } from '@wove/react';
 
 export const [useDialogDrawerCtx, CtxProvider] = createCtx<{

@@ -1,4 +1,4 @@
-import { FC, useEffect, useMemo, useState } from 'react';
+import { type FC, useEffect, useMemo, useState } from 'react';
 import { classNames } from '@dimjs/utils';
 import { hooks } from '@wove/react';
 

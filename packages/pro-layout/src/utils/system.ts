@@ -2,9 +2,9 @@ import { isArray } from '@dimjs/lang';
 import {
   getGlobalData,
   sessionStorageCache,
-  TPlainObject,
+  type TPlainObject,
 } from '@hyperse/utils';
-import { TGlobalData } from '../types/index.js';
+import { type TGlobalData } from '../types/index.js';
 
 export const globalData = getGlobalData<TGlobalData>();
 const iframeOpenNewTabItemOperateLinkKey =

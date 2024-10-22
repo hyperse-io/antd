@@ -1,8 +1,12 @@
-import { TreeSelectProps } from 'antd';
-import { API, ModelType } from '@dimjs/model';
+import { type TreeSelectProps } from 'antd';
+import { type API, type ModelType } from '@dimjs/model';
 import { Model } from '@dimjs/model-react';
-import { TAny, TPlainObject, TSetDefaultDefined } from '@hyperse/utils';
-import { TRequestStatus } from '../request-status/index.js';
+import {
+  type TAny,
+  type TPlainObject,
+  type TSetDefaultDefined,
+} from '@hyperse/utils';
+import { type TRequestStatus } from '../request-status/index.js';
 
 export type ModelState = {
   treeSelectorList: TSetDefaultDefined<TreeSelectProps['treeData'], []>;

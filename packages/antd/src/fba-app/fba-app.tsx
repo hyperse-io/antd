@@ -1,14 +1,23 @@
-import { ReactNode, useContext, useState } from 'react';
-import { getUuid, TPlainObject } from '@hyperse/utils';
+import { type ReactNode, useContext, useState } from 'react';
+import { getUuid, type TPlainObject } from '@hyperse/utils';
 import { hooks } from '@wove/react';
-import { FbaAppContext, FbaAppContextApi } from './context.js';
-import { FbaAppAlert, FbaAppAlertProps } from './dialog-alert/index.jsx';
-import { FbaAppConfirm, FbaAppConfirmProps } from './dialog-confirm/index.jsx';
+import { FbaAppContext, type FbaAppContextApi } from './context.js';
+import { FbaAppAlert, type FbaAppAlertProps } from './dialog-alert/index.jsx';
+import {
+  FbaAppConfirm,
+  type FbaAppConfirmProps,
+} from './dialog-confirm/index.jsx';
 import { useFbaAppDialogDrawerCtx } from './dialog-drawer/context.js';
-import { FbaAppDrawer, FbaAppDrawerProps } from './dialog-drawer/index.jsx';
-import { FbaAppLoading, FbaAppLoadingProps } from './dialog-loading/index.jsx';
+import {
+  FbaAppDrawer,
+  type FbaAppDrawerProps,
+} from './dialog-drawer/index.jsx';
+import {
+  FbaAppLoading,
+  type FbaAppLoadingProps,
+} from './dialog-loading/index.jsx';
 import { useFbaAppDialogModalCtx } from './dialog-modal/context.js';
-import { FbaAppModal, FbaAppModalProps } from './dialog-modal/index.jsx';
+import { FbaAppModal, type FbaAppModalProps } from './dialog-modal/index.jsx';
 
 /**
  * 不支持多个弹框，第二个弹框可使用useDialogDrawer2

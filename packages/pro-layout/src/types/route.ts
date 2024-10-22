@@ -1,4 +1,4 @@
-import { ComponentType, ReactElement } from 'react';
+import { type ComponentType, type ReactElement } from 'react';
 
 export type BreadRouteMatchPath = {
   params: Readonly<Record<string, string | undefined>>;

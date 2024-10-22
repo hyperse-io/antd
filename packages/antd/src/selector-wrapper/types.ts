@@ -1,7 +1,7 @@
-import { ReactElement } from 'react';
-import { SelectProps } from 'antd';
-import { TAny, TPlainObject } from '@hyperse/utils';
-import { TRequestStatusProps } from '../request-status/index.js';
+import { type ReactElement } from 'react';
+import { type SelectProps } from 'antd';
+import { type TAny, type TPlainObject } from '@hyperse/utils';
+import { type TRequestStatusProps } from '../request-status/index.js';
 
 export type SelectorWrapperValue =
   | string

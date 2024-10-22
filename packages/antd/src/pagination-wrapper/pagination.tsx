@@ -1,4 +1,4 @@
-import { Pagination, PaginationProps } from 'antd';
+import { Pagination, type PaginationProps } from 'antd';
 import { MiddleSelect, SmallSelect } from './select.jsx';
 
 /**

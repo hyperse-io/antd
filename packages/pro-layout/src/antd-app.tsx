@@ -1,7 +1,7 @@
 import { App } from 'antd';
 import { get } from '@dimjs/utils';
 import { fbaHooks } from '@hyperse/antd';
-import { TPlainObject } from '@hyperse/utils';
+import { type TPlainObject } from '@hyperse/utils';
 export const AntdAppWrapper = (props) => {
   const theme = fbaHooks.useThemeToken();
   const appProviderValue = props.appProviderValue;

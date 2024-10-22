@@ -1,5 +1,5 @@
-import { ReactElement } from 'react';
-import { BootstrapOptions } from '../../types/layout.js';
+import { type ReactElement } from 'react';
+import { type BootstrapOptions } from '../../types/layout.js';
 import { IframeTabMode } from './iframe-tab-mode.js';
 import { NoLayoutMode } from './no-layout-mode.jsx';
 

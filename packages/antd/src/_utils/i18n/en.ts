@@ -1,4 +1,4 @@
-import { TFbaLocale } from '../../types/index.js';
+import { type TFbaLocale } from '../../types/index.js';
 
 export const en: TFbaLocale = {
   TreeWrapper: {

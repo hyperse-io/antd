@@ -1,4 +1,4 @@
-import { FC, useEffect, useRef } from 'react';
+import { type FC, useEffect, useRef } from 'react';
 import { classNames } from '@dimjs/utils';
 import {
   alignPropsMap,
@@ -10,7 +10,7 @@ import { useBoxBreakpoint, useGutter } from './hooks.js';
 import {
   type GutterParams,
   type ICommonReact,
-  TBoxBreakpoint,
+  type TBoxBreakpoint,
 } from './type.js';
 
 export interface BoxRowProps {

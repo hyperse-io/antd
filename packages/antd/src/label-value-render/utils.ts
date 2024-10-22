@@ -1,5 +1,5 @@
 import { arrayTotal } from '@hyperse/utils';
-import { TLabelValueRenderItem } from './types.js';
+import { type TLabelValueRenderItem } from './types.js';
 
 export const getRenderGrid = (dataList: TLabelValueRenderItem[]) => {
   let results: TLabelValueRenderItem[][] = [];

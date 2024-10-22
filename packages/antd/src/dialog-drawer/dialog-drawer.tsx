@@ -1,20 +1,23 @@
 import {
-  CSSProperties,
-  ReactElement,
-  ReactNode,
+  type CSSProperties,
+  type ReactElement,
+  type ReactNode,
   useMemo,
   useState,
 } from 'react';
 import { createRoot } from 'react-dom/client';
-import { Drawer, DrawerProps, Form, FormInstance, Space } from 'antd';
+import { Drawer, type DrawerProps, Form, type FormInstance, Space } from 'antd';
 import { isPromise, isString } from '@dimjs/lang';
-import { dom, TNoopDefine, TPlainObject } from '@hyperse/utils';
+import { dom, type TNoopDefine, type TPlainObject } from '@hyperse/utils';
 import { hooks } from '@wove/react';
-import { BodyAppendDivElementProps } from '../_utils/dom.js';
-import { ButtonWrapper, ButtonWrapperProps } from '../button-wrapper/index.js';
+import { type BodyAppendDivElementProps } from '../_utils/dom.js';
+import {
+  ButtonWrapper,
+  type ButtonWrapperProps,
+} from '../button-wrapper/index.js';
 import {
   ConfigProviderWrapper,
-  ConfigProviderWrapperProps,
+  type ConfigProviderWrapperProps,
 } from '../config-provider-wrapper/config-provider-wrapper.jsx';
 import { fbaHooks } from '../fba-hooks/index.js';
 import { CtxProvider, useDialogDrawerCtx } from './context.js';

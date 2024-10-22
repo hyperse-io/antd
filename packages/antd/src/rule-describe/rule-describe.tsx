@@ -1,4 +1,4 @@
-import { CSSProperties, ReactElement } from 'react';
+import { type CSSProperties, type ReactElement } from 'react';
 import { classNames } from '@dimjs/utils';
 import { isUndefinedOrNull } from '@hyperse/utils';
 import { fbaHooks } from '../fba-hooks/index.js';

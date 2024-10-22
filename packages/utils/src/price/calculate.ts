@@ -1,4 +1,4 @@
-import { extend, price, PriceOption } from '@dimjs/utils';
+import { extend, price, type PriceOption } from '@dimjs/utils';
 
 /**
  * 金额计算：加

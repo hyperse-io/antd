@@ -1,5 +1,5 @@
 import { extend } from '@dimjs/utils';
-import { FieldSingleConfig } from '../type.js';
+import { type FieldSingleConfig } from '../type.js';
 import { getEditable } from '../utils.js';
 import { CheckboxGroupFormItem } from './checkbox-group.jsx';
 import { DatePickerWrapperFormItem } from './date-picker-wrapper.jsx';

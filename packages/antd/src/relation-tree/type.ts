@@ -1,5 +1,5 @@
-import { ReactElement } from 'react';
-import { TAny, TPlainObject } from '@hyperse/utils';
+import { type ReactElement } from 'react';
+import { type TAny, type TPlainObject } from '@hyperse/utils';
 
 export type RelationProps = {
   /** 左侧Tag+线占用宽度 */

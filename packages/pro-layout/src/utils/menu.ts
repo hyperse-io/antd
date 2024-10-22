@@ -6,15 +6,15 @@ import {
   isHttpUri,
   removeSlash,
   sessionStorageCache,
-  TAny,
+  type TAny,
   toArray,
   toLinkPath,
-  TPlainObject,
+  type TPlainObject,
   treeToArray,
   urlJoin,
   valueIsEqual,
 } from '@hyperse/utils';
-import { IframeTabItem, TMenuItem } from '../types/menu.js';
+import { type IframeTabItem, type TMenuItem } from '../types/menu.js';
 import { pathIncludePath, sortItemsByPath } from './path.js';
 import { globalData } from './system.js';
 import {

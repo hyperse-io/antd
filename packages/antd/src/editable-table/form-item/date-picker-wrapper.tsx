@@ -2,8 +2,8 @@ import { Form } from 'antd';
 import { classNames } from '@dimjs/utils';
 import { DatePickerWrapper } from '../../date-picker-wrapper/index.js';
 import {
-  EditableDatePickerWrapperConfig,
-  EditableFormItemProps,
+  type EditableDatePickerWrapperConfig,
+  type EditableFormItemProps,
 } from '../type.js';
 
 export const DatePickerWrapperFormItem = (props: EditableFormItemProps) => {

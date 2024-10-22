@@ -22,10 +22,16 @@ import {
   treeFilter,
 } from '@hyperse/utils';
 import { hooks } from '@wove/react';
-import { ButtonOperate, ButtonOperateProps } from '../button-operate/index.js';
+import {
+  ButtonOperate,
+  type ButtonOperateProps,
+} from '../button-operate/index.js';
 import { fbaHooks } from '../fba-hooks/index.js';
 import { InputSearchWrapper } from '../input-search-wrapper/index.js';
-import { RequestStatus, TRequestStatusProps } from '../request-status/index.js';
+import {
+  RequestStatus,
+  type TRequestStatusProps,
+} from '../request-status/index.js';
 import { treeWrapperModel } from './model.js';
 import {
   getDefaultExpandAllKeys,

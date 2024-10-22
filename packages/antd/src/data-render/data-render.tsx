@@ -1,4 +1,9 @@
-import { CSSProperties, Fragment, ReactElement, ReactNode } from 'react';
+import {
+  type CSSProperties,
+  Fragment,
+  type ReactElement,
+  type ReactNode,
+} from 'react';
 import { Empty } from 'antd';
 import { classNames } from '@dimjs/utils';
 import './style.less';

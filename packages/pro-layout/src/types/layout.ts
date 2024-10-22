@@ -3,17 +3,17 @@ import {
   type CSSProperties,
   type ReactElement,
 } from 'react';
-import { BreadcrumbProps, type MenuProps } from 'antd';
+import { type BreadcrumbProps, type MenuProps } from 'antd';
 import { type SizeType } from 'antd/lib/config-provider/SizeContext.js';
 import { type ConfigProviderWrapperProps } from '@hyperse/antd';
 import { type FallbackProps } from '../compts/error-boundary/index.js';
 import {
   type IframeTabItem,
   type TAdminUser,
-  TGlobalData,
+  type TGlobalData,
   type TMenuItem,
 } from './menu.js';
-import { BreadConfigItem, type TRouteItemProps } from './route.js';
+import { type BreadConfigItem, type TRouteItemProps } from './route.js';
 
 type TSidebarThemeConfig = {
   bgColor?: string;

@@ -1,8 +1,8 @@
 import {
-  CSSProperties,
+  type CSSProperties,
   Fragment,
-  ReactElement,
-  ReactNode,
+  type ReactElement,
+  type ReactNode,
   useContext,
   useEffect,
   useMemo,
@@ -13,7 +13,7 @@ import { Space } from 'antd';
 import { CheckOutlined, CloseOutlined, EditOutlined } from '@ant-design/icons';
 import { isArray, isNumber, isString } from '@dimjs/lang';
 import { classNames } from '@dimjs/utils';
-import { isUndefinedOrNull, TAny } from '@hyperse/utils';
+import { isUndefinedOrNull, type TAny } from '@hyperse/utils';
 import { EditableFieldContext } from '../editable-field-provider/context.js';
 import { fbaHooks } from '../fba-hooks/index.js';
 import { IconWrapper } from '../icon-wrapper/index.js';

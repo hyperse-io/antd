@@ -1,4 +1,4 @@
-import { ReactElement, useRef, useState } from 'react';
+import { type ReactElement, useRef, useState } from 'react';
 import { Anchor, Steps } from 'antd';
 import { classNames } from '@dimjs/utils';
 import { Gap } from '../gap/gap.jsx';

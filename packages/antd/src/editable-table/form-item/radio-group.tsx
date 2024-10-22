@@ -1,10 +1,13 @@
 import { useMemo } from 'react';
 import { Form, Radio } from 'antd';
 import { classNames } from '@dimjs/utils';
-import { LabelValueItem } from '@hyperse/utils';
+import { type LabelValueItem } from '@hyperse/utils';
 import { hooks } from '@wove/react';
 import { tableCellRender } from '../../table-cell-render/index.js';
-import { EditableFormItemProps, EditableRadioGroupConfig } from '../type.js';
+import {
+  type EditableFormItemProps,
+  type EditableRadioGroupConfig,
+} from '../type.js';
 
 type RadioGroupFormItemContent = Omit<
   EditableFormItemProps,

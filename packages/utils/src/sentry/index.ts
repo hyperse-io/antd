@@ -3,8 +3,8 @@
  */
 const Sentry = window['Sentry'];
 
-import { getQueryString, PlainObject } from '@dimjs/utils';
-import { TAny } from '../types/index.js';
+import { getQueryString, type PlainObject } from '@dimjs/utils';
+import { type TAny } from '../types/index.js';
 
 type SeverityLevel = 'fatal' | 'error' | 'warning' | 'log' | 'info' | 'debug';
 

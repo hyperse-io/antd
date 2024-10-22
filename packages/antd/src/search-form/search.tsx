@@ -1,23 +1,26 @@
 import {
   Children,
-  CSSProperties,
+  type CSSProperties,
   forwardRef,
-  ReactElement,
+  type ReactElement,
   useImperativeHandle,
   useMemo,
 } from 'react';
 import { isFragment } from 'react-is';
-import { Form, FormInstance } from 'antd';
+import { Form, type FormInstance } from 'antd';
 import { DownOutlined, UpOutlined } from '@ant-design/icons';
 import { classNames } from '@dimjs/utils';
-import { TAny, TPlainObject } from '@hyperse/utils';
+import { type TAny, type TPlainObject } from '@hyperse/utils';
 import { hooks } from '@wove/react';
-import { ButtonWrapper, ButtonWrapperProps } from '../button-wrapper/index.js';
+import {
+  ButtonWrapper,
+  type ButtonWrapperProps,
+} from '../button-wrapper/index.js';
 import { fbaHooks } from '../fba-hooks/index.js';
-import { FormOperateColProps } from '../form-grid/form-operate-col.jsx';
-import { FormRowProps } from '../form-grid/form-row.jsx';
+import { type FormOperateColProps } from '../form-grid/form-operate-col.jsx';
+import { type FormRowProps } from '../form-grid/form-row.jsx';
 import { FormGrid } from '../form-grid/index.js';
-import { FormWrapper, FormWrapperProps } from '../form-wrapper/index.js';
+import { FormWrapper, type FormWrapperProps } from '../form-wrapper/index.js';
 import { searchFormModel } from './model.js';
 import './style.less';
 

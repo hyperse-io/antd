@@ -1,5 +1,5 @@
 import { extend } from '@dimjs/utils';
-import { TFbaLocale, TLocale } from '../../types/index.js';
+import { type TFbaLocale, type TLocale } from '../../types/index.js';
 import { en } from './en.js';
 import { zhCn } from './zh-cn.js';
 

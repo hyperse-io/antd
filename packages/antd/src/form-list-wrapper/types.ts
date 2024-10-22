@@ -1,8 +1,8 @@
 import { type CSSProperties, type ReactElement } from 'react';
 import { type FormListFieldData, type FormListOperation } from 'antd';
-import { FormListProps } from 'antd/es/form';
+import { type FormListProps } from 'antd/es/form';
 import { type TPlainObject } from '@hyperse/utils';
-import { FormItemHorizontalUnionProps } from '../form-item-group/horizontal-union/index.jsx';
+import { type FormItemHorizontalUnionProps } from '../form-item-group/horizontal-union/index.jsx';
 
 export type FormListWrapperContentProps = {
   /** Form.List item fieldData */

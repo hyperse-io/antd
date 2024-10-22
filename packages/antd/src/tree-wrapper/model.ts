@@ -3,12 +3,12 @@ import { isArray } from '@dimjs/lang';
 import { type API, type ModelType } from '@dimjs/model';
 import { Model } from '@dimjs/model-react';
 import {
-  TAny,
+  type TAny,
   type TPlainObject,
   treeToArray,
   type TSetDefaultDefined,
 } from '@hyperse/utils';
-import { TRequestStatus } from '../request-status/index.js';
+import { type TRequestStatus } from '../request-status/index.js';
 
 export type ModelState = {
   treeList: TSetDefaultDefined<TreeProps['treeData'], []>;

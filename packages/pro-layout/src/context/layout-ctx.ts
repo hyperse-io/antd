@@ -1,6 +1,6 @@
-import { ReactElement } from 'react';
-import { LayoutCtxProps } from '../types/layout.js';
-import { BreadConfigItem } from '../types/route.js';
+import { type ReactElement } from 'react';
+import { type LayoutCtxProps } from '../types/layout.js';
+import { type BreadConfigItem } from '../types/route.js';
 import { createCtx } from './create-ctx.js';
 
 export const [useLayoutCtx, LayoutProvider] = createCtx<LayoutCtxProps>();

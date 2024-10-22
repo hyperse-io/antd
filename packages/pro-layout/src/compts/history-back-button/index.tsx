@@ -1,7 +1,7 @@
 import { useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { isPromise } from '@dimjs/lang';
-import { ButtonWrapper, ButtonWrapperProps } from '@hyperse/antd';
+import { ButtonWrapper, type ButtonWrapperProps } from '@hyperse/antd';
 import { toLinkPath } from '@hyperse/utils';
 import { hooks } from '@wove/react';
 import { bootstrapCtx } from '../../context/layout-ctx.js';

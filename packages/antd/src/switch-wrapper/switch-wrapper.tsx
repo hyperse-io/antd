@@ -1,6 +1,12 @@
 import { useState } from 'react';
-import { message, Switch, SwitchProps, Tooltip, TooltipProps } from 'antd';
-import { isUndefinedOrNull, TAny } from '@hyperse/utils';
+import {
+  message,
+  Switch,
+  type SwitchProps,
+  Tooltip,
+  type TooltipProps,
+} from 'antd';
+import { isUndefinedOrNull, type TAny } from '@hyperse/utils';
 import { hooks } from '@wove/react';
 
 export type SwitchWrapperValue = string | number | boolean;

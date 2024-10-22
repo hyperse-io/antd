@@ -1,5 +1,5 @@
-import { CSSProperties, ReactElement, ReactNode } from 'react';
-import { CollapseProps } from 'antd';
+import { type CSSProperties, type ReactElement, type ReactNode } from 'react';
+import { type CollapseProps } from 'antd';
 
 export type DragCollapseItemKey = number | string;
 export type DragCollapseItem = {

@@ -1,9 +1,9 @@
 import {
   Children,
   cloneElement,
-  CSSProperties,
-  ReactElement,
-  ReactNode,
+  type CSSProperties,
+  type ReactElement,
+  type ReactNode,
 } from 'react';
 import { classNames } from '@dimjs/utils';
 import { toArray } from '@hyperse/utils';

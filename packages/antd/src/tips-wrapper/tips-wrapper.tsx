@@ -2,9 +2,9 @@ import {
   type CSSProperties,
   Fragment,
   type ReactElement,
-  ReactNode,
+  type ReactNode,
 } from 'react';
-import { Popover, PopoverProps, Tooltip, TooltipProps } from 'antd';
+import { Popover, type PopoverProps, Tooltip, type TooltipProps } from 'antd';
 import { QuestionCircleOutlined } from '@ant-design/icons';
 import { classNames } from '@dimjs/utils';
 import { isUndefinedOrNull } from '@hyperse/utils';

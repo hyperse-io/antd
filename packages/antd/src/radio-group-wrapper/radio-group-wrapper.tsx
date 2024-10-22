@@ -1,4 +1,4 @@
-import { ReactElement } from 'react';
+import { type ReactElement } from 'react';
 import { Radio, Space } from 'antd';
 import { valueIsEqual } from '@hyperse/utils';
 

@@ -1,13 +1,13 @@
 import {
   cloneElement,
-  CSSProperties,
+  type CSSProperties,
   Fragment,
-  ReactElement,
-  ReactNode,
+  type ReactElement,
+  type ReactNode,
 } from 'react';
 import { classNames } from '@dimjs/utils';
 import { toArray } from '@hyperse/utils';
-import { CommonPropsWithChildren } from '../_utils/native-props.js';
+import { type CommonPropsWithChildren } from '../_utils/native-props.js';
 import './style.less';
 
 export type CssHoverProps = {

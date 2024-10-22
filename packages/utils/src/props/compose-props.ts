@@ -1,5 +1,5 @@
 import { isUndefined } from '@dimjs/lang';
-import { TAny } from '../types/index.js';
+import { type TAny } from '../types/index.js';
 
 /**
  * 合并执行 originProps、patchProps中存在的相同命名函数，

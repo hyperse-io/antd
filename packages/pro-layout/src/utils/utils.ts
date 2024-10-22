@@ -9,7 +9,7 @@ import {
   urlJoin,
   urlJoinMulti,
 } from '@hyperse/utils';
-import { TGlobalData, TMenuItem } from '../types/index.js';
+import { type TGlobalData, type TMenuItem } from '../types/index.js';
 import { sortItemsByPath } from './path.js';
 
 /**

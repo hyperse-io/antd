@@ -1,11 +1,16 @@
-import { CSSProperties, Fragment } from 'react';
-import { Collapse, Form, FormListFieldData, FormListOperation } from 'antd';
+import { type CSSProperties, Fragment } from 'react';
+import {
+  Collapse,
+  Form,
+  type FormListFieldData,
+  type FormListOperation,
+} from 'antd';
 import { DragOutlined } from '@ant-design/icons';
 import { classNames } from '@dimjs/utils';
 import { useSortable } from '@dnd-kit/sortable';
 import { CSS } from '@dnd-kit/utilities';
 import { toArray } from '@hyperse/utils';
-import { DragCollapseFormListProps } from './types.js';
+import { type DragCollapseFormListProps } from './types.js';
 export type SortableItemProps = {
   formListFieldData: FormListFieldData;
   formListOperate: FormListOperation;

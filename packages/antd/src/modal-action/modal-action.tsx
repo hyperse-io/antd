@@ -1,5 +1,5 @@
-import { Fragment, isValidElement, ReactElement, useState } from 'react';
-import { TAny } from '@hyperse/utils';
+import { Fragment, isValidElement, type ReactElement, useState } from 'react';
+import { type TAny } from '@hyperse/utils';
 
 export interface ModalActionProps {
   children:

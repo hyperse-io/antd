@@ -1,6 +1,6 @@
 import { type CSSProperties, type ReactElement, type ReactNode } from 'react';
 import { type TPlainObject } from '@hyperse/utils';
-import { InputSearchWrapperProps } from '../input-search-wrapper/index.js';
+import { type InputSearchWrapperProps } from '../input-search-wrapper/index.js';
 
 export interface ISearchMenuProps {
   size?: 'small' | 'default';

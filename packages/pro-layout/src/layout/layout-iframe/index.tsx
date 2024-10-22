@@ -1,5 +1,5 @@
 import { Fragment, useEffect, useMemo, useState } from 'react';
-import { Dropdown, MenuProps, Tabs, TabsProps } from 'antd';
+import { Dropdown, type MenuProps, Tabs, type TabsProps } from 'antd';
 import {
   CaretDownOutlined,
   CloseOutlined,
@@ -12,7 +12,7 @@ import { fbaHooks } from '@hyperse/antd';
 import {
   arrayFindByLoosely,
   toLinkPath,
-  TPlainObject,
+  type TPlainObject,
   treeToArray,
   valueIsEqual,
 } from '@hyperse/utils';

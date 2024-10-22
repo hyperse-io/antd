@@ -1,5 +1,5 @@
-import { ReactElement, useMemo } from 'react';
-import { Col, Form, Row, RowProps, Space, SpaceProps } from 'antd';
+import { type ReactElement, useMemo } from 'react';
+import { Col, Form, Row, type RowProps, Space, type SpaceProps } from 'antd';
 import { classNames } from '@dimjs/utils';
 
 const fullGrid = { xs: 24, sm: 24, md: 24, lg: 24, xl: 24, xxl: 24 };

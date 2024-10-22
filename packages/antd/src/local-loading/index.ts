@@ -1,4 +1,4 @@
-import { TPlainObject } from '@hyperse/utils';
+import { type TPlainObject } from '@hyperse/utils';
 import { fbaUtils } from '../fba-utils/index.js';
 import { useLocalLoadingCtx } from './context.js';
 import { LocalLoadingInner } from './local-loading.jsx';

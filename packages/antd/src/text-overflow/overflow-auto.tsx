@@ -3,7 +3,7 @@ import { useSize } from 'ahooks';
 import { Tooltip } from 'antd';
 import { classNames } from '@dimjs/utils';
 import { fbaHooks } from '../fba-hooks/index.js';
-import { TextOverflowProps } from './types.js';
+import { type TextOverflowProps } from './types.js';
 import './style.less';
 
 export const OverflowAuto = (props: TextOverflowProps) => {

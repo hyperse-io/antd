@@ -1,14 +1,14 @@
 import { forwardRef, useImperativeHandle, useMemo, useRef } from 'react';
-import { Form, FormItemProps, Input } from 'antd';
+import { Form, type FormItemProps, Input } from 'antd';
 import { isArray } from '@dimjs/lang';
-import { TAny } from '@hyperse/utils';
+import { type TAny } from '@hyperse/utils';
 import { hooks } from '@wove/react';
 import { fbaHooks } from '../fba-hooks/index.js';
 import {
   TimeRangePickerWrapper,
-  TimeRangePickerWrapperProps,
+  type TimeRangePickerWrapperProps,
 } from '../time-range-picker-wrapper/index.js';
-import { FormItemNamePath } from '../types/index.js';
+import { type FormItemNamePath } from '../types/index.js';
 
 export type TimeRangePickerWrapperFormItemProps = Omit<
   FormItemProps,

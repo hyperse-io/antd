@@ -1,4 +1,4 @@
-import { Form, FormItemProps } from 'antd';
+import { Form, type FormItemProps } from 'antd';
 
 export type FormItemHiddenProps = {
   name: FormItemProps['name'];

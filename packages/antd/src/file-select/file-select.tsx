@@ -1,6 +1,6 @@
-import { ReactElement, useState } from 'react';
+import { type ReactElement, useState } from 'react';
 import { Button, Upload } from 'antd';
-import { RcFile } from 'antd/es/upload';
+import { type RcFile } from 'antd/es/upload';
 import { classNames } from '@dimjs/utils';
 import { isUndefinedOrNull } from '@hyperse/utils';
 import { hooks } from '@wove/react';

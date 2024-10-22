@@ -1,14 +1,14 @@
-import { ReactElement, useMemo, useState } from 'react';
+import { type ReactElement, useMemo, useState } from 'react';
 import { useSize } from 'ahooks';
-import { Form, FormInstance, Modal, ModalProps } from 'antd';
+import { Form, type FormInstance, Modal, type ModalProps } from 'antd';
 import { isNull, isPromise } from '@dimjs/lang';
 import { classNames } from '@dimjs/utils';
-import { TNoopDefine, TPlainObject } from '@hyperse/utils';
+import { type TNoopDefine, type TPlainObject } from '@hyperse/utils';
 import { hooks } from '@wove/react';
 import { getFbaLocaleMessage } from '../../_utils/i18n/index.js';
 import {
   ButtonWrapper,
-  ButtonWrapperProps,
+  type ButtonWrapperProps,
 } from '../../button-wrapper/index.js';
 import { fbaHooks } from '../../fba-hooks/index.js';
 import { FlexLayout } from '../../flex-layout/index.js';

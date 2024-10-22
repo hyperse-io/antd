@@ -1,4 +1,4 @@
-import { FC, Fragment, useMemo } from 'react';
+import { type FC, Fragment, useMemo } from 'react';
 import { Popover, Tag } from 'antd';
 import { isUndefinedOrNull, toArray, valueIsEqual } from '@hyperse/utils';
 

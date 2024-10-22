@@ -1,6 +1,6 @@
-import { IframeTabItem } from '../../../types/menu.js';
+import { type IframeTabItem } from '../../../types/menu.js';
 import { IFRAME_EVENT_FLAG } from './event.js';
-import { IframeApiProps } from './types.js';
+import { type IframeApiProps } from './types.js';
 
 export const getActivedIframeElement = (actived: IframeTabItem) => {
   const activeFrame = document.querySelector(

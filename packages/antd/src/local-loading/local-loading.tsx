@@ -1,7 +1,7 @@
 import {
-  CSSProperties,
+  type CSSProperties,
   forwardRef,
-  ReactElement,
+  type ReactElement,
   useImperativeHandle,
   useMemo,
   useRef,
@@ -10,7 +10,7 @@ import {
 import { Button, Result, Spin } from 'antd';
 import { isDeepEqual } from '@dimjs/lang';
 import { classNames } from '@dimjs/utils';
-import { TAny, toArray, TPlainObject } from '@hyperse/utils';
+import { type TAny, toArray, type TPlainObject } from '@hyperse/utils';
 import { fbaHooks } from '../fba-hooks/index.js';
 import { LocalLoadingCtxProvider } from './context.js';
 import './style.less';

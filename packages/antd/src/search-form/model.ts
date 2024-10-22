@@ -1,6 +1,6 @@
-import { API, ModelType } from '@dimjs/model';
+import { type API, type ModelType } from '@dimjs/model';
 import { Model } from '@dimjs/model-react';
-import { TAny, TPlainObject } from '@hyperse/utils';
+import { type TAny, type TPlainObject } from '@hyperse/utils';
 
 export type ModelState = {
   queryCondition: TPlainObject;

@@ -1,4 +1,4 @@
-import { TPlainObject } from '../types/index.js';
+import { type TPlainObject } from '../types/index.js';
 
 /**
  * 从对象数据中，根据规则筛选对象

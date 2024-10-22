@@ -1,10 +1,10 @@
 import {
-  CSSProperties,
-  FC,
+  type CSSProperties,
+  type FC,
   Fragment,
   isValidElement,
-  ReactElement,
-  ReactNode,
+  type ReactElement,
+  type ReactNode,
   useMemo,
   useState,
 } from 'react';
@@ -12,21 +12,24 @@ import {
   Button,
   Divider,
   Popconfirm,
-  PopconfirmProps,
+  type PopconfirmProps,
   Popover,
   Space,
-  SpaceProps,
+  type SpaceProps,
   Tooltip,
 } from 'antd';
 import { MoreOutlined } from '@ant-design/icons';
 import { isPlainObject, isPromise, isString, isUndefined } from '@dimjs/lang';
 import { classNames } from '@dimjs/utils';
 import { hooks } from '@wove/react';
-import { ButtonWrapper, ButtonWrapperProps } from '../button-wrapper/index.js';
-import { DialogModalProps } from '../dialog-modal/dialog-modal.jsx';
+import {
+  ButtonWrapper,
+  type ButtonWrapperProps,
+} from '../button-wrapper/index.js';
+import { type DialogModalProps } from '../dialog-modal/dialog-modal.jsx';
 import {
   DropdownMenuWrapper,
-  DropdownMenuWrapperProps,
+  type DropdownMenuWrapperProps,
 } from '../dropdown-menu-wrapper/index.js';
 import { fbaUtils } from '../fba-utils/fba-utils.js';
 import './style.less';

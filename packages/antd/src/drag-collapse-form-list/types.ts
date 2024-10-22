@@ -1,7 +1,11 @@
-import { CSSProperties, ReactElement } from 'react';
-import { CollapseProps, FormListFieldData, FormListOperation } from 'antd';
-import { FormListProps } from 'antd/es/form';
-import { TPlainObject } from '@hyperse/utils';
+import { type CSSProperties, type ReactElement } from 'react';
+import {
+  type CollapseProps,
+  type FormListFieldData,
+  type FormListOperation,
+} from 'antd';
+import { type FormListProps } from 'antd/es/form';
+import { type TPlainObject } from '@hyperse/utils';
 
 export type DragCollapseFormListContentProps = {
   /** Form.List item fieldData */

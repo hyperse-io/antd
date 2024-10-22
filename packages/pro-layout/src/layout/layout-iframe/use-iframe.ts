@@ -6,8 +6,8 @@ import {
   iframeApi,
   IframeEventEmitter,
   IFrameEvents,
-  IframeHandler,
-  IframeMessage,
+  type IframeHandler,
+  type IframeMessage,
 } from './iframe-api/index.js';
 
 const iframeEvent = new IframeEventEmitter();

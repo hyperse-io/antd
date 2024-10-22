@@ -1,11 +1,11 @@
 import {
   cloneElement,
   isValidElement,
-  ReactElement,
-  ReactNode,
+  type ReactElement,
+  type ReactNode,
   useMemo,
 } from 'react';
-import { Row, RowProps } from 'antd';
+import { Row, type RowProps } from 'antd';
 import { toArray, valueIsEqual } from '@hyperse/utils';
 import { useResponsivePoint } from '../fba-hooks/use-responsive-point.js';
 import { calculateOperateGrid } from './utils.js';

@@ -2,11 +2,11 @@ import { useMemo, useState } from 'react';
 import {
   message,
   Popconfirm,
-  PopconfirmProps,
+  type PopconfirmProps,
   Switch,
-  SwitchProps,
+  type SwitchProps,
 } from 'antd';
-import { TAny } from '@hyperse/utils';
+import { type TAny } from '@hyperse/utils';
 import { hooks } from '@wove/react';
 import { fbaHooks } from '../fba-hooks/index.js';
 

@@ -4,14 +4,14 @@ import { RedoOutlined } from '@ant-design/icons';
 import { isString } from '@dimjs/lang';
 import {
   arrayFind,
-  TAny,
+  type TAny,
   toArray,
-  TPlainObject,
+  type TPlainObject,
   valueIsEqual,
 } from '@hyperse/utils';
 import { hooks } from '@wove/react';
 import { RequestStatus } from '../request-status/index.js';
-import { SelectorWrapperProps } from './types.jsx';
+import { type SelectorWrapperProps } from './types.jsx';
 import { useRequest } from './use-request.js';
 import { getVauleList } from './utils.js';
 import './style.less';

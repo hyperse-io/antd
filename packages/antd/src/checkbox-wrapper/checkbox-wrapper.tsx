@@ -1,4 +1,4 @@
-import { Checkbox, CheckboxProps } from 'antd';
+import { Checkbox, type CheckboxProps } from 'antd';
 import { isUndefinedOrNull } from '@hyperse/utils';
 import { hooks } from '@wove/react';
 

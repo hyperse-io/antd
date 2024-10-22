@@ -13,7 +13,7 @@ import { Bread } from './compts/bread/index.js';
 import { Loader } from './compts/loader/loader.jsx';
 import {
   type BootstrapOptions,
-  BreadConfigItem,
+  type BreadConfigItem,
   type TRouteItemProps,
 } from './types/index.js';
 

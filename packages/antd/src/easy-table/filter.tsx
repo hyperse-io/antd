@@ -14,8 +14,11 @@ import { classNames } from '@dimjs/utils';
 import { type TAny } from '@hyperse/utils';
 import { hooks } from '@wove/react';
 import { BlockLayout } from '../block-layout/index.js';
-import { ButtonWrapper, ButtonWrapperProps } from '../button-wrapper/index.js';
-import { EasyForm, EasyFormProps } from '../easy-form/index.js';
+import {
+  ButtonWrapper,
+  type ButtonWrapperProps,
+} from '../button-wrapper/index.js';
+import { EasyForm, type EasyFormProps } from '../easy-form/index.js';
 import { fbaHooks } from '../fba-hooks/index.js';
 import { type FormOperateColProps } from '../form-grid/form-operate-col.jsx';
 import { type FormRowProps } from '../form-grid/form-row.js';

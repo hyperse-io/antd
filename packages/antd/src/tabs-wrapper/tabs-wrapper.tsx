@@ -1,5 +1,5 @@
 import { useMemo } from 'react';
-import { Tabs, TabsProps } from 'antd';
+import { Tabs, type TabsProps } from 'antd';
 import { classNames } from '@dimjs/utils';
 import { sessionStorageCache } from '@hyperse/utils';
 import { hooks } from '@wove/react';

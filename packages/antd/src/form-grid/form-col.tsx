@@ -1,4 +1,4 @@
-import { ReactNode } from 'react';
+import { type ReactNode } from 'react';
 import { Col } from 'antd';
 const forceAloneRowGrid = { xs: 24, sm: 24, md: 24, lg: 24, xl: 24, xxl: 24 };
 export type FormColProps = {

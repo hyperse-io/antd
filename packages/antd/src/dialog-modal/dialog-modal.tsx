@@ -1,20 +1,23 @@
-import { ReactElement, useMemo, useState } from 'react';
+import { type ReactElement, useMemo, useState } from 'react';
 import { createRoot } from 'react-dom/client';
 import { useSize } from 'ahooks';
-import { Form, FormInstance, Modal, ModalProps } from 'antd';
+import { Form, type FormInstance, Modal, type ModalProps } from 'antd';
 import { isNull, isPromise, isString } from '@dimjs/lang';
 import { classNames } from '@dimjs/utils';
 import {
-  BodyAppendDivElementProps,
+  type BodyAppendDivElementProps,
   dom,
-  TNoopDefine,
-  TPlainObject,
+  type TNoopDefine,
+  type TPlainObject,
 } from '@hyperse/utils';
 import { hooks } from '@wove/react';
-import { ButtonWrapper, ButtonWrapperProps } from '../button-wrapper/index.js';
+import {
+  ButtonWrapper,
+  type ButtonWrapperProps,
+} from '../button-wrapper/index.js';
 import {
   ConfigProviderWrapper,
-  ConfigProviderWrapperProps,
+  type ConfigProviderWrapperProps,
 } from '../config-provider-wrapper/index.js';
 import { fbaHooks } from '../fba-hooks/index.js';
 import { FlexLayout } from '../flex-layout/index.js';

@@ -1,5 +1,5 @@
 import { useMemo } from 'react';
-import { TimePicker, TimePickerProps } from 'antd';
+import { TimePicker, type TimePickerProps } from 'antd';
 import dayjs from 'dayjs';
 import isSameOrAfter from 'dayjs/plugin/isSameOrAfter.js';
 import isSameOrBefore from 'dayjs/plugin/isSameOrBefore.js';
@@ -7,7 +7,7 @@ import { hooks } from '@wove/react';
 import {
   DayjsDateTypeEnum,
   DayjsTimeTypeEnum,
-  TDayjsTimeType,
+  type TDayjsTimeType,
 } from '../_utils/constants.js';
 import {
   getDisabledHour,

@@ -1,4 +1,4 @@
-import { CSSProperties, ReactElement, useRef, useState } from 'react';
+import { type CSSProperties, type ReactElement, useRef, useState } from 'react';
 import { useKeyPress } from 'ahooks';
 import { Editor as TinyMCEEditor } from 'tinymce';
 import { FullscreenOutlined } from '@ant-design/icons';

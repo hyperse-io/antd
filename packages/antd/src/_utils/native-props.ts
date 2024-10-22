@@ -1,5 +1,5 @@
-import { CSSProperties, ReactNode } from 'react';
-import { TPlainObject } from '@hyperse/utils';
+import { type CSSProperties, type ReactNode } from 'react';
+import { type TPlainObject } from '@hyperse/utils';
 
 export interface CommonProps<S extends TPlainObject = TPlainObject> {
   className?: string;

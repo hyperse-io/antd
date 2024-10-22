@@ -22,8 +22,8 @@ import { IframeMainRegister } from './iframe-register.jsx';
 import { proLayoutModels } from './model/layout-model.js';
 import {
   type BreadConfigItem,
-  RouteBreadConfig,
-  TRouteItemProps,
+  type RouteBreadConfig,
+  type TRouteItemProps,
 } from './types/index.js';
 import { type BootstrapOptions } from './types/layout.js';
 import { type TGlobalData } from './types/menu.js';

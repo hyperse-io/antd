@@ -1,9 +1,9 @@
 import {
   Children,
   cloneElement,
-  CSSProperties,
+  type CSSProperties,
   Fragment,
-  ReactElement,
+  type ReactElement,
 } from 'react';
 import { FloatButton } from 'antd';
 import { isUndefined } from '@dimjs/lang';

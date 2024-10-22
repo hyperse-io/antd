@@ -1,5 +1,5 @@
 import { dialogConfirm } from '../dialog-confirm/dialog-confirm.jsx';
-import { DialogModalProps } from '../dialog-modal/dialog-modal.jsx';
+import { type DialogModalProps } from '../dialog-modal/dialog-modal.jsx';
 
 export type DialogAlertProps = Omit<
   DialogModalProps,

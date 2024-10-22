@@ -1,4 +1,4 @@
-import { TRelationTreeData } from './type.js';
+import { type TRelationTreeData } from './type.js';
 
 export const deleteLoop = (data: TRelationTreeData, uid: string) => {
   if (data.uid === uid) {

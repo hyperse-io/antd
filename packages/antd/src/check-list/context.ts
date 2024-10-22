@@ -1,5 +1,5 @@
 import { createCtx } from '@wove/react';
-import { CheckListItemValue } from './types.js';
+import { type CheckListItemValue } from './types.js';
 
 export const [useCheckListCtx, CheckListCtxProvider] = createCtx<{
   checkedValues: CheckListItemValue[];

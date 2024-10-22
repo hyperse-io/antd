@@ -1,6 +1,6 @@
 import { dateNew as dateNewFn } from '@dimjs/utils';
 import { dateNormalize } from './date-normalize.js';
-import { DateType } from './types.js';
+import { type DateType } from './types.js';
 /**
  * 在日期【'y' | 'm' | 'd' | 'h' | 'mi' | 's'】中进行加减值处理
  * @param dateInput

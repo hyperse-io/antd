@@ -2,7 +2,7 @@ import { isArray } from '@dimjs/lang';
 import { getQueryString, modifyQueryString } from '@dimjs/utils';
 import { isMockMeEnv } from '../system/env.js';
 import { getWindow } from '../system/window.js';
-import { TPlainObject } from '../types/define.js';
+import { type TPlainObject } from '../types/define.js';
 
 const userAgent = () => {
   return navigator.userAgent.toLowerCase();

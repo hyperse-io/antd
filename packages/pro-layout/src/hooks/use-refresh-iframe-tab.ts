@@ -1,4 +1,4 @@
-import { TAny, TPlainObject } from '@hyperse/utils';
+import { type TAny, type TPlainObject } from '@hyperse/utils';
 import { useIframe } from '../layout/layout-iframe/use-iframe.js';
 
 /**

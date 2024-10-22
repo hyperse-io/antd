@@ -1,6 +1,6 @@
 import { extend } from '@dimjs/utils';
-import { TAny, TPlainObject } from '../types/define.js';
-import { TreeTiledDataItem } from '../types/index.js';
+import { type TAny, type TPlainObject } from '../types/define.js';
+import { type TreeTiledDataItem } from '../types/index.js';
 
 /**
  * 树结构数据，由嵌套结构转成平铺结构，返回数据格式根据fieldNames转换成 { value, label, parentValue }

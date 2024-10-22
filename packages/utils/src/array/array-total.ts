@@ -1,5 +1,5 @@
 import { isNumber, isPlainObject } from '@dimjs/lang';
-import { TPlainObject } from '../types/index.js';
+import { type TPlainObject } from '../types/index.js';
 
 /**
  * 数组字段求和

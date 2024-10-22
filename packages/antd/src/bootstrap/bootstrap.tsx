@@ -1,10 +1,10 @@
-import { CSSProperties, ReactNode, useEffect } from 'react';
+import { type CSSProperties, type ReactNode, useEffect } from 'react';
 import { App, theme } from 'antd';
 import { get } from '@dimjs/utils';
-import { TAny, toArray, TPlainObject } from '@hyperse/utils';
+import { type TAny, toArray, type TPlainObject } from '@hyperse/utils';
 import {
   ConfigProviderWrapper,
-  ConfigProviderWrapperProps,
+  type ConfigProviderWrapperProps,
 } from '../config-provider-wrapper/config-provider-wrapper.jsx';
 import { FbaApp } from '../fba-app/fba-app.jsx';
 import { fbaHooks } from '../fba-hooks/index.js';

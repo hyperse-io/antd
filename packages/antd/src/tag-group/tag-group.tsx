@@ -1,5 +1,5 @@
-import { FC } from 'react';
-import { Space, SpaceProps, Tag } from 'antd';
+import { type FC } from 'react';
+import { Space, type SpaceProps, Tag } from 'antd';
 import { fbaHooks } from '../fba-hooks/index.js';
 
 type TagGroupDataItem = {

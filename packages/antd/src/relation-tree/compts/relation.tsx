@@ -1,7 +1,7 @@
-import { CSSProperties } from 'react';
+import { type CSSProperties } from 'react';
 import { Tag } from 'antd';
 import { classNames } from '@dimjs/utils';
-import { RelationProps } from '../type.js';
+import { type RelationProps } from '../type.js';
 
 export const Relation = (props: RelationProps) => {
   const style = {

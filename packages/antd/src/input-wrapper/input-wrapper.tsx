@@ -1,6 +1,6 @@
 import { useRef, useState } from 'react';
-import { Input, InputProps } from 'antd';
-import { isUndefinedOrNull, TAny } from '@hyperse/utils';
+import { Input, type InputProps } from 'antd';
+import { isUndefinedOrNull, type TAny } from '@hyperse/utils';
 import { hooks } from '@wove/react';
 import { fbaHooks } from '../fba-hooks/index.js';
 

@@ -1,4 +1,4 @@
-import { FieldSingleConfig } from './type.js';
+import { type FieldSingleConfig } from './type.js';
 
 export const getEditable = (
   editable: FieldSingleConfig['editable'],

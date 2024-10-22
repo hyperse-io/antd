@@ -1,9 +1,9 @@
 import { createContext } from 'react';
-import { FbaAppAlertProps } from './dialog-alert/index.js';
-import { FbaAppConfirmProps } from './dialog-confirm/index.js';
-import { FbaAppDrawerProps } from './dialog-drawer/index.js';
-import { FbaAppLoadingProps } from './dialog-loading/index.js';
-import { FbaAppModalProps } from './dialog-modal/index.js';
+import { type FbaAppAlertProps } from './dialog-alert/index.js';
+import { type FbaAppConfirmProps } from './dialog-confirm/index.js';
+import { type FbaAppDrawerProps } from './dialog-drawer/index.js';
+import { type FbaAppLoadingProps } from './dialog-loading/index.js';
+import { type FbaAppModalProps } from './dialog-modal/index.js';
 
 export type FbaAppContextApi = {
   dialogDrawerOpen?: (data: FbaAppDrawerProps) => void;

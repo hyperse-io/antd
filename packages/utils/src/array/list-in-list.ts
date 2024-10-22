@@ -1,5 +1,5 @@
 import { isUndefinedOrNull } from '../lang/is-empty.js';
-import { TPlainObject } from '../types/index.js';
+import { type TPlainObject } from '../types/index.js';
 
 /**
  * 通过规则字段 来源数组 并入 目标数组

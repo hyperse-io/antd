@@ -1,4 +1,4 @@
-import { ReactElement, ReactNode, useState } from 'react';
+import { type ReactElement, type ReactNode, useState } from 'react';
 import { Result, Spin } from 'antd';
 import { classNames } from '@dimjs/utils';
 import { fbaHooks } from '../fba-hooks/index.js';

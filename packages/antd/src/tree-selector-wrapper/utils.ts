@@ -1,11 +1,11 @@
-import { TreeSelectProps } from 'antd';
+import { type TreeSelectProps } from 'antd';
 import { dequal } from 'dequal';
 import { isArray, isObject } from '@dimjs/lang';
 import {
   isUndefinedOrNull,
-  LabelValueItem,
+  type LabelValueItem,
   toArray,
-  TPlainObject,
+  type TPlainObject,
   treeLeafParentsArray,
   treeToTiledArray,
 } from '@hyperse/utils';

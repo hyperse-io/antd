@@ -1,8 +1,8 @@
 import { useState } from 'react';
-import { Tag, TagProps } from 'antd';
+import { Tag, type TagProps } from 'antd';
 import { LoadingOutlined } from '@ant-design/icons';
 import { isPromise } from '@dimjs/lang';
-import { isUndefinedOrNull, TAny } from '@hyperse/utils';
+import { isUndefinedOrNull, type TAny } from '@hyperse/utils';
 import { hooks } from '@wove/react';
 import { fbaHooks } from '../fba-hooks/index.js';
 import './style.less';

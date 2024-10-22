@@ -1,12 +1,17 @@
-import { forwardRef, ReactElement, useImperativeHandle, useState } from 'react';
-import { Button, Cascader, CascaderProps, message } from 'antd';
+import {
+  forwardRef,
+  type ReactElement,
+  useImperativeHandle,
+  useState,
+} from 'react';
+import { Button, Cascader, type CascaderProps, message } from 'antd';
 import { RedoOutlined } from '@ant-design/icons';
 import { isArray } from '@dimjs/lang';
 import { cloneState } from '@dimjs/model';
 import { classNames, extend, get } from '@dimjs/utils';
 import {
-  TAny,
-  TPlainObject,
+  type TAny,
+  type TPlainObject,
   treeLeafParentsArray,
   treeToTiledArray,
 } from '@hyperse/utils';
@@ -14,7 +19,7 @@ import { hooks } from '@wove/react';
 import { fbaHooks } from '../fba-hooks/index.js';
 import {
   RequestStatus,
-  TRequestStatusProps,
+  type TRequestStatusProps,
 } from '../request-status/request-status.jsx';
 import { cascaderWrapperModel } from './model.js';
 import './style.less';
