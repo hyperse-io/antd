@@ -10,7 +10,7 @@ import {
 } from '@hyperse/utils';
 import { NotFound } from './compts/404/index.js';
 import { Bread } from './compts/bread/index.js';
-import { Loader } from './compts/loader/loader.js';
+import { Loader } from './compts/loader/loader.jsx';
 import {
   type BootstrapOptions,
   BreadConfigItem,

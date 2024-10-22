@@ -12,13 +12,13 @@ import {
   toArray,
   urlJoin,
 } from '@hyperse/utils';
-import { AntdAppWrapper } from './antd-app.js';
-import { AppNoLayout } from './app-no-layout.js';
-import { AppProvider } from './app-provider.js';
+import { AntdAppWrapper } from './antd-app.jsx';
+import { AppNoLayout } from './app-no-layout.jsx';
+import { AppProvider } from './app-provider.jsx';
 import { ErrorBoundary, ErrorFallback } from './compts/error-boundary/index.js';
-import { Container } from './container.js';
+import { Container } from './container.jsx';
 import { BootstrapCtx } from './context/layout-ctx.js';
-import { IframeMainRegister } from './iframe-register.js';
+import { IframeMainRegister } from './iframe-register.jsx';
 import { proLayoutModels } from './model/layout-model.js';
 import {
   type BreadConfigItem,

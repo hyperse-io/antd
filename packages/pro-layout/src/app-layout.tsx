@@ -2,14 +2,14 @@ import { Fragment } from 'react';
 import { Layout } from 'antd';
 import { classNames } from '@dimjs/utils';
 import { isWindowsEnv } from '@hyperse/utils';
-import { AppRoutes } from './app-routes.js';
-import useAntdApp from './compts/antd-app/index.js';
-import { Header } from './compts/header/index.js';
-import { SiderBar } from './compts/sider-bar/index.js';
+import { AppRoutes } from './app-routes.jsx';
+import useAntdApp from './compts/antd-app/index.jsx';
+import { Header } from './compts/header/index.jsx';
+import { SiderBar } from './compts/sider-bar/index.jsx';
 import { useLayoutCtx } from './context/layout-ctx.js';
-import { EventHandling } from './layout/layout-iframe/event-handling/index.js';
-import { LayoutIFrame } from './layout/layout-iframe/index.js';
-import { LayoutPage } from './layout/layout-page/index.js';
+import { EventHandling } from './layout/layout-iframe/event-handling/index.jsx';
+import { LayoutIFrame } from './layout/layout-iframe/index.jsx';
+import { LayoutPage } from './layout/layout-page/index.jsx';
 
 export const App = () => {
   const layoutCtx = useLayoutCtx();

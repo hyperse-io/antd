@@ -1,10 +1,10 @@
 import { Fragment } from 'react';
-import { type AppRouteProps, AppRoutes } from './app-routes.js';
-import useAntdApp from './compts/antd-app/index.js';
-import { ContentLayoutCheck } from './compts/content-layout-check/index.js';
-import { ErrorHandling } from './compts/error-handling/index.js';
-import { IframeTabRoutesTiming } from './compts/routes-timing/iframe-tab-timing.js';
-import { LayoutPage } from './layout/layout-page/index.js';
+import { type AppRouteProps, AppRoutes } from './app-routes.jsx';
+import useAntdApp from './compts/antd-app/index.jsx';
+import { ContentLayoutCheck } from './compts/content-layout-check/index.jsx';
+import { ErrorHandling } from './compts/error-handling/index.jsx';
+import { IframeTabRoutesTiming } from './compts/routes-timing/iframe-tab-timing.jsx';
+import { LayoutPage } from './layout/layout-page/index.jsx';
 import { type BootstrapOptions } from './types/index.js';
 
 export type AppProps = AppRouteProps & {

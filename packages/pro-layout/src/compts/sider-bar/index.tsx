@@ -19,8 +19,8 @@ import {
 import { hooks } from '@wove/react';
 import { useLayoutCtx } from '../../context/layout-ctx.js';
 import { type TMenuItem } from '../../types/menu.js';
-import { HeaderBrand } from '../header/brand/index.js';
-import { Shrink } from '../shrink/index.js';
+import { HeaderBrand } from '../header/brand/index.jsx';
+import { Shrink } from '../shrink/index.jsx';
 import './style.less';
 
 const { Sider } = Layout;

@@ -1,1 +1,1 @@
-export * from './not-found.js';
+export * from './not-found.jsx';

@@ -1,5 +1,5 @@
 import { createRoot } from 'react-dom/client';
-import { Bootstrap } from './bootstrap.js';
+import { Bootstrap } from './bootstrap.jsx';
 import { type BootstrapOptions } from './types/layout.js';
 
 /**

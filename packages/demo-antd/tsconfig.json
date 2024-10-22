@@ -12,7 +12,8 @@
     "moduleResolution": "node",
     "paths": {
       "@hyperse/antd": ["../antd/src/index.ts"],
-      "@hyperse/utils": ["../utils/src/index.ts"]
+      "@hyperse/utils": ["../utils/src/index.ts"],
+      "@hyperse/pro-layout": ["../pro-layout/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "**/.*/", "dist", "build", "public"]

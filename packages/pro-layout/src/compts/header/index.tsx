@@ -17,9 +17,9 @@ import {
   guessIframeMainLink,
   guessNormalItemLink,
 } from '../../utils/utils.js';
-import { Shrink } from '../shrink/index.js';
-import { HeaderAccount } from './account/index.js';
-import { HeaderBrand } from './brand/index.js';
+import { Shrink } from '../shrink/index.jsx';
+import { HeaderAccount } from './account/index.jsx';
+import { HeaderBrand } from './brand/index.jsx';
 import './style.less';
 
 const HeaderBarIcon = (props: {

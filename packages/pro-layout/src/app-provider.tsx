@@ -11,9 +11,9 @@ import {
   treeToArray,
   valueIsEqual,
 } from '@hyperse/utils';
-import { App } from './app-layout.js';
-import { ErrorHandling } from './compts/error-handling/index.js';
-import { NormalRoutesTiming } from './compts/routes-timing/normal-timing.js';
+import { App } from './app-layout.jsx';
+import { ErrorHandling } from './compts/error-handling/index.jsx';
+import { NormalRoutesTiming } from './compts/routes-timing/normal-timing.jsx';
 import { LayoutProvider } from './context/layout-ctx.js';
 import {
   type IframeTabItem,

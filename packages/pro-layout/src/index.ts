@@ -1,11 +1,11 @@
 import './style.less';
-export * from './compts/antd-app/index.js';
+export * from './compts/antd-app/index.jsx';
 export * from './compts/bread/index.js';
-export * from './compts/history-back-button/index.js';
+export * from './compts/history-back-button/index.jsx';
 export * from './compts/page/index.js';
-export * from './entry.js';
+export * from './entry.jsx';
 export * from './hooks/use-refresh-iframe-tab.js';
 export * from './layout/layout-iframe/use-iframe.js';
-export * from './layout/layout-page/index.js';
+export * from './layout/layout-page/index.jsx';
 export * from './model/layout-model.js';
 export * from './types/index.js';
