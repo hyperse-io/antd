@@ -3342,7 +3342,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@hyperse/antd@workspace:*, @hyperse/antd@workspace:^, @hyperse/antd@workspace:packages/antd":
+"@hyperse/antd@workspace:^, @hyperse/antd@workspace:packages/antd":
   version: 0.0.0-use.local
   resolution: "@hyperse/antd@workspace:packages/antd"
   dependencies:
@@ -3418,9 +3418,9 @@ __metadata:
     "@dimjs/model-react": "npm:^2.0.1"
     "@dimjs/utils": "npm:^2.0.2"
     "@flatjs/cli": "npm:2.1.9"
-    "@hyperse/antd": "workspace:*"
+    "@hyperse/antd": "workspace:^"
     "@hyperse/eslint-config-hyperse": "npm:^1.2.4"
-    "@hyperse/utils": "workspace:*"
+    "@hyperse/utils": "workspace:^"
     "@types/react": "npm:^18.3.12"
     "@types/react-dom": "npm:^18.3.1"
     "@wove/react": "npm:^2.0.2"
@@ -3567,7 +3567,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@hyperse/utils@npm:^1.0.2, @hyperse/utils@workspace:*, @hyperse/utils@workspace:^, @hyperse/utils@workspace:packages/utils":
+"@hyperse/utils@npm:^1.0.2, @hyperse/utils@workspace:^, @hyperse/utils@workspace:packages/utils":
   version: 0.0.0-use.local
   resolution: "@hyperse/utils@workspace:packages/utils"
   dependencies:
