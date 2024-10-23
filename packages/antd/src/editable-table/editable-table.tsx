@@ -88,6 +88,7 @@ export type EditableTableColumn = Omit<ColumnsType['0'], 'render'> & {
     tableRowName: EditableTableName;
     operation: FormListOperation;
     index: number;
+    getTableRowData: () => TPlainObject;
   }) => ReactElement | null;
   /** table datasource children column 自定义渲染  */
   tableChildrenColumnRender?: (
@@ -268,6 +269,12 @@ export const EditableTable = (props: EditableTableProps) => {
             operation: record.operation,
             tableRowName,
             index,
+            getTableRowData: () => {
+              if (props.completeName) {
+                return form.getFieldValue([...props.completeName, record.name]);
+              }
+              return form.getFieldValue(tableRowName);
+            },
           });
           if (customRender) {
             return customRender;
@@ -280,6 +287,12 @@ export const EditableTable = (props: EditableTableProps) => {
                   tableRowIndex: record.name,
                   tableRowName,
                   getTableRowData: () => {
+                    if (props.completeName) {
+                      return form.getFieldValue([
+                        ...props.completeName,
+                        record.name,
+                      ]);
+                    }
                     return form.getFieldValue(tableRowName);
                   },
                 })
