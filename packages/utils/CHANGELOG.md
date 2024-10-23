@@ -1,5 +1,11 @@
 # @hyperse/antd
 
+## 1.0.2
+
+### Patch Changes
+
+- [`72abf98`](https://github.com/hyperse-io/antd/commit/72abf98056ce6fc8663af44efda08367df10f6d5) Thanks [@tianyingchun](https://github.com/tianyingchun)! - bump version, fix `import type` issue
+
 ## 1.0.1
 
 ### Patch Changes
