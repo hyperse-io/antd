@@ -1,6 +1,6 @@
 {
   "name": "@hyperse/pro-layout",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "hyperse antd react admin components library",
   "license": "SEE LICENSE IN FILE 'LICENSE'",
   "type": "module",
@@ -39,7 +39,7 @@
     "@dimjs/utils": "^2.0.2",
     "@flatjs/cli": "2.1.9",
     "@hyperse/eslint-config-hyperse": "^1.2.4",
-    "@hyperse/utils": "^1.0.2",
+    "@hyperse/utils": "^1.0.3",
     "@types/node": "22.7.9",
     "@types/react": "^18.3.12",
     "@wove/react": "^2.0.2",
