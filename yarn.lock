@@ -3387,7 +3387,6 @@ __metadata:
     "@dimjs/model": ">=2.0.1"
     "@dimjs/model-react": ">=2.0.1"
     "@dimjs/utils": ">=2.0.2"
-    "@hyperse/utils": ">=1.0.1"
     "@wove/react": ">=2.0.2"
     ahooks: ">=3.7.11"
     antd: ">=5.21.4"
@@ -3507,7 +3506,7 @@ __metadata:
     "@flatjs/cli": "npm:2.1.9"
     "@hyperse/antd": "workspace:^"
     "@hyperse/eslint-config-hyperse": "npm:^1.2.4"
-    "@hyperse/utils": "npm:^1.0.1"
+    "@hyperse/utils": "npm:^1.0.2"
     "@tinymce/tinymce-react": "npm:5.1.1"
     "@types/node": "npm:22.7.9"
     "@types/react": "npm:^18.3.12"
@@ -3541,7 +3540,6 @@ __metadata:
     "@dimjs/model": ">=2.0.1"
     "@dimjs/model-react": ">=2.0.1"
     "@dimjs/utils": ">=2.0.2"
-    "@hyperse/utils": ">=1.0.1"
     "@wove/react": ">=2.0.2"
     ahooks: ">=3.7.11"
     antd: ">=5.21.4"
@@ -3569,7 +3567,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@hyperse/utils@npm:^1.0.1, @hyperse/utils@workspace:*, @hyperse/utils@workspace:^, @hyperse/utils@workspace:packages/utils":
+"@hyperse/utils@npm:^1.0.2, @hyperse/utils@workspace:*, @hyperse/utils@workspace:^, @hyperse/utils@workspace:packages/utils":
   version: 0.0.0-use.local
   resolution: "@hyperse/utils@workspace:packages/utils"
   dependencies:

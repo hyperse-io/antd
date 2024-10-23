@@ -66,7 +66,6 @@
     "@dimjs/model": ">=2.0.1",
     "@dimjs/model-react": ">=2.0.1",
     "@dimjs/utils": ">=2.0.2",
-    "@hyperse/utils": ">=1.0.2",
     "@wove/react": ">=2.0.2",
     "ahooks": ">=3.7.11",
     "antd": ">=5.21.4",
