@@ -1,5 +1,14 @@
 # @hyperse/antd
 
+## 1.0.4
+
+### Patch Changes
+
+- [`74ad89a`](https://github.com/hyperse-io/antd/commit/74ad89a6c1ed47868bcd8985c89319ee8ba9d8c7) Thanks [@tianyingchun](https://github.com/tianyingchun)! - fix package.json
+
+- Updated dependencies [[`74ad89a`](https://github.com/hyperse-io/antd/commit/74ad89a6c1ed47868bcd8985c89319ee8ba9d8c7)]:
+  - @hyperse/utils@1.0.3
+
 ## 1.0.3
 
 ### Patch Changes

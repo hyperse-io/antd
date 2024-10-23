@@ -1,6 +1,6 @@
 {
   "name": "@hyperse/antd",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "hyperse antd react admin components library",
   "license": "SEE LICENSE IN FILE 'LICENSE'",
   "type": "module",
