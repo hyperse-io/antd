@@ -1,6 +1,6 @@
 import { type CSSProperties, type ReactElement, useRef, useState } from 'react';
 import { useKeyPress } from 'ahooks';
-import { Editor as TinyMCEEditor } from 'tinymce';
+import type { Editor as TinyMCEEditor } from 'tinymce';
 import { FullscreenOutlined } from '@ant-design/icons';
 import { classNames } from '@dimjs/utils';
 import { hooks } from '@wove/react';
