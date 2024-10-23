@@ -1,5 +1,11 @@
 # @hyperse/antd
 
+## 1.0.4
+
+### Patch Changes
+
+- [`01223d6`](https://github.com/hyperse-io/antd/commit/01223d64b576f9b199a2b543de1291aba6f6d11d) Thanks [@tianyingchun](https://github.com/tianyingchun)! - fix `packages.json` deps
+
 ## 1.0.3
 
 ### Patch Changes
