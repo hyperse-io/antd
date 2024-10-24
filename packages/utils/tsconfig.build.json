@@ -2,6 +2,7 @@
   "extends": "./tsconfig.json",
   "compilerOptions": {
     "rootDir": "./src",
+    "verbatimModuleSyntax": false,
     "incremental": false,
     "types": []
   },

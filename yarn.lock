@@ -3328,7 +3328,7 @@ __metadata:
     "@changesets/cli": "npm:2.27.9"
     "@commitlint/cli": "npm:19.5.0"
     "@commitlint/config-conventional": "npm:19.5.0"
-    "@hyperse/eslint-config-hyperse": "npm:^1.2.4"
+    "@hyperse/eslint-config-hyperse": "npm:^1.2.6"
     commitizen: "npm:4.3.1"
     cross-env: "npm:7.0.3"
     cz-conventional-changelog: "npm:3.3.0"
@@ -3356,7 +3356,7 @@ __metadata:
     "@dnd-kit/sortable": "npm:^8.0.0"
     "@dnd-kit/utilities": "npm:^3.2.2"
     "@flatjs/cli": "npm:2.1.9"
-    "@hyperse/eslint-config-hyperse": "npm:^1.2.4"
+    "@hyperse/eslint-config-hyperse": "npm:^1.2.6"
     "@hyperse/utils": "workspace:^"
     "@tinymce/tinymce-react": "npm:5.1.1"
     "@types/node": "npm:22.7.9"
@@ -3419,7 +3419,7 @@ __metadata:
     "@dimjs/utils": "npm:^2.0.2"
     "@flatjs/cli": "npm:2.1.9"
     "@hyperse/antd": "workspace:^"
-    "@hyperse/eslint-config-hyperse": "npm:^1.2.4"
+    "@hyperse/eslint-config-hyperse": "npm:^1.2.6"
     "@hyperse/utils": "workspace:^"
     "@types/react": "npm:^18.3.12"
     "@types/react-dom": "npm:^18.3.1"
@@ -3434,9 +3434,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@hyperse/eslint-config-hyperse@npm:^1.2.4":
-  version: 1.2.4
-  resolution: "@hyperse/eslint-config-hyperse@npm:1.2.4"
+"@hyperse/eslint-config-hyperse@npm:^1.2.6":
+  version: 1.2.6
+  resolution: "@hyperse/eslint-config-hyperse@npm:1.2.6"
   dependencies:
     "@eslint/js": "npm:^9.13.0"
     "@next/eslint-plugin-next": "npm:rc"
@@ -3462,7 +3462,7 @@ __metadata:
   peerDependencies:
     eslint: ">=9.3.0"
     typescript: ^5.4.3
-  checksum: 10/77db89f3c16fb01f18ec1606f678e17a14709eb6f4233222438b3d7c6a57dd85623287ec71bee861ef86b90f17d717c29a892823cbae997a19e111c75ca010b0
+  checksum: 10/4d0208046a60492ce951dbf353634222e64048f255d9965f86ed9c5e39fe4e25a196bb707c6b7991885da52816c1e4a39814f412963998f9f652406eeec7c5af
   languageName: node
   linkType: hard
 
@@ -3505,7 +3505,7 @@ __metadata:
     "@dnd-kit/utilities": "npm:^3.2.2"
     "@flatjs/cli": "npm:2.1.9"
     "@hyperse/antd": "workspace:^"
-    "@hyperse/eslint-config-hyperse": "npm:^1.2.4"
+    "@hyperse/eslint-config-hyperse": "npm:^1.2.6"
     "@hyperse/utils": "workspace:^"
     "@tinymce/tinymce-react": "npm:5.1.1"
     "@types/node": "npm:22.7.9"
@@ -3578,7 +3578,7 @@ __metadata:
     "@dnd-kit/sortable": "npm:^8.0.0"
     "@dnd-kit/utilities": "npm:^3.2.2"
     "@flatjs/cli": "npm:2.1.9"
-    "@hyperse/eslint-config-hyperse": "npm:^1.2.4"
+    "@hyperse/eslint-config-hyperse": "npm:^1.2.6"
     "@tinymce/tinymce-react": "npm:5.1.1"
     "@types/node": "npm:22.7.9"
     "@types/react": "npm:^18.3.12"
