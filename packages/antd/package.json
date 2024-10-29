@@ -458,7 +458,7 @@
     "@dimjs/model-react": "^2.0.1",
     "@dimjs/utils": "^2.0.2",
     "@flatjs/cli": "2.1.9",
-    "@hyperse/eslint-config-hyperse": "^1.2.4",
+    "@hyperse/eslint-config-hyperse": "^1.2.6",
     "@types/node": "22.7.9",
     "@types/react": "^18.3.12",
     "@wove/react": "^2.0.2",
