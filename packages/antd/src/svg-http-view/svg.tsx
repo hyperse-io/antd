@@ -1,19 +1,9 @@
 import { type CSSProperties, useMemo } from 'react';
 import { classNames } from '@dimjs/utils';
-import { isHttpUri } from '@hyperse/utils';
 import './style.less';
 export type SvgHttpViewProps = {
-  /**
-   * svg地址
-   * ```
-   * 1. 可传http绝对路径
-   * 2. 可传ionic组图标，例如：ionic/alarm-outline
-   * 3. 可传lucide组图标，例如：lucide/crosshair
-   *
-   * 查询ionic、lucide图标 https://fex.qa.tcshuke.com/docs/admin/resources/icons
-   * ```
-   */
-  svgPath: string;
+  /** svg地址 */
+  svgUrl: string;
   /** 默认：20px */
   width?: number;
   /** 默认：20px */
@@ -36,7 +26,7 @@ export type SvgHttpViewProps = {
 export const SvgHttpView = (props: SvgHttpViewProps) => {
   const {
     color,
-    svgPath,
+    svgUrl,
     className,
     height,
     width,
@@ -45,10 +35,6 @@ export const SvgHttpView = (props: SvgHttpViewProps) => {
     ...otherProps
   } = props;
   const colorNew = color || '#555';
-
-  const srcLink = isHttpUri(svgPath)
-    ? svgPath
-    : `https://file.40017.cn/tcsk/alicon/${svgPath}.svg`;
 
   const size = useMemo(() => {
     if (width || height) {
@@ -68,7 +54,7 @@ export const SvgHttpView = (props: SvgHttpViewProps) => {
         className="hsv-content"
         style={{ filter: `drop-shadow(${colorNew} 200px 0)` }}
       >
-        <img src={srcLink} />
+        <img src={svgUrl} />
       </div>
     </div>
   );

@@ -50,6 +50,7 @@ export type DragEditableTableProps = EditableTableProps & {
     dataSource: TPlainObject[],
     dragData: {
       activeId: string | number;
+      overId?: string | number;
       activeIndex: number;
       overIndex: number;
     }
@@ -97,6 +98,7 @@ export const DragEditableTable = (props: DragEditableTableProps) => {
       ]);
       onDragChange?.(dataListNew as TPlainObject[], {
         activeId: active.id,
+        overId: over?.id,
         activeIndex,
         overIndex,
       });

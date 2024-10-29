@@ -82,14 +82,7 @@ export const useColumnsAppendInnerColumn = (props: {
                   onClick={props.onOpenColumnFoldModal}
                   text={props.columnFoldConfig?.text}
                   size="small"
-                  icon={
-                    props.columnFoldConfig?.icon || (
-                      <SvgHttpView
-                        svgPath="ionic/list-circle"
-                        color="#868686"
-                      />
-                    )
-                  }
+                  icon={props.columnFoldConfig?.icon}
                   hoverTips={props.columnFoldConfig?.hoverTipText || '字段列表'}
                   style={{ padding: 0, margin: 0 }}
                 />
@@ -104,14 +97,7 @@ export const useColumnsAppendInnerColumn = (props: {
                     text={props.columnFoldConfig?.text}
                     style={{ padding: 0, margin: 0 }}
                     size="small"
-                    icon={
-                      props.columnFoldConfig?.icon || (
-                        <SvgHttpView
-                          svgPath="ionic/list-circle"
-                          color="#868686"
-                        />
-                      )
-                    }
+                    icon={props.columnFoldConfig?.icon}
                   />
                 </FoldOperateDropdown>
               )}

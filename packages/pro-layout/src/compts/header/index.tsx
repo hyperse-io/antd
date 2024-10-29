@@ -42,7 +42,7 @@ const HeaderBarIcon = (props: {
             >
               {props.iconImgActive ? (
                 <SvgHttpView
-                  svgPath={props.iconImgActive}
+                  svgUrl={props.iconImgActive}
                   color={props.textColor}
                   style={{ display: 'block' }}
                   width={16}
@@ -50,7 +50,7 @@ const HeaderBarIcon = (props: {
                 />
               ) : (
                 <SvgHttpView
-                  svgPath={svgImg}
+                  svgUrl={svgImg}
                   color={props.activeColor}
                   style={{ display: 'block' }}
                   width={16}
@@ -64,7 +64,7 @@ const HeaderBarIcon = (props: {
               style={{ marginRight: 5, display: 'block' }}
             >
               <SvgHttpView
-                svgPath={svgImg}
+                svgUrl={svgImg}
                 color={props.textColor}
                 style={{ display: 'block' }}
                 width={16}

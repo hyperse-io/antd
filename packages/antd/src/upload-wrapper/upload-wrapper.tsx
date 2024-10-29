@@ -97,9 +97,10 @@ export const UploadWrapper = (props: UploadWrapperProps) => {
     autoSubmit,
     ...otherProps
   } = props;
-  const valueList = isUndefinedOrNull(value)
-    ? undefined
-    : toArray<TPlainObject>(value);
+  const valueList = useMemo(
+    () => (isUndefinedOrNull(value) ? undefined : toArray<TPlainObject>(value)),
+    [value]
+  );
   const [uploadList, setUploadList] = useState<UploadWrapperFileItem[]>();
   const fieldNames = extend(
     {

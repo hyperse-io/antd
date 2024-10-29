@@ -40,7 +40,7 @@ const SiderBarIcon = (props: {
         <Fragment>
           <div className="menu-icon-img">
             <SvgHttpView
-              svgPath={svgImg}
+              svgUrl={svgImg}
               color={props.textColor}
               style={{ display: 'block' }}
               width={16}
@@ -49,7 +49,7 @@ const SiderBarIcon = (props: {
           </div>
           <div className="menu-icon-img-active">
             <SvgHttpView
-              svgPath={svgImg}
+              svgUrl={svgImg}
               color={props.colorActive}
               style={{ display: 'block' }}
               width={16}
@@ -290,7 +290,7 @@ export const SiderBar = () => {
                   size="small"
                   icon={
                     <SvgHttpView
-                      svgPath="lucide/fold-vertical"
+                      svgUrl="lucide/fold-vertical"
                       width={18}
                       height={18}
                     />
