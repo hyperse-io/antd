@@ -1,5 +1,11 @@
 # @hyperse/antd
 
+## 1.1.0
+
+### Minor Changes
+
+- [`91a775b`](https://github.com/hyperse-io/antd/commit/91a775b4b35552c0702f36d9649407f5590255d4) - SvgHttpView 入参 svgPath 修改为 svgUrl,内容修改为绝对路径
+
 ## 1.0.4
 
 ### Patch Changes

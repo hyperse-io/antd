@@ -1,5 +1,12 @@
 # @hyperse/antd-demo
 
+## 1.0.4
+
+### Patch Changes
+
+- Updated dependencies [[`91a775b`](https://github.com/hyperse-io/antd/commit/91a775b4b35552c0702f36d9649407f5590255d4)]:
+  - @hyperse/antd@1.1.0
+
 ## 1.0.3
 
 ### Patch Changes
