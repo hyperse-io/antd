@@ -1,5 +1,11 @@
 # @hyperse/antd
 
+## 1.0.4
+
+### Patch Changes
+
+- [`48abdea`](https://github.com/hyperse-io/antd/commit/48abdea5b39383d596951aef91f6e70019b1e3dc) - Solve some unreasonable remarks and some methods used incorrectly
+
 ## 1.0.3
 
 ### Patch Changes
