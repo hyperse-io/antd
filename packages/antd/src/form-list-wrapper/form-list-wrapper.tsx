@@ -50,7 +50,7 @@ const FormListTitleRender = (props: {
 /**
  * Form.List 包装组件，使用更简单
  * ```
- * Demo: https://fex.qa.tcshuke.com/docs/admin/main/form/list
+ * Demo: https://xx.xx.com/docs/admin/main/form/list
  * 1. FormList数组中必须要有唯一值字段，默认值字段名称uid，可通过uidFieldName自定义设置
  * 2. 通过 itemGap 设置FormList Item 之间间隙
  * ```

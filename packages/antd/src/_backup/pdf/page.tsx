@@ -2,7 +2,7 @@ import { type CSSProperties, type ReactNode, useState } from 'react';
 import { Spin } from 'antd';
 import { classNames } from '@dimjs/utils';
 import { hooks } from '@wove/react';
-import { fbaHooks } from '../fba-hooks/index.js';
+import { fbaHooks } from '../../fba-hooks/index.js';
 import { getCtx } from './context.js';
 import './style.less';
 

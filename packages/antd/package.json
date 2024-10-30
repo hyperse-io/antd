@@ -273,14 +273,6 @@
       "types": "./dist/pagination-wrapper/index.d.ts",
       "import": "./dist/pagination-wrapper/index.js"
     },
-    "./pdf": {
-      "types": "./dist/pdf/index.d.ts",
-      "import": "./dist/pdf/index.js"
-    },
-    "./pdf-preview": {
-      "types": "./dist/pdf-preview/index.d.ts",
-      "import": "./dist/pdf-preview/index.js"
-    },
     "./permission": {
       "types": "./dist/permission/index.d.ts",
       "import": "./dist/permission/index.js"
@@ -300,14 +292,6 @@
     "./request-status": {
       "types": "./dist/request-status/index.d.ts",
       "import": "./dist/request-status/index.js"
-    },
-    "./rich-text-editor": {
-      "types": "./dist/rich-text-editor/index.d.ts",
-      "import": "./dist/rich-text-editor/index.js"
-    },
-    "./rich-text-viewer": {
-      "types": "./dist/rich-text-viewer/index.d.ts",
-      "import": "./dist/rich-text-viewer/index.js"
     },
     "./roll-location-center": {
       "types": "./dist/roll-location-center/index.d.ts",

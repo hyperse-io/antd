@@ -1,12 +1,12 @@
 import { useMemo, useRef, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { isUndefined } from '@dimjs/lang';
-import { cloneState } from '@dimjs/model';
 import { extend } from '@dimjs/utils';
 import { fbaHooks } from '@hyperse/antd';
 import {
   arrayFindByLoosely,
   arrayFindIndexByLoosely,
+  cloneObject,
   toLinkPath,
   treeToArray,
   valueIsEqual,
@@ -463,7 +463,7 @@ export const AppProvider = (props) => {
     url: string,
     data: { name: string; metaTitle: string }
   ) => {
-    const prevIframeTabActiveItem = cloneState(iframeTabActiveItem);
+    const prevIframeTabActiveItem = cloneObject(iframeTabActiveItem);
     const cahceTabList = getIframeTabCacheList();
     const { pathSearch } = parseIframeTabItemUrlInfo(url);
     const iframeTablink = guessIframeTabItemLink(url);

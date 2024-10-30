@@ -7,9 +7,9 @@ import {
 import { Button, Cascader, type CascaderProps, message } from 'antd';
 import { RedoOutlined } from '@ant-design/icons';
 import { isArray } from '@dimjs/lang';
-import { cloneState } from '@dimjs/model';
 import { classNames, extend, get } from '@dimjs/utils';
 import {
+  cloneObject,
   type TAny,
   type TPlainObject,
   treeLeafParentsArray,
@@ -164,14 +164,14 @@ export const CascaderWrapper = forwardRef<
   fbaHooks.useEffectCustom(() => {
     if (window[requestPreKey]) return;
     if (state.requestStatus === 'request-success') {
-      setOptions(cloneState(state.selectorList));
+      setOptions(cloneObject(state.selectorList));
     } else {
       void startDataSourceRequest();
     }
   }, []);
 
   fbaHooks.useEffectCustom(() => {
-    const cloneList = cloneState(state.selectorList);
+    const cloneList = cloneObject(state.selectorList);
     if (props.value) {
       const filterList = treeLeafParentsArray(
         props.value,

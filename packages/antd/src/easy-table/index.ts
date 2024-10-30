@@ -7,7 +7,7 @@ import { EasyTableTable } from './table.jsx';
 /**
  * 对 查询条件+表格数据 进行深度封装，内置数据交互处理
  * ```
- * Demo https://fex.qa.tcshuke.com/docs/admin/main/crud/easy-table
+ * Demo https://xx.xx.com/docs/admin/main/crud/easy-table
  *
  * 1. 废弃modelKey参数
  * 2. 如果需要在路由跳转回退中缓存查询条件，设置cacheSwitch=true；如果存在多个EasyTable缓存情况可设置cacheSwitch为自定义字符串
@@ -19,8 +19,8 @@ import { EasyTableTable } from './table.jsx';
  * 8. paginationFixed=true，可设置分页条件在底部固定，不随滚动条滚动
  * 9. foldKeys=string[]，查询条件展开、收起，被收起数组内容为EasyTable.Filter 子节点key值
  * 10. windows环境下，会在EasyTable.Table外部包装一下 TableScrollbar，提高windows下table左右滚动体验
- * 11. 可实现部分字段折叠，手动选择显示，将EasyTable.Table columns中isFold属性设为true，可通过EasyTable columnFoldConfig配置属性，demo（https://fex.qa.tcshuke.com/docs/admin/main/crud/demo1）
- * 12. 通过asyncColumnRequest、asyncRender配合使用可实现表格列数据接口渲染（demo：https://fex.qa.tcshuke.com/docs/admin/main/crud/easy-table）
+ * 11. 可实现部分字段折叠，手动选择显示，将EasyTable.Table columns中isFold属性设为true，可通过EasyTable columnFoldConfig配置属性，demo（https://xx.xx.com/docs/admin/main/crud/demo1）
+ * 12. 通过asyncColumnRequest、asyncRender配合使用可实现表格列数据接口渲染（demo：https://xx.xx.com/docs/admin/main/crud/easy-table）
  * ```
  */
 export const EasyTable = fbaUtils.attachPropertiesToComponent(EasyTableInner, {

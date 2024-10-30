@@ -25,7 +25,7 @@ export type FileExportProps = {
 /**
  * 文件导出
  * ```
- * demo：https://fex.qa.tcshuke.com/docs/admin/main/widget?key=file-export
+ * demo：https://xx.xx.com/docs/admin/main/widget?key=file-export
  * 例如：
    <FileExport
      action={<Button>下载</Button>}

@@ -23,10 +23,10 @@ export type PdfPreviewProps = {
 /**
  * pdf预览
  * ```
- * 使用方式：在cdn.ts中引入 '//file.40017.cn/tcsk/react/pdf@3.2.146/pdf.min.js'
+ * 使用方式：在cdn.ts中引入 '//xx.com/react/pdf@3.2.146/pdf.min.js'
  * Git: https://github.com/mozilla/pdfjs-dist/tree/master
- * Demo: https://fex.qa.tcshuke.com/docs/admin/main/file/pdf
- * Demo: https://fex.qa.tcshuke.com/docs/admin/main/file/pdf-seal
+ * Demo: https://xx.xx.com/docs/admin/main/file/pdf
+ * Demo: https://xx.xx.com/docs/admin/main/file/pdf-seal
  * ```
  */
 export const PdfPreview = (props: PdfPreviewProps) => {

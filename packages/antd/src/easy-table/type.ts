@@ -243,7 +243,7 @@ export type EasyTableRefApi = {
    * 更新 table columns 数据
    * ```
    * 1. 初始化阶段可使用 EasyTable.serviceConfig.dynamicColumsAdapter 实现动态表格列
-   * demo: https://fex.qa.tcshuke.com/docs/admin/main/table/easy-table?tabKey=key7
+   * demo: https://xx.xx.com/docs/admin/main/table/easy-table?tabKey=key7
    * ```
    */
   onChangeTableColumns: (

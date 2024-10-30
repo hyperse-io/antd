@@ -1,7 +1,6 @@
 import { Fragment, useEffect, useMemo, useRef, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Layout, Menu, type MenuProps } from 'antd';
-import { cloneState } from '@dimjs/model';
 import { classNames } from '@dimjs/utils';
 import {
   ConfigProviderWrapper,
@@ -10,6 +9,7 @@ import {
   SvgHttpView,
 } from '@hyperse/antd';
 import {
+  cloneObject,
   isHttpUri,
   toLinkPath,
   treeFilter,
@@ -95,7 +95,7 @@ export const SiderBar = () => {
     let menusTreeList = layoutCtx.siderBarMenus;
     if (searchValue) {
       menusTreeList = treeFilter(
-        cloneState(menusTreeList),
+        cloneObject(menusTreeList),
         (node) => {
           const value = node.name?.toLowerCase();
           return value.indexOf(searchValue.toLowerCase()) >= 0;

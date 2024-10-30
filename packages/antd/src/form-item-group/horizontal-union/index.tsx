@@ -43,7 +43,7 @@ export type FormItemHorizontalUnionProps = {
 /**
  * FormItem 水平布局
  * ```
- * Demo: https://fex.qa.tcshuke.com/docs/admin/main/form/input
+ * Demo: https://xx.xx.com/docs/admin/main/form/input
  * ```
  * @param props
  * @returns

@@ -13,9 +13,9 @@ import {
 import { Button, message, Spin, Tree, type TreeProps } from 'antd';
 import { CaretDownFilled } from '@ant-design/icons';
 import { isArray } from '@dimjs/lang';
-import { cloneState } from '@dimjs/model';
 import { classNames, extend, get } from '@dimjs/utils';
 import {
+  cloneObject,
   isUndefinedOrNull,
   type TAny,
   type TPlainObject,
@@ -697,10 +697,10 @@ export const TreeWrapper = forwardRef<TreeWrapperRefApi, TreeWrapperProps>(
     });
 
     const originalDataList = useMemo(() => {
-      const list = cloneState(state.treeList || []);
+      const list = cloneObject(state.treeList || []);
       if (treeSearchValue && searchResultType !== 'highlight') {
         return treeFilter(
-          cloneState(state.treeList || []),
+          list,
           (node) => {
             if (customSearchRule) {
               return customSearchRule(node, treeSearchValue);

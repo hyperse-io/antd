@@ -55,7 +55,7 @@ export type EasyFormProps = Omit<FormWrapperProps, 'children'> & {
 /**
  * 简单Form布局，可自定义网格布局
  * ```
- * 1. demo：https://fex.qa.tcshuke.com/docs/admin/main/form/grid
+ * 1. demo：https://xx.xx.com/docs/admin/main/form/grid
  * 2. EasyForm的children列表会进行网格化布局，可通过设置 isPure = true设置纯净模式（对EasyForm的子节点不做任何包装处理）
  * 3. EasyForm可嵌套使用，嵌套内部的<EasyForm />节点Form相关属性失效，例如属性form、initialValues等都失效
  *  <EasyForm form={form}>

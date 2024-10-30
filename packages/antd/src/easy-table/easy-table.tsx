@@ -9,9 +9,9 @@ import {
 } from 'react';
 import { Form, message } from 'antd';
 import { isArray, isString, isUndefined } from '@dimjs/lang';
-import { cloneState } from '@dimjs/model';
 import { classNames, get } from '@dimjs/utils';
 import {
+  cloneObject,
   localStorageCache,
   type TAny,
   type TPlainObject,
@@ -101,7 +101,7 @@ export const EasyTable = forwardRef<EasyTableRefApi, EasyTableProps>(
         }
         setLoading(true);
         const allState = await actions.updateFilterCondition(params);
-        const queryCondition = cloneState(allState.queryCondition || {});
+        const queryCondition = cloneObject(allState.queryCondition || {});
         const {
           requestParamsAdapter,
           onRequest,

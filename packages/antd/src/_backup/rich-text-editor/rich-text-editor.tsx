@@ -151,7 +151,7 @@ export const RichTextEditor = (props: RichTextEditorProps) => {
     }
   );
 
-  const tinymceBaseUrl = 'https://file.40017.cn/tcsk/tinymce@6.4.1';
+  const tinymceBaseUrl = 'https://xx.com/tcsk/tinymce@6.4.1';
 
   const getImgRatio = (width: number) => {
     if (imgRatio.length === 0) return 1;

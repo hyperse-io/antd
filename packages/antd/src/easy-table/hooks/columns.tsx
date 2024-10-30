@@ -4,7 +4,6 @@ import { ButtonWrapper } from '../../button-wrapper/index.js';
 import { fbaHooks } from '../../fba-hooks/index.js';
 import { FlexLayout } from '../../flex-layout/index.js';
 import { IconWrapper } from '../../icon-wrapper/index.js';
-import { SvgHttpView } from '../../svg-http-view/index.js';
 import { TipsWrapper } from '../../tips-wrapper/index.js';
 import { FoldOperateDropdown } from '../fold-operate-dropdown.jsx';
 import { type EasyTableProps } from '../type.js';

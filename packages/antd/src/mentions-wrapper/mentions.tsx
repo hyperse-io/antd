@@ -67,7 +67,7 @@ export type MentionsWrapperProps = Omit<
  * 您的订单号为${订单号}，订单交易时间为${订单时间}
  * <MentionsWrapper prefix="$" options={['${订单号}', '${订单时间}']}/>
  *
- * demo：https://fex.qa.tcshuke.com/docs/admin/main/other/widget
+ * demo：https://xx.xx.com/docs/admin/main/other/widget
  * ```
  *
  */

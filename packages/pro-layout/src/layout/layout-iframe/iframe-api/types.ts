@@ -1,5 +1,5 @@
 /**
- * iframe通信Demo：https://fex.qa.tcshuke.com/docs/admin/main/exchange
+ * iframe通信Demo：https://xx.xx.com/docs/admin/main/exchange
  */
 export type IframeApiProps = {
   /** 广播消息到所有的iframes子页面 */

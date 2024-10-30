@@ -41,7 +41,7 @@ export type MentionEditorProps = Omit<MentionsWrapperProps, 'prefix'> & {
  * 2. 不同类型模版参数可配置多个
  * 3. mention 会根据 传入的params自动推断出关键字
  * 4. 模版参数建议都以${_xxx}为格式
- * 5. Demo: https://fex.qa.tcshuke.com/docs/admin/main/widget?key=mention-editor
+ * 5. Demo: https://xx.xx.com/docs/admin/main/widget?key=mention-editor
  */
 export const MentionEditor = (props: MentionEditorProps) => {
   const iMap = useRef<Record<string, number>>({});

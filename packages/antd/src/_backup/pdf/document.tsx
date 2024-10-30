@@ -1,7 +1,7 @@
 import { type ReactElement, type ReactNode, useState } from 'react';
 import { Result, Spin } from 'antd';
 import { classNames } from '@dimjs/utils';
-import { fbaHooks } from '../fba-hooks/index.js';
+import { fbaHooks } from '../../fba-hooks/index.js';
 import { CtxProvider } from './context.js';
 import './style.less';
 
@@ -21,7 +21,7 @@ export const PdfDocument = (props: PdfProps) => {
   fbaHooks.useEffectCustomAsync(async () => {
     const { pdfjsLib } = globalThis as any;
     pdfjsLib.GlobalWorkerOptions.workerSrc =
-      '//file.40017.cn/tcsk/react/pdf@3.2.146/pdf.worker.min.js';
+      '//xx.com/react/pdf@3.2.146/pdf.worker.min.js';
     try {
       const loadingTask = pdfjsLib.getDocument(props.pdfUrl);
       const pdfInstance = await loadingTask.promise;

@@ -1,7 +1,7 @@
 import { isArray, isPlainObject } from '@dimjs/lang';
-import { cloneState } from '@dimjs/model';
 import { findAncestors, getEnvName, modifyQueryString } from '@dimjs/utils';
 import {
+  cloneObject,
   getUuid,
   isHttpUri,
   removeSlash,
@@ -95,7 +95,7 @@ export const getMenus = (
     const maxDepth = !disableTopbarMenu
       ? siderBarMaxMenuLevel + 1
       : siderBarMaxMenuLevel;
-    const newTreeList = removeNodesAtDepth(cloneState(menus), 1, maxDepth);
+    const newTreeList = removeNodesAtDepth(cloneObject(menus), 1, maxDepth);
     console.log('menus', menus, newTreeList);
     return {
       menus: newTreeList as unknown as TMenuItem[],

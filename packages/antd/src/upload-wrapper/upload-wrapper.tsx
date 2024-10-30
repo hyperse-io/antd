@@ -58,7 +58,7 @@ export type UploadWrapperProps<T extends TPlainObject = TPlainObject> = {
 /**
  * 文件上传
  * ```
- * demo: https://fex.qa.tcshuke.com/docs/admin/main/file/upload
+ * demo: https://xx.xx.com/docs/admin/main/file/upload
  * 1. 可通过配置children替换默认上传触发布局
  * 2. 接口返回结构：
  *    formData上传接口返回值

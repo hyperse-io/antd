@@ -1,9 +1,9 @@
 import { type DataNode } from 'antd/es/tree';
 import { dequal } from 'dequal';
 import { isArray, isObject } from '@dimjs/lang';
-import { cloneState } from '@dimjs/model';
 import { walkThroughTree } from '@dimjs/utils';
 import {
+  cloneObject,
   isUndefinedOrNull,
   type LabelValueItem,
   type TAny,
@@ -126,7 +126,7 @@ export const onTreeDrop: OnTreeDropMethod = (dataList, fieldNames, info) => {
       }
     }
   };
-  const data = cloneState(dataList) as DataNode[];
+  const data = cloneObject(dataList) as DataNode[];
 
   // Find dragObject
   let dragObj: DataNode;

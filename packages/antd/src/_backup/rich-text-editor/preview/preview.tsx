@@ -1,8 +1,8 @@
 import { Fragment } from 'react';
 import { Image } from 'antd';
 import { PlusCircleOutlined } from '@ant-design/icons';
-import { dynamicNode } from '../../dynamic-node/index.js';
-import { fbaHooks } from '../../fba-hooks/index.js';
+import { dynamicNode } from '../../../dynamic-node/index.js';
+import { fbaHooks } from '../../../fba-hooks/index.js';
 import './preview.less';
 
 export const Preview = (props) => {

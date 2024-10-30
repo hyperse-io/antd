@@ -172,14 +172,14 @@ export type EditableTableProps = {
 
 /**
  * 可编辑表格（通过FormList实现）
- * demo：https://fex.qa.tcshuke.com/docs/admin/main/table/row-editable1
+ * demo：https://xx.xx.com/docs/admin/main/table/row-editable1
  * ```
  * 1. 表格数据必须要有唯一值字段，通过属性uidFieldKey设置
  * 2. 通过 tableProps 设置Table属性，table size默认：small
  * 3. Table children column 不可编辑
  * 4. 当存在折叠children数据时，组件会在children中内置_isChildrenItem字段
  * 5. 可通过tableChildrenColumnRender自定义渲染 table children column 显示
- * 6. 4.5.0版本移除 ref.getTableItemDataByFormListItemKey 功能，可选择表格参考（https://fex.qa.tcshuke.com/docs/admin/main/table/row-editable2）
+ * 6. 4.5.0版本移除 ref.getTableItemDataByFormListItemKey 功能，可选择表格参考（https://xx.xx.com/docs/admin/main/table/row-editable2）
  * ```
  */
 export const EditableTable = (props: EditableTableProps) => {

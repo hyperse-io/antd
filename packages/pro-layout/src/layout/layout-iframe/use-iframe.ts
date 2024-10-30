@@ -27,7 +27,7 @@ window.addEventListener('message', (e) => {
 /**
  * 使用Iframe通讯的API
  * @param onReceivedMessageCallback 接收iframe通讯消息的回调函数引用
- * @demo https://fex.qa.tcshuke.com/docs/admin/main/exchange
+ * @demo https://xx.xx.com/docs/admin/main/exchange
  * @example
  * ```tsx
  * const iframeApi = useIframe<MessageData>((data) => {

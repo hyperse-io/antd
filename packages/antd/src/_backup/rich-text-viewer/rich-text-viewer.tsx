@@ -4,8 +4,8 @@ import type { Editor as TinyMCEEditor } from 'tinymce';
 import { FullscreenOutlined } from '@ant-design/icons';
 import { classNames } from '@dimjs/utils';
 import { hooks } from '@wove/react';
-import { fbaHooks } from '../fba-hooks/index.js';
-import { IconWrapper } from '../icon-wrapper/index.js';
+import { fbaHooks } from '../../fba-hooks/index.js';
+import { IconWrapper } from '../../icon-wrapper/index.js';
 import { RichTextEditor } from '../rich-text-editor/rich-text-editor.jsx';
 import './style.less';
 

@@ -32,7 +32,7 @@ export type FileImportProps = {
 /**
  * 文件导入
  * ```
- * demo：https://fex.qa.tcshuke.com/docs/admin/main/widget?key=file-export
+ * demo：https://xx.xx.com/docs/admin/main/widget?key=file-export
  * 1. accept默认值 '.xlsx,.xls',
  * 2. formData 上传key默认值 file
  * 

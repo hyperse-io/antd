@@ -1,7 +1,7 @@
 import { classNames } from '@dimjs/utils';
 import { generateIntArray } from '@hyperse/utils';
+import { RollLocationInView } from '../../roll-location-in-view/in-view.jsx';
 import { Pdf } from '../pdf/index.js';
-import { RollLocationInView } from '../roll-location-in-view/in-view.jsx';
 
 type NavigationProps = {
   numPages: number;
